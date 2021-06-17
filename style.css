@@ -1,0 +1,437 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        }
+
+    body{
+        margin:0px;
+        line-height: 1;
+        padding:0px;
+
+
+    }
+
+    /* ################################################### BACKGROUND ################################################################### */
+
+    .backgroundImage{
+        overflow: hidden;
+        height: 700px;
+        width:100%;
+        background-image: url("happypeople.jpg");
+        background-size: cover;
+        background-size: 100% 99%;
+        background-repeat: no-repeat;
+         background-position: 10% 860%;  
+    
+    
+    
+        } 
+    
+        .overlay{
+            height: 100%;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.5); 
+        }
+    
+
+/* ######################################################## NAV BAR ############################################################### */
+
+    nav{
+        width: 100%;
+        margin:0;
+    }
+
+    .navBar{
+        position:absolute;
+        left: 30%;
+        bottom:83.5%;
+        
+    }
+
+    nav ul li{
+    list-style: none;
+    float: left;
+    padding-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    /* font-family: 'Mate SC', serif; */
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: 'Lato', sans-serif;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color:white;
+        border: solid 1px  transparent;
+        padding:5px;
+    }
+
+    nav img {
+        height:25%;
+        width:25%;
+        margin-top: 15px;
+    }
+
+    .top-section {
+        background:black;
+        height:100px;
+        margin-top: 0;
+        padding-top: 0;
+    
+    }  
+
+    .overlayLogo {
+        color:white;
+        position: absolute;
+        left:5.5%;
+        bottom:87.5%;
+        font-size:15px;
+        font-family: 'Noto Sans HK', sans-serif;
+        
+    
+    }
+
+    .donation a {
+    
+        border:solid white;
+    }
+
+    .navBar li a:hover {
+        border:solid 1px white;
+        transition:0.5s;
+     
+    
+    }
+
+    .aboutContent a:hover{
+        color:black;
+     
+       
+    
+    }
+
+    .aboutContent {
+        display:none;
+    position:absolute;
+    left:37.5%;
+    bottom:63.5%;
+    
+    }
+    
+    .aboutContent a{
+        display:block;
+        text-decoration: none;
+        color:white;
+        border: solid white;
+        padding:5px; 
+        margin-top: 2px;
+        transition: 0.5s;
+
+    }
+    
+
+    .displayAboutContent{
+        display:block;
+    
+    }
+
+    
+
+
+
+
+
+/* ####################################################### FIRST BODY ############################################################# */
+
+    .mainHeader h1{
+        position:absolute;
+        left: 30%;
+        bottom: 20%;
+        font-size: 90px;
+        color:white;
+    }
+
+    .mainHeader p{
+        position:absolute;
+        left: 44%;
+        bottom: 15%;
+        font-size: 15px;
+        color:white;
+    }
+
+
+/* ####################################################### SECOND BODY ############################################################# */
+.secondBody{
+    height:380px;
+    background: black;
+    position:relative;
+    display:flex;
+    width:100%;
+
+
+}
+
+
+
+.aboutUsContent {
+    position:absolute;
+    left:10%;
+    top:11%;
+    width:40%;
+}
+
+.secondBody h1.aboutUS {
+    color:white;
+ 
+    /* left:10%;
+    top:20%; */
+    font-size:70px;
+}
+.secondBody p {
+    color:white;
+
+    /* left:10%;
+    top:20%; */
+    
+}
+
+.aboutUsContent button {
+position:absolute;
+left:32%;
+margin-top: 15px;
+font-size:25px;
+background-color: black;
+color:white;
+border:solid 1px white;
+padding:5px;
+cursor: pointer;
+transition-duration: 0.4s;
+
+
+
+}
+.aboutUsContent button:hover {
+  background-color:wheat;
+  color:black;
+    
+    
+    }
+
+.programsContent{
+    position:absolute;
+    left:60%;
+    top:11%;
+    width:80%;
+
+}
+
+
+.secondBody h1.programs {
+    color:white;
+
+
+    font-size:70px;
+
+}
+
+.programsContent ul {
+    margin-top: 20px;
+color:white;
+font-size: 30px;
+
+}
+.programsContent ul li {
+ padding-top: 10px;
+
+}
+.programsContent button {
+    position:absolute;
+    left:15%;
+    margin-top: 21px;
+    font-size:25px;
+    background-color: black;
+    color:white;
+    border:solid 1px white;
+    padding:5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    
+    
+    
+    }
+    .programsContent button:hover {
+      background-color:wheat;
+      color:black;
+        
+        
+        }
+
+
+/* ####################################################### THIRD BODY ############################################################# */
+.thirdBody{
+    height:300px;
+    background: black;
+    position:relative;
+    display:flex;
+    width:100%;
+
+
+}
+
+.column1 {
+    width:33.3%;
+    background:white;
+    height:300px;
+
+}
+.column1 img{
+    width:100%;
+    height:100%;
+    transition-duration: 0.4s;
+    cursor:pointer;
+}
+
+.column1 img:hover{
+    opacity:0.7;
+
+}
+
+.column2 {
+    width:33.7%;
+    background:white; 
+    height:300px;
+
+}
+.column2 img{
+    width:100%;
+    height:100%;
+    transition-duration: 0.4s;
+    cursor:pointer;
+}
+
+.column2 img:hover{
+    opacity:0.7;
+
+}
+
+
+
+
+.column3 {
+    width:33.3%;
+    background:white; 
+    height:300px;
+
+}
+
+.column3 img{
+    width:100%;
+    height:100%;
+    transition-duration: 0.4s;
+    cursor:pointer;
+}
+
+.column3 img:hover{
+    opacity:0.7;
+
+}
+
+/* ####################################################### FOOTER ############################################################# */
+footer{
+height:280px;
+background: #F5F5F5;
+position:relative;
+display:flex;
+width:100%;
+    
+
+
+}
+.footerColumn1{
+    margin-top:10px;
+    width:40%;
+   
+}
+.footerColumn1 h1 {
+    color:black;
+   
+    
+}
+.footerColumn1 p {
+
+}
+
+.footerColumn2{
+    margin-top:10px;
+    width:35%;
+
+   
+}
+
+.footerColumn2 button {
+    margin-top: 15px;
+    margin-left:20px;
+    font-size:15px;
+    background-color:orange;
+    color:black;
+    border:solid 1px white;
+    padding:10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    
+    
+    
+    }
+    .footerColumn2 button:hover {
+      background-color:wheat;
+      color:darkred;
+        
+        
+        }
+        .heart{
+            font-size:20px;
+            color:red;
+        }
+
+        .footerColumn2 a.heartLink {
+            text-decoration: none;
+            color:black;
+        
+        }
+
+        .footerColumn2 a.heartLink:hover{
+            text-decoration: underline;
+            color:red;
+        }
+
+        .thumbs{
+            margin-bottom: 10px;
+        }
+
+        .footerColumn2 a.thumbsLink {
+            text-decoration: none;
+            color:black;
+        
+        }
+        .footerColumn2 a.thumbsLink:hover{
+            text-decoration: underline;
+            color:red;
+        }
+
+        .footerColumn2 p {
+            margin-left:15px;
+        }
+
+.footerColumn3{
+    margin-top:10px;
+ 
+   
+}
+
+
+.changeColor{
+    color:black;
+}
+
+
+
