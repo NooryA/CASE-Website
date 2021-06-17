@@ -1,9 +1,11 @@
     * {
+        
         margin: 0px;
         padding: 0px;
         }
 
     body{
+      
         margin:0px;
         line-height: 1;
         padding:0px;
@@ -17,6 +19,7 @@
         overflow: hidden;
         height: 700px;
         width:100%;
+        position:relative;
         background-image: url("happypeople.jpg");
         background-size: cover;
         background-size: 100% 99%;
@@ -28,6 +31,7 @@
         } 
     
         .overlay{
+            overflow:hidden;
             height: 100%;
             width: 100%;
             background: rgba(0, 0, 0, 0.5); 
@@ -37,14 +41,17 @@
 /* ######################################################## NAV BAR ############################################################### */
 
     nav{
+      
         width: 100%;
         margin:0;
+        position:relative;
     }
 
     .navBar{
+        
         position:absolute;
         left: 30%;
-        bottom:83.5%;
+        top:86%;
         
     }
 
@@ -73,6 +80,7 @@
     }
 
     .top-section {
+        
         background:black;
         height:100px;
         margin-top: 0;
@@ -84,7 +92,7 @@
         color:white;
         position: absolute;
         left:5.5%;
-        bottom:87.5%;
+        top:65%;
         font-size:15px;
         font-family: 'Noto Sans HK', sans-serif;
         
@@ -103,6 +111,15 @@
     
     }
 
+    .dropDown{
+        
+        position:absolute;
+        top:13.5%;
+        height:700px;
+        width:100%;
+
+    }
+
     .aboutContent a:hover{
         color:black;
      
@@ -114,7 +131,7 @@
         display:none;
     position:absolute;
     left:37.5%;
-    bottom:63.5%;
+
     
     }
     
@@ -146,7 +163,7 @@
     .mainHeader h1{
         position:absolute;
         left: 30%;
-        bottom: 20%;
+      top:55%;
         font-size: 90px;
         color:white;
     }
@@ -154,7 +171,7 @@
     .mainHeader p{
         position:absolute;
         left: 44%;
-        bottom: 15%;
+        top:69%;
         font-size: 15px;
         color:white;
     }
@@ -162,6 +179,7 @@
 
 /* ####################################################### SECOND BODY ############################################################# */
 .secondBody{
+    overflow:hidden;
     height:380px;
     background: black;
     position:relative;
@@ -218,6 +236,7 @@ transition-duration: 0.4s;
     }
 
 .programsContent{
+    
     position:absolute;
     left:60%;
     top:11%;
@@ -269,6 +288,7 @@ font-size: 30px;
 
 /* ####################################################### THIRD BODY ############################################################# */
 .thirdBody{
+    overflow:hidden;
     height:300px;
     background: black;
     position:relative;
@@ -338,11 +358,13 @@ font-size: 30px;
 
 /* ####################################################### FOOTER ############################################################# */
 footer{
+    overflow:hidden;
 height:280px;
 background: #F5F5F5;
 position:relative;
 display:flex;
 width:100%;
+
     
 
 
@@ -350,6 +372,7 @@ width:100%;
 .footerColumn1{
     margin-top:10px;
     width:40%;
+    /* border:solid 5px red; */
    
 }
 .footerColumn1 h1 {
@@ -364,6 +387,8 @@ width:100%;
 .footerColumn2{
     margin-top:10px;
     width:35%;
+
+    /* border:solid 5px red; */
 
    
 }
@@ -391,6 +416,7 @@ width:100%;
         .heart{
             font-size:20px;
             color:red;
+             margin-right:0;
         }
 
         .footerColumn2 a.heartLink {
@@ -399,34 +425,54 @@ width:100%;
         
         }
 
-        .footerColumn2 a.heartLink:hover{
+        .footerColumn2 p:hover{
             text-decoration: underline;
             color:red;
         }
 
-        .thumbs{
-            margin-bottom: 10px;
+        span.thumbs{
+            font-size: 15px;
+          margin-top:10px;
+   
+
         }
 
         .footerColumn2 a.thumbsLink {
             text-decoration: none;
             color:black;
+         
+            
         
         }
-        .footerColumn2 a.thumbsLink:hover{
+
+        .footerColumn2 p:hover{
             text-decoration: underline;
             color:red;
         }
 
         .footerColumn2 p {
+            display:inline-block;
             margin-left:15px;
         }
 
 .footerColumn3{
+
     margin-top:10px;
+    /* border:solid 5px red; */
+    width:25%;
+    
  
    
 }
+
+ .footerColumn3 img{
+     display:inline;
+     margin-top: 20px;
+     margin-left:5px;
+ width:10%;
+ height:10%;
+ padding-right:10px;
+} 
 
 
 .changeColor{
