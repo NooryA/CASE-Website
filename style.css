@@ -81,10 +81,12 @@
 
     .top-section {
 
-        background: black;
+        background-color: #000000;
+        background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
         height: 100px;
         margin-top: 0;
         padding-top: 0;
+     
 
     }
 
@@ -162,17 +164,18 @@
 
     .mainHeader h1 {
         position: absolute;
-        left: 30%;
+        left: 17%;
         top: 55%;
         font-size: 90px;
         color: white;
+        font-family: 'Cinzel', serif;
     }
 
     .mainHeader p {
         position: absolute;
-        left: 44%;
-        top: 69%;
-        font-size: 15px;
+        left: 40%;
+        top: 67%;
+        font-size: 25px;
         color: white;
     }
 
@@ -252,13 +255,27 @@
     .thirdBody {
         overflow: hidden;
         height: 380px;
-        background: #F5F5F5;
+        background-color: #ffffff;
+        background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
         /* background: black; */
         position: relative;
         display: flex;
         width: 100%;
 
 
+
+    }
+
+    .aboutUsBackground{
+        overflow: hidden;
+        height:350px;
+        width:45%;
+        background:#CDCDCD;
+        margin-left: 55px;
+        margin-top:20px;
+        border-radius: 50px;
+    
+        
     }
 
 
@@ -267,12 +284,12 @@
         position: absolute;
         left: 10%;
         top: 11%;
-        width: 40%;
+        width: 35%;
     }
 
     .thirdBody h1.aboutUS {
         color: black;
-
+        margin-left:70px;
         /* left:10%;
     top:20%; */
         font-size: 70px;
@@ -288,9 +305,9 @@
 
     .aboutUsContent button {
         position: absolute;
-        left: 32%;
-        margin-top: 15px;
-        font-size: 25px;
+        left: 34%;
+      top:97%;
+        font-size: 20px;
         background-color: black;
         color: white;
         border: solid 1px white;
@@ -309,6 +326,16 @@
 
     }
 
+    .programsBackground{
+        overflow: hidden;
+        height:350px;
+        width:45%;
+        background:#CDCDCD;
+        margin-left: 50px;
+        margin-top:20px;
+        border-radius: 50px;
+        
+    }
     .programsContent {
 
         position: absolute;
@@ -320,8 +347,8 @@
 
 
     .thirdBody h1.programs {
+      
         color: black;
-
 
         font-size: 70px;
 
@@ -342,8 +369,9 @@
     .programsContent button {
         position: absolute;
         left: 15%;
+        top:105%;
         margin-top: 21px;
-        font-size: 25px;
+        font-size: 20px;
         background-color: black;
         color: white;
         border: solid 1px white;
@@ -494,7 +522,7 @@
         width: 17%;
         height: 9%;
     }
-
+ 
 
     .changeColor {
         color: black;
