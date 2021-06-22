@@ -177,6 +177,8 @@
         top: 67%;
         font-size: 25px;
         color: white;
+        font-family: 'Cinzel', serif;
+font-family: 'Josefin Slab', serif;
     }
 
     /* ####################################################### SECOND BODY ############################################################# */
@@ -290,14 +292,16 @@
     .thirdBody h1.aboutUS {
         color: black;
         margin-left:70px;
-        /* left:10%;
-    top:20%; */
+      
         font-size: 70px;
+          /* left:10%;
+    top:20%; */
     }
 
     .thirdBody p {
         color: black;
-
+        font-family: 'Capriola', sans-serif;
+        font-size: 15px;
         /* left:10%;
     top:20%; */
 
@@ -306,7 +310,7 @@
     .aboutUsContent button {
         position: absolute;
         left: 34%;
-      top:97%;
+      top:103%;
         font-size: 20px;
         background-color: black;
         color: white;
