@@ -58,6 +58,9 @@
 
     }
 
+
+  
+
     nav ul li {
         list-style: none;
         float: left;
@@ -214,6 +217,14 @@ font-family: 'Josefin Slab', serif;
         opacity: 0.7;
 
     }
+
+    /* .descriptionColumn1{
+position:absolute;
+background:yellow;
+height:200px;
+width:33.3%;
+
+    } */
 
     .column2 {
         width: 33.7%;
@@ -537,29 +548,16 @@ font-family: 'Josefin Slab', serif;
 
 
 
-    /*################### ################################################### FOR a PHONES AND TABLETS MY FRIEND ################################################################### */
 
-
-    @media only screen and (max-width: 1067px ){
-
-.navBar{
-    display:none;
-}
-
-
-
-
-
-
-
-
-
-    }
 
 
     /*################### ################################################### FOR SMALLEST A COMPUTER CAN GET################################################################### */
 
-    @media only screen and (max-width: 1274px ){
+    @media only screen and (min-width: 1068px ){
+
+        .mobileDropDown {
+            display:none;
+        }
 
  nav ul li {
         list-style: none;
@@ -632,6 +630,10 @@ font-family: 'Josefin Slab', serif;
         top: 86%;
 
     }
+
+    .mobileDropDown {
+        display:none;
+     } 
 
     nav ul li {
         list-style: none;
@@ -953,6 +955,10 @@ top:105%;
      top: 60%;
 
  }
+
+ .mobileDropDown {
+    display:none;
+ } 
 
 
  nav ul li {
@@ -1280,6 +1286,10 @@ top:105%;
 
     }
 
+    .mobileDropDown {
+        display:none;
+     } 
+
 
     nav ul li {
     
@@ -1567,7 +1577,101 @@ top:20%; */
 }
 
 
-@media only screen and(max-width){
+    /*################### ################################################### FOR TABLETS MY FRIEND ################################################################### */
 
 
-}
+    @media only screen and (max-width:1067px ){
+
+
+
+    /*################### ################################################### NAV BAR ################################################################### */
+
+
+        .navBar li:not(:nth-child(8)){
+            display:none;
+        }
+        
+li.mobileDropDown {
+            float:right;
+    padding-right: 10px;
+             /* position:absolute;
+            left:95%;
+            top:70%; */
+            margin-top:-23px
+            
+     
+            
+         
+         
+        
+        }
+
+        li.mobileDropDown button {
+
+            font-size:30px;
+            /* min-height: 100%; */
+            padding:5px;
+            background-color: transparent;
+            cursor:pointer;
+      
+        }
+
+        .overlayLogo {
+            color: white;
+            position: absolute;
+            left: 5.5%;
+            top: 68%;
+            font-size: 1vw;
+            font-family: 'Noto Sans HK', sans-serif;
+    
+    
+        }
+
+
+             /* ####################################################### FIRST BODY ############################################################# */
+
+            .mainHeader h1 {
+                position: absolute;
+                left: 21%;
+                top: 55%;
+                font-size: 7vw;
+                color: white;
+                font-family: 'Cinzel', serif;
+            }
+
+
+            .mainHeader p {
+                position: absolute;
+                left: 40%;
+                top: 65%;
+                font-size: 2vw;
+                color: white;
+                font-family: 'Cinzel', serif;
+            font-family: 'Josefin Slab', serif;
+            }
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            }
+
+
+     /* @media only screen and (max-width:680px ){
+
+
+        .mainHeader p {
+            position: absolute;
+            left: 40%;
+            top: ;
+            
+        }
+
+
+
+     } */
