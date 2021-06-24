@@ -28,9 +28,19 @@
         background-size: 100% 99%;
         background-repeat: no-repeat;
         background-position: 10% 860%;
+        animation: slide 10s infinite;
 
 
+    }
 
+    @keyframes slide{
+        0%   {   background-image: url("happypeople.jpg");}
+        33%  {   background-image: url("shakenot.jpg");}
+      
+        67%  {   background-image: url("family2.jpg")}
+      
+    
+        
     }
 
     .overlay {
@@ -190,12 +200,26 @@
     /* ####################################################### SECOND BODY ############################################################# */
     .secondBody {
         overflow: hidden;
-        height: 400px;
+        height: 875px;
         background: black;
         position: relative;
+        display: block;
+        width: 100%;
+
+
+    }
+
+    .row1 {
+        overflow: hidden;
         display: flex;
         width: 100%;
 
+    }
+
+    .row2 {
+        overflow: hidden;
+        display: flex;
+        width: 100%;
 
     }
 
@@ -212,9 +236,24 @@
         z-index: 1;
     }
 
+    .row2 .imageColumn1 {
+        position: absolute;
+        left: 0%;
+        bottom: 3%;
+        width: 33.3%;
+        z-index: 1;
+    }
+
     .column1 img {
         width: 100%;
-        height: 100%;
+        height: 400px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .row2 .column1 img {
+        width: 100%;
+        /* height: 400; */
         transition-duration: 0.4s;
         cursor: pointer;
     }
@@ -225,12 +264,29 @@
     }
 
     .descriptionColumn1 {
+
         /* border:solid 5px white; */
         position: absolute;
         left: 0%;
-        top: 80%;
+        top: 40%;
         background: rgb(141, 7, 250);
-        height: 500px;
+        height: 100px;
+        z-index: 2;
+        width: 33.3%;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        font-family: 'Arima Madurai', cursive;
+
+    }
+
+    .row2 .descriptionColumn1 {
+        /* border:solid 5px white; */
+        position: absolute;
+        left: 0%;
+        top: 89.5%;
+        background: rgb(0, 167, 28);
+        height: 100px;
         z-index: 2;
         width: 33.3%;
         text-align: center;
@@ -241,17 +297,25 @@
     }
 
     .descriptionColumn1 p {
+        display: none;
         font-size: 15px;
-        color: rgb(141, 7, 250);
+        color: white;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
+    /* .column1Paragraph{
+    display:none;
+}
+.column1ParagraphShow{
+    display:block;
+} */
+
     /* .showDescription {
-            font-size:15px;
-            color:white;
-            font-family:Georgia, 'Times New Roman', Times, serif;
-        }
-         */
+    font-size:15px;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+ */
 
 
     .column2 {
@@ -271,10 +335,13 @@
 
     .column2 img {
         width: 100%;
-        height: 100%;
+        height: 400px;
         transition-duration: 0.4s;
         cursor: pointer;
     }
+
+
+
 
     .column2 img:hover {
         opacity: 0.7;
@@ -284,9 +351,9 @@
     .descriptionColumn2 {
         position: absolute;
         left: 33.3%;
-        top: 80%;
+        top: 40%;
         background: rgb(0, 151, 252);
-        height: 500px;
+        height: 100px;
         z-index: 2;
         width: 33.3%;
         text-align: center;
@@ -295,7 +362,23 @@
         font-family: 'Arima Madurai', cursive;
     }
 
+    .row2 .descriptionColumn2 {
+        position: absolute;
+        left: 33.3%;
+        top: 89.5%;
+        background: rgb(252, 0, 0);
+        height: 100px;
+        z-index: 2;
+        width: 33.3%;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        font-family: 'Arima Madurai', cursive;
+    }
+
+
     .descriptionColumn2 p {
+        display: none;
         font-size: 15px;
         color: rgb(0, 151, 252);
     }
@@ -318,7 +401,7 @@
 
     .column3 img {
         width: 100%;
-        height: 100%;
+        height: 400px;
         transition-duration: 0.4s;
         cursor: pointer;
     }
@@ -332,9 +415,9 @@
         /* border:solid 5px white; */
         position: absolute;
         left: 66.6%;
-        top: 80%;
-        background: rgb(255, 115, 0);
-        height: 500px;
+        top: 40%;
+        background: rgb(255, 0, 179);
+        height: 100px;
         z-index: 2;
         width: 33.3%;
         text-align: center;
@@ -343,7 +426,25 @@
         font-family: 'Arima Madurai', cursive;
     }
 
+    .row2 .descriptionColumn3 {
+        /* border:solid 5px white; */
+        position: absolute;
+        left: 66.6%;
+        top: 89.5%;
+        background: rgb(255, 115, 0);
+        height: 100px;
+        z-index: 2;
+        width: 33.3%;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        font-family: 'Arima Madurai', cursive;
+    }
+
+
     .descriptionColumn3 p {
+
+        display: none;
         font-size: 15px;
         color: rgb(255, 115, 0);
     }
