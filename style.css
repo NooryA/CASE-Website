@@ -2,7 +2,7 @@
 
         margin: 0px;
         padding: 0px;
-        
+
     }
 
     body {
@@ -14,7 +14,7 @@
 
     }
 
-    
+
 
     /* ################################################### BACKGROUND ################################################################### */
 
@@ -59,7 +59,7 @@
     }
 
 
-  
+
 
     nav ul li {
         list-style: none;
@@ -92,7 +92,7 @@
         height: 100px;
         margin-top: 0;
         padding-top: 0;
-     
+
 
     }
 
@@ -184,7 +184,7 @@
         font-size: 25px;
         color: white;
         font-family: 'Cinzel', serif;
-font-family: 'Josefin Slab', serif;
+        font-family: 'Josefin Slab', serif;
     }
 
     /* ####################################################### SECOND BODY ############################################################# */
@@ -195,159 +195,160 @@ font-family: 'Josefin Slab', serif;
         position: relative;
         display: flex;
         width: 100%;
-    
-    
+
+
     }
+
     .column1 {
-        width:33.3%;
+        width: 33.3%;
         background: white;
         height: 400px;
     }
-    
+
     .imageColumn1 {
-        position:absolute;
-        left:0%;
-        width:33.3%;
-        z-index:1;
+        position: absolute;
+        left: 0%;
+        width: 33.3%;
+        z-index: 1;
     }
-    
+
     .column1 img {
         width: 100%;
         height: 100%;
         transition-duration: 0.4s;
         cursor: pointer;
     }
-    
+
     .column1 img:hover {
         opacity: 0.7;
-    
+
     }
-    
-        .descriptionColumn1{
-            /* border:solid 5px white; */
-        position:absolute;
-        left:0%;
-        top:80%;
-        background:rgb(141, 7, 250);
-        height:500px;
+
+    .descriptionColumn1 {
+        /* border:solid 5px white; */
+        position: absolute;
+        left: 0%;
+        top: 80%;
+        background: rgb(141, 7, 250);
+        height: 500px;
         z-index: 2;
-        width:33.3%;
+        width: 33.3%;
         text-align: center;
-        color:white;
-        font-size:25px;
+        color: white;
+        font-size: 25px;
         font-family: 'Arima Madurai', cursive;
-    
-        }
-    
-        .descriptionColumn1 p {
-            font-size:15px;
-            color:rgb(141, 7, 250);
-            font-family:Georgia, 'Times New Roman', Times, serif;
-        }
-    
-        /* .showDescription {
+
+    }
+
+    .descriptionColumn1 p {
+        font-size: 15px;
+        color: rgb(141, 7, 250);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    /* .showDescription {
             font-size:15px;
             color:white;
             font-family:Georgia, 'Times New Roman', Times, serif;
         }
          */
-    
-    
-        .column2 {
-            width:33.3%;
-    
-            background: white;
-            height: 400px;
-    
-        }
-    
-        .imageColumn2 {
-            position:absolute;
-            left:33.3%;
-            width:33.3%;
-            z-index:1;
-        }
-    
+
+
+    .column2 {
+        width: 33.3%;
+
+        background: white;
+        height: 400px;
+
+    }
+
+    .imageColumn2 {
+        position: absolute;
+        left: 33.3%;
+        width: 33.3%;
+        z-index: 1;
+    }
+
     .column2 img {
         width: 100%;
         height: 100%;
         transition-duration: 0.4s;
         cursor: pointer;
     }
-    
+
     .column2 img:hover {
         opacity: 0.7;
-    
+
     }
-    
-    .descriptionColumn2{
-        position:absolute;
-        left:33.3%;
-        top:80%;
-        background:rgb(0, 151, 252);
-        height:500px;
+
+    .descriptionColumn2 {
+        position: absolute;
+        left: 33.3%;
+        top: 80%;
+        background: rgb(0, 151, 252);
+        height: 500px;
         z-index: 2;
-        width:33.3%;
+        width: 33.3%;
         text-align: center;
-        color:white;
-        font-size:25px;
+        color: white;
+        font-size: 25px;
         font-family: 'Arima Madurai', cursive;
-        }
-    
-        .descriptionColumn2 p {
-            font-size:15px;
-            color:rgb(0, 151, 252);
-        }
-    
-    
-    
-    
-        .column3 {
-            width:33.3%;
-            background: white;
-            height: 400px;
-        }
-        
-        .imageColumn3 {
-            position:absolute;
-            left:66.6%;
-            width:33.3%;
-            z-index:1;
-        }
-        
-        .column3 img {
-            width: 100%;
-            height: 100%;
-            transition-duration: 0.4s;
-            cursor: pointer;
-        }
-        
-        .column3 img:hover {
-            opacity: 0.7;
-        
-        }
-        
-            .descriptionColumn3{
-                /* border:solid 5px white; */
-            position:absolute;
-            left:66.6%;
-            top:80%;
-            background:rgb(255, 115, 0);
-            height:500px;
-            z-index: 2;
-            width:33.3%;
-            text-align: center;
-            color:white;
-            font-size:25px;
-            font-family: 'Arima Madurai', cursive;
-            }
-        
-            .descriptionColumn3 p {
-                font-size:15px;
-                color:rgb(255, 115, 0);
-            }
-            
-    
+    }
+
+    .descriptionColumn2 p {
+        font-size: 15px;
+        color: rgb(0, 151, 252);
+    }
+
+
+
+
+    .column3 {
+        width: 33.3%;
+        background: white;
+        height: 400px;
+    }
+
+    .imageColumn3 {
+        position: absolute;
+        left: 66.6%;
+        width: 33.3%;
+        z-index: 1;
+    }
+
+    .column3 img {
+        width: 100%;
+        height: 100%;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .column3 img:hover {
+        opacity: 0.7;
+
+    }
+
+    .descriptionColumn3 {
+        /* border:solid 5px white; */
+        position: absolute;
+        left: 66.6%;
+        top: 80%;
+        background: rgb(255, 115, 0);
+        height: 500px;
+        z-index: 2;
+        width: 33.3%;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        font-family: 'Arima Madurai', cursive;
+    }
+
+    .descriptionColumn3 p {
+        font-size: 15px;
+        color: rgb(255, 115, 0);
+    }
+
+
 
     /* ####################################################### THIRD BODY ############################################################# */
     .thirdBody {
@@ -364,16 +365,16 @@ font-family: 'Josefin Slab', serif;
 
     }
 
-    .aboutUsBackground{
+    .aboutUsBackground {
         overflow: hidden;
-        height:350px;
-        width:45%;
-        background:#CDCDCD;
+        height: 350px;
+        width: 45%;
+        background: #CDCDCD;
         margin-left: 55px;
-        margin-top:20px;
+        margin-top: 20px;
         border-radius: 50px;
-    
-        
+
+
     }
 
 
@@ -387,10 +388,10 @@ font-family: 'Josefin Slab', serif;
 
     .thirdBody h1.aboutUS {
         color: black;
-        margin-left:70px;
-      
+        margin-left: 70px;
+
         font-size: 70px;
-          /* left:10%;
+        /* left:10%;
     top:20%; */
     }
 
@@ -406,7 +407,7 @@ font-family: 'Josefin Slab', serif;
     .aboutUsContent button {
         position: absolute;
         left: 34%;
-      top:103%;
+        top: 103%;
         font-size: 20px;
         background-color: black;
         color: white;
@@ -426,16 +427,17 @@ font-family: 'Josefin Slab', serif;
 
     }
 
-    .programsBackground{
+    .programsBackground {
         overflow: hidden;
-        height:350px;
-        width:45%;
-        background:#CDCDCD;
+        height: 350px;
+        width: 45%;
+        background: #CDCDCD;
         margin-left: 50px;
-        margin-top:20px;
+        margin-top: 20px;
         border-radius: 50px;
-        
+
     }
+
     .programsContent {
 
         position: absolute;
@@ -447,7 +449,7 @@ font-family: 'Josefin Slab', serif;
 
 
     .thirdBody h1.programs {
-      
+
         color: black;
 
         font-size: 70px;
@@ -469,7 +471,7 @@ font-family: 'Josefin Slab', serif;
     .programsContent button {
         position: absolute;
         left: 15%;
-        top:105%;
+        top: 105%;
         margin-top: 21px;
         font-size: 20px;
         background-color: black;
@@ -502,7 +504,7 @@ font-family: 'Josefin Slab', serif;
         position: relative;
         display: flex;
         width: 100%;
-        color:black;
+        color: black;
 
 
 
@@ -512,7 +514,7 @@ font-family: 'Josefin Slab', serif;
     .footerColumn1 {
         margin-top: 10px;
         width: 40%;
-        color:white;
+        color: white;
         /* border:solid 5px red; */
 
     }
@@ -528,7 +530,7 @@ font-family: 'Josefin Slab', serif;
     .footerColumn2 {
         margin-top: 10px;
         width: 35%;
-        color:white;
+        color: white;
 
         /* border:solid 5px red; */
 
@@ -604,7 +606,7 @@ font-family: 'Josefin Slab', serif;
         margin-top: 10px;
         /* border:solid 5px red; */
         width: 25%;
-        color:white;
+        color: white;
 
 
 
@@ -618,11 +620,12 @@ font-family: 'Josefin Slab', serif;
         height: 10%;
         padding-right: 10px;
     }
+
     .footerColumn3 img.twitter {
         width: 17%;
         height: 9%;
     }
- 
+
 
     .changeColor {
         color: black;
@@ -635,889 +638,948 @@ font-family: 'Josefin Slab', serif;
 
     /*################### ################################################### FOR SMALLEST A COMPUTER CAN GET################################################################### */
 
-    @media only screen and (min-width: 1068px ){
+    @media only screen and (min-width: 1068px) {
 
         .mobileDropDown {
-            display:none;
+            display: none;
         }
 
- nav ul li {
-        list-style: none;
-        float: left;
-        padding-right: 30px;
-        font-size: 15px;
-        text-decoration: none;
-        /* font-family: 'Mate SC', serif; */
-        /* font-family: 'Barlow', sans-serif; */
-        font-family: 'Lato', sans-serif;
-    }
+        nav ul li {
+            list-style: none;
+            float: left;
+            padding-right: 30px;
+            font-size: 15px;
+            text-decoration: none;
+            /* font-family: 'Mate SC', serif; */
+            /* font-family: 'Barlow', sans-serif; */
+            font-family: 'Lato', sans-serif;
+        }
 
-    .mainHeader h1 {
-        position: absolute;
-        left: 21%;
-        top: 55%;
-        font-size: 80px;
-        color: white;
-        font-family: 'Cinzel', serif;
-    }
-   
-   
-    .mainHeader p {
-        position: absolute;
-        left: 40%;
-        top: 67%;
-        font-size: 30px;
-        color: white;
-        font-family: 'Cinzel', serif;
-   font-family: 'Josefin Slab', serif;
-    }
-   
-
-    }
+        .mainHeader h1 {
+            position: absolute;
+            left: 21%;
+            top: 55%;
+            font-size: 80px;
+            color: white;
+            font-family: 'Cinzel', serif;
+        }
 
 
-
-/*################### ################################################### FOR a Smaller Desktop Screens ################################################################### */
-
-@media only screen and (min-width: 1281px ){
-
-
-
-    /* ################################################### BACKGROUND ################################################################### */
-
-    .backgroundImage {
-        overflow: hidden;
-        height: 700px;
-        width: 100%;
-        position: relative;
-        background-image: url("happypeople.jpg");
-        background-size: cover;
-        background-size: 100% 99%;
-        background-repeat: no-repeat;
-        background-position: 10% 860%;
-
+        .mainHeader p {
+            position: absolute;
+            left: 40%;
+            top: 67%;
+            font-size: 30px;
+            color: white;
+            font-family: 'Cinzel', serif;
+            font-family: 'Josefin Slab', serif;
+        }
 
 
     }
 
 
 
-     /* ######################################################## NAV BAR ############################################################### */
+    /*################### ################################################### FOR a Smaller Desktop Screens ################################################################### */
 
+    @media only screen and (min-width: 1281px) {
 
-     .navBar {
 
-        position: absolute;
-        left: 30%;
-        top: 86%;
 
-    }
+        /* ################################################### BACKGROUND ################################################################### */
 
-    .mobileDropDown {
-        display:none;
-     } 
+        .backgroundImage {
+            overflow: hidden;
+            height: 700px;
+            width: 100%;
+            position: relative;
+            background-image: url("happypeople.jpg");
+            background-size: cover;
+            background-size: 100% 99%;
+            background-repeat: no-repeat;
+            background-position: 10% 860%;
 
-    nav ul li {
-        list-style: none;
-        float: left;
-        padding-right: 30px;
-        font-size: 20px;
-        text-decoration: none;
-        /* font-family: 'Mate SC', serif; */
-        /* font-family: 'Barlow', sans-serif; */
-        font-family: 'Lato', sans-serif;
-    }
 
 
- nav ul li.donation {
-     padding-right: 0px;
-
- }
-
-
-
-
- .overlayLogo {
-    color: white;
-    position: absolute;
-    left: 5.5%;
-    top: 65%;
-    font-size: 15px;
-    font-family: 'Noto Sans HK', sans-serif;
-
-
-}
-
- .logo img{
-     margin-top:7px;
-
-
-
- }
-
-
- .aboutContent {
-     position: absolute;
-     left: 42%;
-     bottom:90%;
-     font-size: 20px;
-
-
- }
-
-  .aboutContent a {
-   
-
- 
-     border: solid 1px white;
- 
-
- } 
-
-
-
-     /* ####################################################### FIRST BODY ############################################################# */
-
- .mainHeader h1 {
-     position: absolute;
-     left: 21%;
-     top: 55%;
-     font-size: 100px;
-     color: white;
-     font-family: 'Cinzel', serif;
- }
-
-
- .mainHeader p {
-     position: absolute;
-     left: 40%;
-     top: 67%;
-     font-size: 35px;
-     color: white;
-     font-family: 'Cinzel', serif;
-font-family: 'Josefin Slab', serif;
- }
-
-
-
-
-/* ####################################################### SECOND BODY ############################################################# */
-.secondBody {
- overflow: hidden;
- height: 400px;
- background: black;
- position: relative;
- display: flex;
- width: 100%;
-
-
-}
-.column1 {
- width: 33.3%;
- background: white;
- height: 400px;
-
-}
-
-.column1 img {
- width: 100%;
- height: 100%;
- transition-duration: 0.4s;
- cursor: pointer;
-}
-
-.column1 img:hover {
- opacity: 0.7;
-
-}
-
-.column2 {
- width: 33.7%;
- background: white;
- height: 400px;
-
-}
-
-.column2 img {
- width: 100%;
- height: 100%;
- transition-duration: 0.4s;
- cursor: pointer;
-}
-
-.column2 img:hover {
- opacity: 0.7;
-
-}
-
-
-
-
-.column3 {
- width: 33.3%;
- background: white;
- height: 400px;
-
-}
-
-.column3 img {
- width: 100%;
- height: 100%;
- transition-duration: 0.4s;
- cursor: pointer;
-}
-
-.column3 img:hover {
- opacity: 0.7;
-
-}
-
-
-/* ####################################################### THIRD BODY ############################################################# */
-.thirdBody {
- overflow: hidden;
- height: 500px;
- background-color: #ffffff;
- background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
- /* background: black; */
- position: relative;
- display: flex;
- width: 100%;
-
-
-
-}
-
-.aboutUsBackground{
- overflow: hidden;
- height:455px;
- width:43%;
- background:#CDCDCD;
- margin-left: 100px;
- margin-top:20px;
- border-radius: 50px;
-
- 
-}
-
-.aboutUsContent {
- position: absolute;
- left: 10%;
- top: 11%;
- width: 35%;
-}
-
-.thirdBody h1.aboutUS {
- color: black;
- margin-left:130px;
-
-
- font-size: 70px;
-   /* left:10%;
-top:20%; */
-}
-
-.thirdBody p {
- color: black;
- font-family: 'Capriola', sans-serif;
- font-size:17px;
- /* left:10%;
-top:20%; */
-
-}
-
-.aboutUsContent button {
- position: absolute;
- left: 34%;
-top:105%;
- font-size: 33px;
- background-color: black;
- color: white;
- border: solid 1px white;
- padding: 5px;
- cursor: pointer;
- transition-duration: 0.4s;
-
-
-
-}
-
-.programsBackground{
- overflow: hidden;
- height:455px;
- width:45%;
- background:#CDCDCD;
- margin-left: 50px;
- margin-top:20px;
- border-radius: 50px;
- 
-}
-.programsContent {
-
- position: absolute;
- left: 60%;
- top: 11%;
- width: 80%;
-
-}
-
-
-.thirdBody h1.programs {
-
- color: black;
-
- font-size: 85px;
-
-}
-
-.programsContent ul {
- margin-top: 20px;
- color: black;
- font-size: 40px;
-
-}
-
-.programsContent ul li {
- padding-top: 10px;
-
-}
-
-.programsContent button {
- position: absolute;
- left: 12%;
- top:105%;
- margin-top: 21px;
- font-size: 33px;
- background-color: black;
- color: white;
- border: solid 1px white;
- padding: 5px;
- cursor: pointer;
- transition-duration: 0.4s;
-
-
-
-}
-}
-
-
-
-/*################### ################################################### FOR a Small Desktop Screens ################################################################### */
-
-@media only screen and (min-width: 1587px ){
-
-
-
-    /* ################################################### BACKGROUND ################################################################### */
-
-    .backgroundImage {
-     overflow: hidden;
-     height: 950px;
-     width: 100%;
-     position: relative;
-     background-image: url("happypeople.jpg");
-     background-size: cover;
-     background-size: 100% 99%;
-     background-repeat: no-repeat;
-     background-position: 10% 860%;
-
-
-
- }
-
-
-
-     /* ######################################################## NAV BAR ############################################################### */
-
-
- .navBar {
-
-     position: absolute;
-     left: 35%;
-     top: 60%;
-
- }
-
- .mobileDropDown {
-    display:none;
- } 
-
-
- nav ul li {
- 
-     list-style: none;
-     float: left;
-     padding-right: 50px;
-     font-size: 20px;
-     text-decoration: none;
-     /* font-family: 'Mate SC', serif; */
-     /* font-family: 'Barlow', sans-serif; */
-     font-family: 'Lato', sans-serif;
-     
- }
-
- nav ul li.donation {
-    padding-right: 0px;
-
-}
-
-
-
-
-
- .overlayLogo {
-     color: white;
-     position: absolute;
-     left: 5.5%;
-     top: 62%;
-     font-size: 20px;
-     font-family: 'Noto Sans HK', sans-serif;
-
-
- }
-
- .logo img{
-     margin-top:7px;
-
-
-
- }
-
-
- .aboutContent {
-     position: absolute;
-     left: 42%;
-     bottom:90%;
-     font-size: 20px;
-
-
- }
-
-  .aboutContent a {
-   
-
- 
-     border: solid 1px white;
- 
-
- } 
-
-
-
-     /* ####################################################### FIRST BODY ############################################################# */
-
- .mainHeader h1 {
-     position: absolute;
-     left: 21%;
-     top: 55%;
-     font-size: 120px;
-     color: white;
-     font-family: 'Cinzel', serif;
- }
-
-
- .mainHeader p {
-     position: absolute;
-     left: 40%;
-     top: 67%;
-     font-size: 35px;
-     color: white;
-     font-family: 'Cinzel', serif;
-font-family: 'Josefin Slab', serif;
- }
-
-
-
-
-/* ####################################################### SECOND BODY ############################################################# */
-.secondBody {
- overflow: hidden;
- height: 400px;
- background: black;
- position: relative;
- display: flex;
- width: 100%;
-
-
-}
-.column1 {
- width: 33.3%;
- background: white;
- height: 400px;
-
-}
-
-.column1 img {
- width: 100%;
- height: 100%;
- transition-duration: 0.4s;
- cursor: pointer;
-}
-
-.column1 img:hover {
- opacity: 0.7;
-
-}
-
-.column2 {
- width: 33.7%;
- background: white;
- height: 400px;
-
-}
-
-.column2 img {
- width: 100%;
- height: 100%;
- transition-duration: 0.4s;
- cursor: pointer;
-}
-
-.column2 img:hover {
- opacity: 0.7;
-
-}
-
-
-
-
-.column3 {
- width: 33.3%;
- background: white;
- height: 400px;
-
-}
-
-.column3 img {
- width: 100%;
- height: 100%;
- transition-duration: 0.4s;
- cursor: pointer;
-}
-
-.column3 img:hover {
- opacity: 0.7;
-
-}
-
-
-/* ####################################################### THIRD BODY ############################################################# */
-.thirdBody {
- overflow: hidden;
- height: 500px;
- background-color: #ffffff;
- background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
- /* background: black; */
- position: relative;
- display: flex;
- width: 100%;
-
-
-
-}
-
-.aboutUsBackground{
- overflow: hidden;
- height:455px;
- width:43%;
- background:#CDCDCD;
- margin-left: 100px;
- margin-top:20px;
- border-radius: 50px;
-
- 
-}
-
-.aboutUsContent {
- position: absolute;
- left: 10%;
- top: 11%;
- width: 35%;
-}
-
-.thirdBody h1.aboutUS {
- color: black;
- margin-left:130px;
-
-
- font-size: 85px;
-   /* left:10%;
-top:20%; */
-}
-
-.thirdBody p {
- color: black;
- font-family: 'Capriola', sans-serif;
- font-size:17px;
- /* left:10%;
-top:20%; */
-
-}
-
-.aboutUsContent button {
- position: absolute;
- left: 34%;
-top:105%;
- font-size: 33px;
- background-color: black;
- color: white;
- border: solid 1px white;
- padding: 5px;
- cursor: pointer;
- transition-duration: 0.4s;
-
-
-
-}
-
-.programsBackground{
- overflow: hidden;
- height:455px;
- width:45%;
- background:#CDCDCD;
- margin-left: 50px;
- margin-top:20px;
- border-radius: 50px;
- 
-}
-.programsContent {
-
- position: absolute;
- left: 60%;
- top: 11%;
- width: 80%;
-
-}
-
-
-.thirdBody h1.programs {
-
- color: black;
-
- font-size: 85px;
-
-}
-
-.programsContent ul {
- margin-top: 20px;
- color: black;
- font-size: 40px;
-
-}
-
-.programsContent ul li {
- padding-top: 10px;
-
-}
-
-.programsContent button {
- position: absolute;
- left: 12%;
- top:105%;
- margin-top: 21px;
- font-size: 33px;
- background-color: black;
- color: white;
- border: solid 1px white;
- padding: 5px;
- cursor: pointer;
- transition-duration: 0.4s;
-
-
-
-}
-
-}
-
-
-
-/*################### ################################################### FOR BIG DESKTOP SCREENS ################################################################### */
-
-
-@media only screen and (min-width: 1900px ){
-
-
-
-       /* ################################################### BACKGROUND ################################################################### */
-
-       .backgroundImage {
-        overflow: hidden;
-        height: 950px;
-        width: 100%;
-        position: relative;
-        background-image: url("happypeople.jpg");
-        background-size: cover;
-        background-size: 100% 99%;
-        background-repeat: no-repeat;
-        background-position: 10% 860%;
-
-
-
-    }
+        }
 
 
 
         /* ######################################################## NAV BAR ############################################################### */
 
 
-    .navBar {
+        .navBar {
 
-        position: absolute;
-        left: 35%;
-        top: 60%;
+            position: absolute;
+            left: 30%;
+            top: 86%;
 
-    }
+        }
 
-    .mobileDropDown {
-        display:none;
-     } 
+        .mobileDropDown {
+            display: none;
+        }
 
-
-    nav ul li {
-    
-        list-style: none;
-        float: left;
-        padding-right: 50px;
-        font-size: 27px;
-        text-decoration: none;
-        /* font-family: 'Mate SC', serif; */
-        /* font-family: 'Barlow', sans-serif; */
-        font-family: 'Lato', sans-serif;
-        
-    }
-
-    nav ul li.donation {
-        padding-right: 0px;
-   
-    }
-   
-
-   
+        nav ul li {
+            list-style: none;
+            float: left;
+            padding-right: 30px;
+            font-size: 20px;
+            text-decoration: none;
+            /* font-family: 'Mate SC', serif; */
+            /* font-family: 'Barlow', sans-serif; */
+            font-family: 'Lato', sans-serif;
+        }
 
 
-    .overlayLogo {
-        color: white;
-        position: absolute;
-        left: 5.5%;
-        top: 62%;
-        font-size: 20px;
-        font-family: 'Noto Sans HK', sans-serif;
+        nav ul li.donation {
+            padding-right: 0px;
 
-
-    }
-
-    .logo img{
-        margin-top:7px;
+        }
 
 
 
-    }
+
+        .overlayLogo {
+            color: white;
+            position: absolute;
+            left: 5.5%;
+            top: 65%;
+            font-size: 15px;
+            font-family: 'Noto Sans HK', sans-serif;
 
 
-    .aboutContent {
-        position: absolute;
-        left: 42%;
-        bottom:90%;
-        font-size: 20px;
+        }
+
+        .logo img {
+            margin-top: 7px;
 
 
-    }
 
-     .aboutContent a {
-      
-   
-    
-        border: solid 1px white;
-    
+        }
 
-    } 
+
+        .aboutContent {
+            position: absolute;
+            left: 42%;
+            bottom: 90%;
+            font-size: 20px;
+
+
+        }
+
+        .aboutContent a {
+
+
+
+            border: solid 1px white;
+
+
+        }
 
 
 
         /* ####################################################### FIRST BODY ############################################################# */
 
-    .mainHeader h1 {
-        position: absolute;
-        left: 21%;
-        top: 55%;
-        font-size: 120px;
-        color: white;
-        font-family: 'Cinzel', serif;
+        .mainHeader h1 {
+            position: absolute;
+            left: 21%;
+            top: 55%;
+            font-size: 100px;
+            color: white;
+            font-family: 'Cinzel', serif;
+        }
+
+
+        .mainHeader p {
+            position: absolute;
+            left: 40%;
+            top: 67%;
+            font-size: 35px;
+            color: white;
+            font-family: 'Cinzel', serif;
+            font-family: 'Josefin Slab', serif;
+        }
+
+
+
+
+        /* ####################################################### SECOND BODY ############################################################# */
+        .secondBody {
+            overflow: hidden;
+            height: 400px;
+            background: black;
+            position: relative;
+            display: flex;
+            width: 100%;
+
+
+        }
+
+        .column1 {
+            width: 33.3%;
+            background: white;
+            height: 400px;
+
+        }
+
+        .column1 img {
+            width: 100%;
+            height: 100%;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .column1 img:hover {
+            opacity: 0.7;
+
+        }
+
+        .column2 {
+            width: 33.7%;
+            background: white;
+            height: 400px;
+
+        }
+
+        .column2 img {
+            width: 100%;
+            height: 100%;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .column2 img:hover {
+            opacity: 0.7;
+
+        }
+
+
+
+
+        .column3 {
+            width: 33.3%;
+            background: white;
+            height: 400px;
+
+        }
+
+        .column3 img {
+            width: 100%;
+            height: 100%;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .column3 img:hover {
+            opacity: 0.7;
+
+        }
+
+
+        /* ####################################################### THIRD BODY ############################################################# */
+        .thirdBody {
+            overflow: hidden;
+            height: 500px;
+            background-color: #ffffff;
+            background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+            /* background: black; */
+            position: relative;
+            display: flex;
+            width: 100%;
+
+
+
+        }
+
+        .aboutUsBackground {
+            overflow: hidden;
+            height: 455px;
+            width: 43%;
+            background: #CDCDCD;
+            margin-left: 100px;
+            margin-top: 20px;
+            border-radius: 50px;
+
+
+        }
+
+        .aboutUsContent {
+            position: absolute;
+            left: 10%;
+            top: 11%;
+            width: 35%;
+        }
+
+        .thirdBody h1.aboutUS {
+            color: black;
+            margin-left: 130px;
+
+
+            font-size: 70px;
+            /* left:10%;
+top:20%; */
+        }
+
+        .thirdBody p {
+            color: black;
+            font-family: 'Capriola', sans-serif;
+            font-size: 17px;
+            /* left:10%;
+top:20%; */
+
+        }
+
+        .aboutUsContent button {
+            position: absolute;
+            left: 34%;
+            top: 105%;
+            font-size: 33px;
+            background-color: black;
+            color: white;
+            border: solid 1px white;
+            padding: 5px;
+            cursor: pointer;
+            transition-duration: 0.4s;
+
+
+
+        }
+
+        .programsBackground {
+            overflow: hidden;
+            height: 455px;
+            width: 45%;
+            background: #CDCDCD;
+            margin-left: 50px;
+            margin-top: 20px;
+            border-radius: 50px;
+
+        }
+
+        .programsContent {
+
+            position: absolute;
+            left: 60%;
+            top: 11%;
+            width: 80%;
+
+        }
+
+
+        .thirdBody h1.programs {
+
+            color: black;
+
+            font-size: 85px;
+
+        }
+
+        .programsContent ul {
+            margin-top: 20px;
+            color: black;
+            font-size: 40px;
+
+        }
+
+        .programsContent ul li {
+            padding-top: 10px;
+
+        }
+
+        .programsContent button {
+            position: absolute;
+            left: 12%;
+            top: 105%;
+            margin-top: 21px;
+            font-size: 33px;
+            background-color: black;
+            color: white;
+            border: solid 1px white;
+            padding: 5px;
+            cursor: pointer;
+            transition-duration: 0.4s;
+
+
+
+        }
     }
 
 
-    .mainHeader p {
-        position: absolute;
-        left: 40%;
-        top: 67%;
-        font-size: 35px;
-        color: white;
-        font-family: 'Cinzel', serif;
-font-family: 'Josefin Slab', serif;
+
+    /*################### ################################################### FOR a Small Desktop Screens ################################################################### */
+
+    @media only screen and (min-width: 1587px) {
+
+
+
+        /* ################################################### BACKGROUND ################################################################### */
+
+        .backgroundImage {
+            overflow: hidden;
+            height: 950px;
+            width: 100%;
+            position: relative;
+            background-image: url("happypeople.jpg");
+            background-size: cover;
+            background-size: 100% 99%;
+            background-repeat: no-repeat;
+            background-position: 10% 860%;
+
+
+
+        }
+
+
+
+        /* ######################################################## NAV BAR ############################################################### */
+
+
+        .navBar {
+
+            position: absolute;
+            left: 35%;
+            top: 60%;
+
+        }
+
+        .mobileDropDown {
+            display: none;
+        }
+
+
+        nav ul li {
+
+            list-style: none;
+            float: left;
+            padding-right: 50px;
+            font-size: 20px;
+            text-decoration: none;
+            /* font-family: 'Mate SC', serif; */
+            /* font-family: 'Barlow', sans-serif; */
+            font-family: 'Lato', sans-serif;
+
+        }
+
+        nav ul li.donation {
+            padding-right: 0px;
+
+        }
+
+
+
+
+
+        .overlayLogo {
+            color: white;
+            position: absolute;
+            left: 5.5%;
+            top: 62%;
+            font-size: 20px;
+            font-family: 'Noto Sans HK', sans-serif;
+
+
+        }
+
+        .logo img {
+            margin-top: 7px;
+
+
+
+        }
+
+
+        .aboutContent {
+            position: absolute;
+            left: 42%;
+            bottom: 90%;
+            font-size: 20px;
+
+
+        }
+
+        .aboutContent a {
+
+
+
+            border: solid 1px white;
+
+
+        }
+
+
+
+        /* ####################################################### FIRST BODY ############################################################# */
+
+        .mainHeader h1 {
+            position: absolute;
+            left: 21%;
+            top: 55%;
+            font-size: 120px;
+            color: white;
+            font-family: 'Cinzel', serif;
+        }
+
+
+        .mainHeader p {
+            position: absolute;
+            left: 40%;
+            top: 67%;
+            font-size: 35px;
+            color: white;
+            font-family: 'Cinzel', serif;
+            font-family: 'Josefin Slab', serif;
+        }
+
+
+
+
+        /* ####################################################### SECOND BODY ############################################################# */
+        .secondBody {
+            overflow: hidden;
+            height: 400px;
+            background: black;
+            position: relative;
+            display: flex;
+            width: 100%;
+
+
+        }
+
+        .column1 {
+            width: 33.3%;
+            background: white;
+            height: 400px;
+
+        }
+
+        .column1 img {
+            width: 100%;
+            height: 100%;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .column1 img:hover {
+            opacity: 0.7;
+
+        }
+
+        .column2 {
+            width: 33.7%;
+            background: white;
+            height: 400px;
+
+        }
+
+        .column2 img {
+            width: 100%;
+            height: 100%;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .column2 img:hover {
+            opacity: 0.7;
+
+        }
+
+
+
+
+        .column3 {
+            width: 33.3%;
+            background: white;
+            height: 400px;
+
+        }
+
+        .column3 img {
+            width: 100%;
+            height: 100%;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .column3 img:hover {
+            opacity: 0.7;
+
+        }
+
+
+        /* ####################################################### THIRD BODY ############################################################# */
+        .thirdBody {
+            overflow: hidden;
+            height: 500px;
+            background-color: #ffffff;
+            background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+            /* background: black; */
+            position: relative;
+            display: flex;
+            width: 100%;
+
+
+
+        }
+
+        .aboutUsBackground {
+            overflow: hidden;
+            height: 455px;
+            width: 43%;
+            background: #CDCDCD;
+            margin-left: 100px;
+            margin-top: 20px;
+            border-radius: 50px;
+
+
+        }
+
+        .aboutUsContent {
+            position: absolute;
+            left: 10%;
+            top: 11%;
+            width: 35%;
+        }
+
+        .thirdBody h1.aboutUS {
+            color: black;
+            margin-left: 130px;
+
+
+            font-size: 85px;
+            /* left:10%;
+top:20%; */
+        }
+
+        .thirdBody p {
+            color: black;
+            font-family: 'Capriola', sans-serif;
+            font-size: 17px;
+            /* left:10%;
+top:20%; */
+
+        }
+
+        .aboutUsContent button {
+            position: absolute;
+            left: 34%;
+            top: 105%;
+            font-size: 33px;
+            background-color: black;
+            color: white;
+            border: solid 1px white;
+            padding: 5px;
+            cursor: pointer;
+            transition-duration: 0.4s;
+
+
+
+        }
+
+        .programsBackground {
+            overflow: hidden;
+            height: 455px;
+            width: 45%;
+            background: #CDCDCD;
+            margin-left: 50px;
+            margin-top: 20px;
+            border-radius: 50px;
+
+        }
+
+        .programsContent {
+
+            position: absolute;
+            left: 60%;
+            top: 11%;
+            width: 80%;
+
+        }
+
+
+        .thirdBody h1.programs {
+
+            color: black;
+
+            font-size: 85px;
+
+        }
+
+        .programsContent ul {
+            margin-top: 20px;
+            color: black;
+            font-size: 40px;
+
+        }
+
+        .programsContent ul li {
+            padding-top: 10px;
+
+        }
+
+        .programsContent button {
+            position: absolute;
+            left: 12%;
+            top: 105%;
+            margin-top: 21px;
+            font-size: 33px;
+            background-color: black;
+            color: white;
+            border: solid 1px white;
+            padding: 5px;
+            cursor: pointer;
+            transition-duration: 0.4s;
+
+
+
+        }
+
     }
 
 
 
-
-   /* ####################################################### SECOND BODY ############################################################# */
-   .secondBody {
-    overflow: hidden;
-    height: 400px;
-    background: black;
-    position: relative;
-    display: flex;
-    width: 100%;
+    /*################### ################################################### FOR BIG DESKTOP SCREENS ################################################################### */
 
 
-}
-.column1 {
-    width:33.3%;
-    background: white;
-    height: 400px;
-}
+    @media only screen and (min-width: 1900px) {
 
-.imageColumn1 {
-    position:absolute;
-    left:0%;
-    width:33.3%;
-    z-index:1;
-}
 
-.column1 img {
-    width: 100%;
-    height: 100%;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
 
-.column1 img:hover {
-    opacity: 0.7;
+        /* ################################################### BACKGROUND ################################################################### */
 
-}
+        .backgroundImage {
+            overflow: hidden;
+            height: 950px;
+            width: 100%;
+            position: relative;
+            background-image: url("happypeople.jpg");
+            background-size: cover;
+            background-size: 100% 99%;
+            background-repeat: no-repeat;
+            background-position: 10% 860%;
 
-    .descriptionColumn1{
-        /* border:solid 5px white; */
-    position:absolute;
-    left:0%;
-    top:80%;
-    background:rgb(141, 7, 250);
-    height:500px;
-    z-index: 2;
-    width:33.3%;
-    text-align: center;
-    color:white;
-    font-size:25px;
-    font-family: 'Arima Madurai', cursive;
 
+
+        }
+
+
+
+        /* ######################################################## NAV BAR ############################################################### */
+
+
+        .navBar {
+
+            position: absolute;
+            left: 35%;
+            top: 60%;
+
+        }
+
+        .mobileDropDown {
+            display: none;
+        }
+
+
+        nav ul li {
+
+            list-style: none;
+            float: left;
+            padding-right: 50px;
+            font-size: 27px;
+            text-decoration: none;
+            /* font-family: 'Mate SC', serif; */
+            /* font-family: 'Barlow', sans-serif; */
+            font-family: 'Lato', sans-serif;
+
+        }
+
+        nav ul li.donation {
+            padding-right: 0px;
+
+        }
+
+
+
+
+
+        .overlayLogo {
+            color: white;
+            position: absolute;
+            left: 5.5%;
+            top: 62%;
+            font-size: 20px;
+            font-family: 'Noto Sans HK', sans-serif;
+
+
+        }
+
+        .logo img {
+            margin-top: 7px;
+
+
+
+        }
+
+
+        .aboutContent {
+            position: absolute;
+            left: 42%;
+            bottom: 90%;
+            font-size: 20px;
+
+
+        }
+
+        .aboutContent a {
+
+
+
+            border: solid 1px white;
+
+
+        }
+
+
+
+        /* ####################################################### FIRST BODY ############################################################# */
+
+        .mainHeader h1 {
+            position: absolute;
+            left: 21%;
+            top: 55%;
+            font-size: 120px;
+            color: white;
+            font-family: 'Cinzel', serif;
+        }
+
+
+        .mainHeader p {
+            position: absolute;
+            left: 40%;
+            top: 67%;
+            font-size: 35px;
+            color: white;
+            font-family: 'Cinzel', serif;
+            font-family: 'Josefin Slab', serif;
+        }
+
+
+
+
+        /* ####################################################### SECOND BODY ############################################################# */
+        .secondBody {
+            overflow: hidden;
+            height: 875px;
+            background: black;
+            position: relative;
+            display: block;
+            width: 100%;
+
+
+        }
+
+        .row1 {
+            overflow: hidden;
+            display: flex;
+            width: 100%;
+
+        }
+
+        .row2 {
+            overflow: hidden;
+            display: flex;
+            width: 100%;
+
+        }
+
+        .column1 {
+            width: 33.3%;
+            background: white;
+            height: 400px;
+        }
+
+        .imageColumn1 {
+            position: absolute;
+            left: 0%;
+            width: 33.3%;
+            z-index: 1;
+        }
+
+        .row2 .imageColumn1 {
+            position: absolute;
+            left: 0%;
+            bottom: 3%;
+            width: 33.3%;
+            z-index: 1;
+        }
+
+        .column1 img {
+            width: 100%;
+            height: 400px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .row2 .column1 img {
+            width: 100%;
+            /* height: 400; */
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .column1 img:hover {
+            opacity: 0.7;
+
+        }
+
+        .descriptionColumn1 {
+
+            /* border:solid 5px white; */
+            position: absolute;
+            left: 0%;
+            top: 40%;
+            background: rgb(141, 7, 250);
+            height: 100px;
+            z-index: 2;
+            width: 33.3%;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+            font-family: 'Arima Madurai', cursive;
+
+        }
+
+        .row2 .descriptionColumn1 {
+            /* border:solid 5px white; */
+            position: absolute;
+            left: 0%;
+            top: 89.5%;
+            background: rgb(0, 167, 28);
+            height: 100px;
+            z-index: 2;
+            width: 33.3%;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+            font-family: 'Arima Madurai', cursive;
+
+        }
+
+        .descriptionColumn1 p {
+            display: none;
+            font-size: 15px;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        /* .column1Paragraph{
+        display:none;
     }
+    .column1ParagraphShow{
+        display:block;
+    } */
 
-    .descriptionColumn1 p {
-        font-size:15px;
-        color:rgb(141, 7, 250);
-        font-family:Georgia, 'Times New Roman', Times, serif;
-    }
-
-    /* .showDescription {
+        /* .showDescription {
         font-size:15px;
         color:white;
         font-family:Georgia, 'Times New Roman', Times, serif;
@@ -1525,267 +1587,299 @@ font-family: 'Josefin Slab', serif;
      */
 
 
-    .column2 {
-        width:33.3%;
+        .column2 {
+            width: 33.3%;
 
-        background: white;
-        height: 400px;
+            background: white;
+            height: 400px;
 
-    }
+        }
 
-    .imageColumn2 {
-        position:absolute;
-        left:33.3%;
-        width:33.3%;
-        z-index:1;
-    }
+        .imageColumn2 {
+            position: absolute;
+            left: 33.3%;
+            width: 33.3%;
+            z-index: 1;
+        }
 
-.column2 img {
-    width: 100%;
-    height: 100%;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-.column2 img:hover {
-    opacity: 0.7;
-
-}
-
-.descriptionColumn2{
-    position:absolute;
-    left:33.3%;
-    top:80%;
-    background:rgb(0, 151, 252);
-    height:500px;
-    z-index: 2;
-    width:33.3%;
-    text-align: center;
-    color:white;
-    font-size:25px;
-    font-family: 'Arima Madurai', cursive;
-    }
-
-    .descriptionColumn2 p {
-        font-size:15px;
-        color:rgb(0, 151, 252);
-    }
+        .column2 img {
+            width: 100%;
+            height: 400px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
 
 
 
 
-    .column3 {
-        width:33.3%;
-        background: white;
-        height: 400px;
-    }
-    
-    .imageColumn3 {
-        position:absolute;
-        left:66.6%;
-        width:33.3%;
-        z-index:1;
-    }
-    
-    .column3 img {
-        width: 100%;
-        height: 100%;
-        transition-duration: 0.4s;
-        cursor: pointer;
-    }
-    
-    .column3 img:hover {
-        opacity: 0.7;
-    
-    }
-    
-        .descriptionColumn3{
+        .column2 img:hover {
+            opacity: 0.7;
+
+        }
+
+        .descriptionColumn2 {
+            position: absolute;
+            left: 33.3%;
+            top: 40%;
+            background: rgb(0, 151, 252);
+            height: 100px;
+            z-index: 2;
+            width: 33.3%;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+            font-family: 'Arima Madurai', cursive;
+        }
+
+        .row2 .descriptionColumn2 {
+            position: absolute;
+            left: 33.3%;
+            top: 89.5%;
+            background: rgb(252, 0, 0);
+            height: 100px;
+            z-index: 2;
+            width: 33.3%;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+            font-family: 'Arima Madurai', cursive;
+        }
+
+
+        .descriptionColumn2 p {
+            display: none;
+            font-size: 15px;
+            color: rgb(0, 151, 252);
+        }
+
+
+
+
+        .column3 {
+            width: 33.3%;
+            background: white;
+            height: 400px;
+        }
+
+        .imageColumn3 {
+            position: absolute;
+            left: 66.6%;
+            width: 33.3%;
+            z-index: 1;
+        }
+
+        .column3 img {
+            width: 100%;
+            height: 400px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .column3 img:hover {
+            opacity: 0.7;
+
+        }
+
+        .descriptionColumn3 {
             /* border:solid 5px white; */
-        position:absolute;
-        left:66.6%;
-        top:80%;
-        background:rgb(255, 115, 0);
-        height:500px;
-        z-index: 2;
-        width:33.3%;
-        text-align: center;
-        color:white;
-        font-size:25px;
-        font-family: 'Arima Madurai', cursive;
+            position: absolute;
+            left: 66.6%;
+            top: 40%;
+            background: rgb(255, 0, 179);
+            height: 100px;
+            z-index: 2;
+            width: 33.3%;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+            font-family: 'Arima Madurai', cursive;
         }
-    
+
+        .row2 .descriptionColumn3 {
+            /* border:solid 5px white; */
+            position: absolute;
+            left: 66.6%;
+            top: 89.5%;
+            background: rgb(255, 115, 0);
+            height: 100px;
+            z-index: 2;
+            width: 33.3%;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+            font-family: 'Arima Madurai', cursive;
+        }
+
+
         .descriptionColumn3 p {
-            font-size:15px;
-            color:rgb(255, 115, 0);
+
+            display: none;
+            font-size: 15px;
+            color: rgb(255, 115, 0);
         }
-        
-
-
-   /* ####################################################### THIRD BODY ############################################################# */
-   .thirdBody {
-    overflow: hidden;
-    height: 500px;
-    background-color: #ffffff;
-    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
-    /* background: black; */
-    position: relative;
-    display: flex;
-    width: 100%;
 
 
 
-}
+        /* ####################################################### THIRD BODY ############################################################# */
+        .thirdBody {
+            overflow: hidden;
+            height: 500px;
+            background-color: #ffffff;
+            background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+            /* background: black; */
+            position: relative;
+            display: flex;
+            width: 100%;
 
-.aboutUsBackground{
-    overflow: hidden;
-    height:455px;
-    width:43%;
-    background:#CDCDCD;
-    margin-left: 100px;
-    margin-top:20px;
-    border-radius: 50px;
 
-    
-}
 
-.aboutUsContent {
-    position: absolute;
-    left: 10%;
-    top: 11%;
-    width: 35%;
-}
+        }
 
-.thirdBody h1.aboutUS {
-    color: black;
-    margin-left:130px;
-  
-  
-    font-size: 85px;
-      /* left:10%;
+        .aboutUsBackground {
+            overflow: hidden;
+            height: 455px;
+            width: 43%;
+            background: #CDCDCD;
+            margin-left: 100px;
+            margin-top: 20px;
+            border-radius: 50px;
+
+
+        }
+
+        .aboutUsContent {
+            position: absolute;
+            left: 10%;
+            top: 11%;
+            width: 35%;
+        }
+
+        .thirdBody h1.aboutUS {
+            color: black;
+            margin-left: 130px;
+
+
+            font-size: 85px;
+            /* left:10%;
 top:20%; */
-}
+        }
 
-.thirdBody p {
-    color: black;
-    font-family: 'Capriola', sans-serif;
-    font-size:20px;
-    /* left:10%;
+        .thirdBody p {
+            color: black;
+            font-family: 'Capriola', sans-serif;
+            font-size: 20px;
+            /* left:10%;
 top:20%; */
 
-}
+        }
 
-.aboutUsContent button {
-    position: absolute;
-    left: 34%;
-  top:105%;
-    font-size: 33px;
-    background-color: black;
-    color: white;
-    border: solid 1px white;
-    padding: 5px;
-    cursor: pointer;
-    transition-duration: 0.4s;
-
-
-
-}
-
-.programsBackground{
-    overflow: hidden;
-    height:455px;
-    width:45%;
-    background:#CDCDCD;
-    margin-left: 50px;
-    margin-top:20px;
-    border-radius: 50px;
-    
-}
-.programsContent {
-
-    position: absolute;
-    left: 60%;
-    top: 11%;
-    width: 80%;
-
-}
-
-
-.thirdBody h1.programs {
-  
-    color: black;
-
-    font-size: 85px;
-
-}
-
-.programsContent ul {
-    margin-top: 20px;
-    color: black;
-    font-size: 40px;
-
-}
-
-.programsContent ul li {
-    padding-top: 10px;
-
-}
-
-.programsContent button {
-    position: absolute;
-    left: 12%;
-    top:105%;
-    margin-top: 21px;
-    font-size: 33px;
-    background-color: black;
-    color: white;
-    border: solid 1px white;
-    padding: 5px;
-    cursor: pointer;
-    transition-duration: 0.4s;
+        .aboutUsContent button {
+            position: absolute;
+            left: 34%;
+            top: 105%;
+            font-size: 33px;
+            background-color: black;
+            color: white;
+            border: solid 1px white;
+            padding: 5px;
+            cursor: pointer;
+            transition-duration: 0.4s;
 
 
 
-}
-}
+        }
+
+        .programsBackground {
+            overflow: hidden;
+            height: 455px;
+            width: 45%;
+            background: #CDCDCD;
+            margin-left: 50px;
+            margin-top: 20px;
+            border-radius: 50px;
+
+        }
+
+        .programsContent {
+
+            position: absolute;
+            left: 60%;
+            top: 11%;
+            width: 80%;
+
+        }
+
+
+        .thirdBody h1.programs {
+
+            color: black;
+
+            font-size: 85px;
+
+        }
+
+        .programsContent ul {
+            margin-top: 20px;
+            color: black;
+            font-size: 40px;
+
+        }
+
+        .programsContent ul li {
+            padding-top: 10px;
+
+        }
+
+        .programsContent button {
+            position: absolute;
+            left: 12%;
+            top: 105%;
+            margin-top: 21px;
+            font-size: 33px;
+            background-color: black;
+            color: white;
+            border: solid 1px white;
+            padding: 5px;
+            cursor: pointer;
+            transition-duration: 0.4s;
+
+
+
+        }
+    }
 
 
     /*################### ################################################### FOR TABLETS MY FRIEND ################################################################### */
 
 
-    @media only screen and (max-width:1067px ){
+    @media only screen and (max-width:1067px) {
 
 
 
-    /*################### ################################################### NAV BAR ################################################################### */
+        /*################### ################################################### NAV BAR ################################################################### */
 
 
-        .navBar li:not(:nth-child(8)){
-            display:none;
+        .navBar li:not(:nth-child(8)) {
+            display: none;
         }
-        
-li.mobileDropDown {
-            float:right;
-    padding-right: 10px;
-             /* position:absolute;
+
+        li.mobileDropDown {
+            float: right;
+            padding-right: 10px;
+            /* position:absolute;
             left:95%;
             top:70%; */
-            margin-top:-23px
-            
-     
-            
-         
-         
-        
+            margin-top: -23px
         }
 
         li.mobileDropDown button {
 
-            font-size:30px;
+            font-size: 30px;
             /* min-height: 100%; */
-            padding:5px;
+            padding: 5px;
             background-color: transparent;
-            cursor:pointer;
-      
+            cursor: pointer;
+
         }
 
         .overlayLogo {
@@ -1795,46 +1889,46 @@ li.mobileDropDown {
             top: 68%;
             font-size: 1vw;
             font-family: 'Noto Sans HK', sans-serif;
-    
-    
+
+
         }
 
 
-             /* ####################################################### FIRST BODY ############################################################# */
+        /* ####################################################### FIRST BODY ############################################################# */
 
-            .mainHeader h1 {
-                position: absolute;
-                left: 21%;
-                top: 55%;
-                font-size: 7vw;
-                color: white;
-                font-family: 'Cinzel', serif;
-            }
+        .mainHeader h1 {
+            position: absolute;
+            left: 21%;
+            top: 55%;
+            font-size: 7vw;
+            color: white;
+            font-family: 'Cinzel', serif;
+        }
 
 
-            .mainHeader p {
-                position: absolute;
-                left: 40%;
-                top: 65%;
-                font-size: 2vw;
-                color: white;
-                font-family: 'Cinzel', serif;
+        .mainHeader p {
+            position: absolute;
+            left: 40%;
+            top: 65%;
+            font-size: 2vw;
+            color: white;
+            font-family: 'Cinzel', serif;
             font-family: 'Josefin Slab', serif;
-            }
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-            }
+        }
 
 
-     /* @media only screen and (max-width:680px ){
+
+
+
+
+
+
+
+
+    }
+
+
+    /* @media only screen and (max-width:680px ){
 
 
         .mainHeader p {
