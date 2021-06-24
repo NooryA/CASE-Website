@@ -190,77 +190,164 @@ font-family: 'Josefin Slab', serif;
     /* ####################################################### SECOND BODY ############################################################# */
     .secondBody {
         overflow: hidden;
-        height: 300px;
+        height: 400px;
         background: black;
         position: relative;
         display: flex;
         width: 100%;
-
-
+    
+    
     }
-
     .column1 {
-        width: 33.3%;
+        width:33.3%;
         background: white;
-        height: 300px;
-
+        height: 400px;
     }
-
+    
+    .imageColumn1 {
+        position:absolute;
+        left:0%;
+        width:33.3%;
+        z-index:1;
+    }
+    
     .column1 img {
         width: 100%;
         height: 100%;
         transition-duration: 0.4s;
         cursor: pointer;
-        z-index: 2;
     }
-
+    
     .column1 img:hover {
         opacity: 0.7;
-
+    
     }
-
- 
-
-    .column2 {
-        width: 33.7%;
-        background: white;
-        height: 300px;
-
-    }
-
+    
+        .descriptionColumn1{
+            /* border:solid 5px white; */
+        position:absolute;
+        left:0%;
+        top:80%;
+        background:rgb(141, 7, 250);
+        height:500px;
+        z-index: 2;
+        width:33.3%;
+        text-align: center;
+        color:white;
+        font-size:25px;
+        font-family: 'Arima Madurai', cursive;
+    
+        }
+    
+        .descriptionColumn1 p {
+            font-size:15px;
+            color:rgb(141, 7, 250);
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+    
+        /* .showDescription {
+            font-size:15px;
+            color:white;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+         */
+    
+    
+        .column2 {
+            width:33.3%;
+    
+            background: white;
+            height: 400px;
+    
+        }
+    
+        .imageColumn2 {
+            position:absolute;
+            left:33.3%;
+            width:33.3%;
+            z-index:1;
+        }
+    
     .column2 img {
         width: 100%;
         height: 100%;
         transition-duration: 0.4s;
         cursor: pointer;
     }
-
+    
     .column2 img:hover {
         opacity: 0.7;
-
+    
     }
-
-
-
-
-    .column3 {
-        width: 33.3%;
-        background: white;
-        height: 300px;
-
-    }
-
-    .column3 img {
-        width: 100%;
-        height: 100%;
-        transition-duration: 0.4s;
-        cursor: pointer;
-    }
-
-    .column3 img:hover {
-        opacity: 0.7;
-
-    }
+    
+    .descriptionColumn2{
+        position:absolute;
+        left:33.3%;
+        top:80%;
+        background:rgb(0, 151, 252);
+        height:500px;
+        z-index: 2;
+        width:33.3%;
+        text-align: center;
+        color:white;
+        font-size:25px;
+        font-family: 'Arima Madurai', cursive;
+        }
+    
+        .descriptionColumn2 p {
+            font-size:15px;
+            color:rgb(0, 151, 252);
+        }
+    
+    
+    
+    
+        .column3 {
+            width:33.3%;
+            background: white;
+            height: 400px;
+        }
+        
+        .imageColumn3 {
+            position:absolute;
+            left:66.6%;
+            width:33.3%;
+            z-index:1;
+        }
+        
+        .column3 img {
+            width: 100%;
+            height: 100%;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        
+        .column3 img:hover {
+            opacity: 0.7;
+        
+        }
+        
+            .descriptionColumn3{
+                /* border:solid 5px white; */
+            position:absolute;
+            left:66.6%;
+            top:80%;
+            background:rgb(255, 115, 0);
+            height:500px;
+            z-index: 2;
+            width:33.3%;
+            text-align: center;
+            color:white;
+            font-size:25px;
+            font-family: 'Arima Madurai', cursive;
+            }
+        
+            .descriptionColumn3 p {
+                font-size:15px;
+                color:rgb(255, 115, 0);
+            }
+            
+    
 
     /* ####################################################### THIRD BODY ############################################################# */
     .thirdBody {
@@ -1413,20 +1500,29 @@ font-family: 'Josefin Slab', serif;
     position:absolute;
     left:0%;
     top:80%;
-    background:black;
+    background:rgb(141, 7, 250);
     height:500px;
     z-index: 2;
     width:33.3%;
     text-align: center;
     color:white;
     font-size:25px;
+    font-family: 'Arima Madurai', cursive;
+
     }
 
     .descriptionColumn1 p {
         font-size:15px;
-        color:black;
+        color:rgb(141, 7, 250);
+        font-family:Georgia, 'Times New Roman', Times, serif;
     }
-    
+
+    /* .showDescription {
+        font-size:15px;
+        color:white;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+     */
 
 
     .column2 {
@@ -1460,42 +1556,69 @@ font-family: 'Josefin Slab', serif;
     position:absolute;
     left:33.3%;
     top:80%;
-    background:black;
+    background:rgb(0, 151, 252);
     height:500px;
     z-index: 2;
     width:33.3%;
     text-align: center;
     color:white;
     font-size:25px;
+    font-family: 'Arima Madurai', cursive;
     }
 
     .descriptionColumn2 p {
         font-size:15px;
-        color:black;
+        color:rgb(0, 151, 252);
     }
 
 
 
 
-.column3 {
-    width:33.3%;
-   
-    background: white;
-    height: 400px;
-
-}
-
-.column3 img {
-    width: 100%;
-    height: 100%;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-.column3 img:hover {
-    opacity: 0.7;
-
-}
+    .column3 {
+        width:33.3%;
+        background: white;
+        height: 400px;
+    }
+    
+    .imageColumn3 {
+        position:absolute;
+        left:66.6%;
+        width:33.3%;
+        z-index:1;
+    }
+    
+    .column3 img {
+        width: 100%;
+        height: 100%;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    
+    .column3 img:hover {
+        opacity: 0.7;
+    
+    }
+    
+        .descriptionColumn3{
+            /* border:solid 5px white; */
+        position:absolute;
+        left:66.6%;
+        top:80%;
+        background:rgb(255, 115, 0);
+        height:500px;
+        z-index: 2;
+        width:33.3%;
+        text-align: center;
+        color:white;
+        font-size:25px;
+        font-family: 'Arima Madurai', cursive;
+        }
+    
+        .descriptionColumn3 p {
+            font-size:15px;
+            color:rgb(255, 115, 0);
+        }
+        
 
 
    /* ####################################################### THIRD BODY ############################################################# */
