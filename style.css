@@ -211,6 +211,7 @@ font-family: 'Josefin Slab', serif;
         height: 100%;
         transition-duration: 0.4s;
         cursor: pointer;
+        z-index: 2;
     }
 
     .column1 img:hover {
@@ -218,13 +219,7 @@ font-family: 'Josefin Slab', serif;
 
     }
 
-    /* .descriptionColumn1{
-position:absolute;
-background:yellow;
-height:200px;
-width:33.3%;
-
-    } */
+ 
 
     .column2 {
         width: 33.7%;
@@ -1389,10 +1384,16 @@ font-family: 'Josefin Slab', serif;
 
 }
 .column1 {
-    width: 33.3%;
+    width:33.3%;
     background: white;
     height: 400px;
+}
 
+.imageColumn1 {
+    position:absolute;
+    left:0%;
+    width:33.3%;
+    z-index:1;
 }
 
 .column1 img {
@@ -1407,12 +1408,41 @@ font-family: 'Josefin Slab', serif;
 
 }
 
-.column2 {
-    width: 33.7%;
-    background: white;
-    height: 400px;
+    .descriptionColumn1{
+        /* border:solid 5px white; */
+    position:absolute;
+    left:0%;
+    top:80%;
+    background:black;
+    height:500px;
+    z-index: 2;
+    width:33.3%;
+    text-align: center;
+    color:white;
+    font-size:25px;
+    }
 
-}
+    .descriptionColumn1 p {
+        font-size:15px;
+        color:black;
+    }
+    
+
+
+    .column2 {
+        width:33.3%;
+
+        background: white;
+        height: 400px;
+
+    }
+
+    .imageColumn2 {
+        position:absolute;
+        left:33.3%;
+        width:33.3%;
+        z-index:1;
+    }
 
 .column2 img {
     width: 100%;
@@ -1426,11 +1456,30 @@ font-family: 'Josefin Slab', serif;
 
 }
 
+.descriptionColumn2{
+    position:absolute;
+    left:33.3%;
+    top:80%;
+    background:black;
+    height:500px;
+    z-index: 2;
+    width:33.3%;
+    text-align: center;
+    color:white;
+    font-size:25px;
+    }
+
+    .descriptionColumn2 p {
+        font-size:15px;
+        color:black;
+    }
+
 
 
 
 .column3 {
-    width: 33.3%;
+    width:33.3%;
+   
     background: white;
     height: 400px;
 
