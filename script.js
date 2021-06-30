@@ -217,10 +217,27 @@ $("document").ready(function () {
 
 
 
+///################################################################################# MOBILE RESPONSIVE #############################################################################//
+
+    ///////////////////////////////////////////////////////////// NAV BARRESPONSIVE //////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+$("#mobileDropDown").click(function (){
+    if($("#navBar").hasClass("navBar")){
+$("#navBar").removeClass("navBar").addClass("navBarMobile");
+$("#top-section").addClass("top-section-mobile");
+    }
+    else {
+        $("#navBar").removeClass("navBarMobile").addClass("navBar");
+        $("#top-section").removeClass("top-section-mobile");
 
 
 
+    }
 
+
+
+});
 
 
 
