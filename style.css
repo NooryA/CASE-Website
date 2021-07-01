@@ -71,7 +71,7 @@
 
         position: absolute;
         left: 30%;
-        top: 86%;
+        top: 66px;
 
     }
 
@@ -807,6 +807,21 @@
             font-family: 'Lato', sans-serif;
         }
 
+
+
+        .aboutContent {
+            position: absolute;
+            left: 36%;
+            bottom: 88.2%;
+            /* font-size: 10px; */
+     
+
+        }
+        .aboutContent a {
+            border: 1px solid white;
+        }
+
+
         .mainHeader h1 {
             position: absolute;
             left: 21%;
@@ -879,7 +894,7 @@
 
             position: absolute;
             left: 30%;
-            top: 86%;
+            top: 66px;
 
         }
 
@@ -1385,7 +1400,7 @@ top:20%; */
 
             position: absolute;
             left: 35%;
-            top: 60%;
+            top: 66px;
 
         }
 
@@ -1437,8 +1452,8 @@ top:20%; */
 
         .aboutContent {
             position: absolute;
-            left: 42%;
-            bottom: 92.5%;
+            left: 41.5%;
+            bottom: 90.5%;
             font-size: 20px;
 
 
