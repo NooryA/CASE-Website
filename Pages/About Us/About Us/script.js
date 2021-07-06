@@ -18,6 +18,24 @@ $("document").ready(function () {
 
     });
 
+    $("#programs").hover(function () {
+
+        $("#programsDropDown").addClass("displayProgramsDropDown");
+    }, function () {
+        $("#programsDropDown").removeClass("displayProgramsDropDown");
+
+
+    });
+
+    $("#programsDropDown").hover(function () {
+
+        $("#programsDropDown").addClass("displayProgramsDropDown");
+    }, function () {
+        $("#programsDropDown").removeClass("displayProgramsDropDown");
+
+
+    });
+
     //################################################################## MAIN BACKGROUND  #################################################################################################//
 
 
