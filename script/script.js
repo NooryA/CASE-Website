@@ -64,7 +64,44 @@ $("document").ready(function () {
 
     });
 
-    
+    $("#youthPrograms").hover(function () {
+
+        $("#youthProgramsDropDown").addClass("displayYouthProgramsDropDown");
+    }, function () {
+        $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDown");
+
+
+    });
+
+    $("#youthProgramsDropDown").hover(function () {
+
+        $("#youthProgramsDropDown").addClass("displayYouthProgramsDropDown");
+    }, function () {
+        $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDown");
+
+
+    });
+
+    $("#workplace").hover(function () {
+
+        $("#workplaceExperienceDropDown").addClass("displayWorkPlaceDropDown");
+    }, function () {
+        $("#workplaceExperienceDropDown").removeClass("displayWorkPlaceDropDown");
+
+
+    });
+
+    $("#workplaceExperienceDropDown").hover(function () {
+
+        $("#workplaceExperienceDropDown").addClass("displayWorkPlaceDropDown");
+    }, function () {
+        $("#workplaceExperienceDropDown").removeClass("displayWorkPlaceDropDown");
+
+
+    });
+
+
+
 
     //################################################################## MAIN BACKGROUND  #################################################################################################//
 
