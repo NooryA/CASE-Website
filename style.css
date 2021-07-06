@@ -248,6 +248,99 @@
 
     }
 
+    .singleParentsDropDown {
+        display:none;
+        position:absolute;
+        left:100%;
+        top:40%;
+        width:100%;
+    }
+
+    .displaySingleParentsDropDown {
+        display: block;
+
+    }
+
+    .newsAndEventsDropDown a:hover {
+        color: black;
+
+
+
+    }
+
+    .newsAndEventsDropDown {
+        display: none;
+        position: absolute;
+        left: 37.5%;
+
+
+    }
+
+    .newsAndEventsDropDown a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        border: solid white;
+        padding: 5px;
+        margin-top: 2px;
+        transition: 0.5s;
+
+    }
+
+
+    .displayNewsAndEventsDropDown {
+        display: block;
+
+    }
+
+    .communityResourcesDropDown {
+        display:none;
+        position:absolute;
+        left:100%;
+        top:0.2%;
+        width:100%;
+    }
+
+    .displayCommunityResourcesDropDown {
+        display: block;
+
+    }
+
+    .contactUsDropDown a:hover {
+        color: black;
+
+
+
+    }
+
+    .contactUsDropDown {
+        display: none;
+        position: absolute;
+        left: 37.5%;
+
+
+    }
+
+    .contactUsDropDown a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        border: solid white;
+        padding: 5px;
+        margin-top: 2px;
+        transition: 0.5s;
+
+    }
+
+
+    .displayContactUsDropDown {
+        display: block;
+
+    }
+
+
+
+
     .arrow {
         float:right;
     }
@@ -904,6 +997,47 @@
         }
 
 
+        .newsAndEventsDropDown {
+            position: absolute;
+            left: 53.9%;
+            bottom: 75.2%;
+        
+
+        }
+
+        .newsAndEventsDropDown a {
+
+
+
+            border: solid 1px white;
+
+
+        }
+
+        .contactUsDropDown {
+            position: absolute;
+            left: 72.9%;
+            bottom: 83.8%;
+         
+    
+
+
+        }
+
+        .contactUsDropDown a {
+
+
+
+            border: solid 1px white;
+           
+
+
+        }
+
+
+
+
+
         .mainHeader h1 {
             position: absolute;
             left: 21%;
@@ -1056,6 +1190,44 @@
 
 
         }
+
+        .newsAndEventsDropDown {
+            position: absolute;
+            left: 52.1%;
+            bottom: 71%;
+            font-size: 20px;
+
+        }
+
+        .newsAndEventsDropDown a {
+
+
+
+            border: solid 1px white;
+
+
+        }
+
+        .contactUsDropDown {
+            position: absolute;
+            left: 72.5%;
+            bottom: 80.7%;
+            font-size: 20px;
+    
+
+
+        }
+
+        .contactUsDropDown a {
+
+
+
+            border: solid 1px white;
+           
+
+
+        }
+
 
 
 
@@ -1585,6 +1757,48 @@ top:20%; */
 
         }
 
+        .newsAndEventsDropDown {
+            position: absolute;
+            left: 56.7%;
+            bottom: 75.7%;
+            font-size: 20px;
+
+
+        }
+
+        .newsAndEventsDropDown a {
+
+
+
+            border: solid 1px white;
+
+
+        }
+
+        .contactUsDropDown {
+            position: absolute;
+            left: 75%;
+            bottom: 85.5%;
+            font-size: 20px;
+    
+
+
+        }
+
+        .contactUsDropDown a {
+
+
+
+            border: solid 1px white;
+           
+
+
+        }
+
+        
+
+
+
 
 
         /* ####################################################### FIRST BODY ############################################################# */
@@ -2112,6 +2326,46 @@ top:20%; */
 
 
             border: solid 1px white;
+
+
+        }
+
+        .newsAndEventsDropDown {
+            position: absolute;
+            left: 60%;
+            bottom: 75.5%;
+            font-size: 20px;
+    
+
+
+        }
+
+        .newsAndEventsDropDown a {
+
+
+
+            border: solid 1px white;
+           
+
+
+        }
+
+        .contactUsDropDown {
+            position: absolute;
+            left: 81.2%;
+            bottom: 85.2%;
+            font-size: 20px;
+    
+
+
+        }
+
+        .contactUsDropDown a {
+
+
+
+            border: solid 1px white;
+           
 
 
         }

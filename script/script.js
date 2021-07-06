@@ -100,6 +100,89 @@ $("document").ready(function () {
 
     });
 
+    $("#singleParents").hover(function () {
+
+        $("#singleParentsDropDown").addClass("displaySingleParentsDropDown");
+    }, function () {
+        $("#singleParentsDropDown").removeClass("displaySingleParentsDropDown");
+
+
+    });
+
+    $("#singleParentsDropDown").hover(function () {
+
+        $("#singleParentsDropDown").addClass("displaySingleParentsDropDown");
+    }, function () {
+        $("#singleParentsDropDown").removeClass("displaySingleParentsDropDown");
+
+
+    });
+
+
+        //////////////////////////////////////////////////////NEWSLETTER AND EVENTS DROP DOWNS //////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+    $("#newsAndEvents").hover(function () {
+
+        $("#newsAndEventsDropDown").addClass("displayNewsAndEventsDropDown");
+    }, function () {
+        $("#newsAndEventsDropDown").removeClass("displayNewsAndEventsDropDown");
+
+
+    });
+
+    $("#newsAndEventsDropDown").hover(function () {
+
+        $("#newsAndEventsDropDown").addClass("displayNewsAndEventsDropDown");
+    }, function () {
+        $("#newsAndEventsDropDown").removeClass("displayNewsAndEventsDropDown");
+
+
+    });
+
+    $("#communityResources").hover(function () {
+
+        $("#communityResourcesDropDown").addClass("displayCommunityResourcesDropDown");
+    }, function () {
+        $("#communityResourcesDropDown").removeClass("displayCommunityResourcesDropDown");
+
+
+    });
+
+    $("#communityResourcesDropDown").hover(function () {
+
+        $("#communityResourcesDropDown").addClass("displayCommunityResourcesDropDown");
+    }, function () {
+        $("#communityResourcesDropDown").removeClass("displayCommunityResourcesDropDown");
+
+
+    });
+
+
+
+
+            //////////////////////////////////////////////////////CONTACT US DROP DOWNS //////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+            $("#contactUs").hover(function () {
+
+                $("#contactUsDropDown").addClass("displayContactUsDropDown");
+            }, function () {
+                $("#contactUsDropDown").removeClass("displayContactUsDropDown");
+        
+        
+            });
+        
+            $("#contactUsDropDown").hover(function () {
+        
+                $("#contactUsDropDown").addClass("displayContactUsDropDown");
+            }, function () {
+                $("#contactUsDropDown").removeClass("displayContactUsDropDown");
+        
+        
+            });
+
+
 
 
 
