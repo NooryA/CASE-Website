@@ -430,9 +430,10 @@ desktopWindow.addListener(windowSizeHover);
 
 
 $("#mobileDropDown").click(function (){
-    // if($("#aboutContent").hasClass("displayAboutContentMobile")){
-    // $("#aboutContent").removeClass("displayAboutContentMobile");
-    // }
+    $("#aboutList").removeClass("toggleDropDown");
+    if($("#aboutContent").hasClass("displayAboutContentMobile")){
+    $("#aboutContent").removeClass("displayAboutContentMobile");
+    }
 
 
     if($("#navBar").hasClass("navBar")){
@@ -472,8 +473,15 @@ $("#top-section").addClass("top-section-mobile");
 
 
 $("#minAndMaxAbout").click(function(){
+    if(!($("#aboutContent").hasClass("displayAboutContentMobile"))){
+
 $("#aboutList").toggleClass("toggleDropDown");
 $("#aboutContent").toggleClass("displayAboutContentMobile");
+    }
+    else{
+        $("#aboutList").removeClass("toggleDropDown");
+$("#aboutContent").removeClass("displayAboutContentMobile");
+    }
 });
 
 $("#minAndMaxPrograms").click(function(){
