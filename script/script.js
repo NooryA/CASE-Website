@@ -7,6 +7,12 @@ $("document").ready(function () {
 
     //////////////////////////////////////////////////////ABOUT US DROP DOWNS //////////////////////////////////////////////////////////////////////////////////////////////////
 
+ var desktopWindow= window.matchMedia("(min-width: 1068px)");
+ 
+function windowSizeHover(desktopWindow){
+
+if(desktopWindow.matches){
+    console.log("desktop");
     $("#about").hover(function () {
 
         $("#aboutContent").addClass("displayAboutContent");
@@ -15,6 +21,39 @@ $("document").ready(function () {
 
 
     });
+
+    $("#programs").hover(function () {
+
+        $("#programsDropDown").addClass("displayProgramsDropDown");
+    }, function () {
+        $("#programsDropDown").removeClass("displayProgramsDropDown");
+
+
+    });
+
+} else {
+    console.log("mobile");
+    $("#about").hover(function () {
+
+        $("#aboutContent").removeClass("displayAboutContent");
+    }, function () {
+        $("#aboutContent").removeClass("displayAboutContent");
+});
+
+$("#programs").hover(function () {
+
+    $("#programsDropDown").removeClass("displayProgramsDropDown");
+}, function () {
+    $("#programsDropDown").removeClass("displayProgramsDropDown");
+
+
+});
+
+}
+
+}
+windowSizeHover(desktopWindow);
+desktopWindow.addListener(windowSizeHover);
 
     $("#aboutContent").hover(function () {
 
@@ -28,14 +67,14 @@ $("document").ready(function () {
         //////////////////////////////////////////////////////PROGRAMS DROP DOWNS //////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-    $("#programs").hover(function () {
+    // $("#programs").hover(function () {
 
-        $("#programsDropDown").addClass("displayProgramsDropDown");
-    }, function () {
-        $("#programsDropDown").removeClass("displayProgramsDropDown");
+    //     $("#programsDropDown").addClass("displayProgramsDropDown");
+    // }, function () {
+    //     $("#programsDropDown").removeClass("displayProgramsDropDown");
 
 
-    });
+    // });
 
     $("#programsDropDown").hover(function () {
 
@@ -391,6 +430,11 @@ $("document").ready(function () {
 
 
 $("#mobileDropDown").click(function (){
+    // if($("#aboutContent").hasClass("displayAboutContentMobile")){
+    // $("#aboutContent").removeClass("displayAboutContentMobile");
+    // }
+
+
     if($("#navBar").hasClass("navBar")){
 $("#navBar").removeClass("navBar").addClass("navBarMobile");
 $("#top-section").addClass("top-section-mobile");
@@ -405,11 +449,48 @@ $("#top-section").addClass("top-section-mobile");
 
 
 
+    
+
+
+
 });
 
+// var mobileWindow= window.matchMedia("(max-width: 1067px)");
+
+
+//     $("#aboutContent").hover(function () {
+
+//         $("#aboutContent").removeClass("displayAboutContent");
+//     }, function () {
+//         $("#aboutContent").removeClass("displayAboutContent");
+
+
+//     });
 
 
 
+
+
+$("#minAndMaxAbout").click(function(){
+$("#aboutList").toggleClass("toggleDropDown");
+$("#aboutContent").toggleClass("displayAboutContentMobile");
+});
+
+$("#minAndMaxPrograms").click(function(){
+    $("#programsList").toggleClass("toggleDropDown");
+    $("#programsDropDown").toggleClass("displayProgramsDropDownMobile");
+    });
+
+    $("#minAndMaxNews").click(function(){
+        $("#newsList").toggleClass("toggleDropDown");
+      
+        });
+    
+
+        $("#minAndMaxContact").click(function(){
+            $("#contactList").toggleClass("toggleDropDown");
+            });
+        
 
 
 
