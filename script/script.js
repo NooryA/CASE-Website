@@ -430,10 +430,11 @@ desktopWindow.addListener(windowSizeHover);
 
 
 $("#mobileDropDown").click(function (){
-    $("#aboutList").removeClass("toggleDropDown");
-    if($("#aboutContent").hasClass("displayAboutContentMobile")){
-    $("#aboutContent").removeClass("displayAboutContentMobile");
-    }
+    
+    // $("#aboutList").removeClass("toggleDropDown");
+    // if($("#aboutContent").hasClass("displayAboutContentMobile")){
+    // $("#aboutContent").removeClass("displayAboutContentMobile");
+    // }
 
 
     if($("#navBar").hasClass("navBar")){
@@ -448,9 +449,15 @@ $("#top-section").addClass("top-section-mobile");
 
     }
 
+    $("#aboutList").removeClass("toggleDropDown");
+    if($("#aboutContent").hasClass("displayAboutContentMobile")){
+    $("#aboutContent").removeClass("displayAboutContentMobile");
+    }
 
-
-    
+    $("#programsList").removeClass("toggleDropDown");
+    if($("#programsDropDown").hasClass("displayProgramsDropDownMobile")){
+    $("#programsDropDown").removeClass("displayProgramsDropDownMobile");
+    }
 
 
 
@@ -482,12 +489,29 @@ $("#aboutContent").toggleClass("displayAboutContentMobile");
         $("#aboutList").removeClass("toggleDropDown");
 $("#aboutContent").removeClass("displayAboutContentMobile");
     }
+
+
+
+
+
 });
 
 $("#minAndMaxPrograms").click(function(){
-    $("#programsList").toggleClass("toggleDropDown");
-    $("#programsDropDown").toggleClass("displayProgramsDropDownMobile");
+    if(!($("#programsDropDown").hasClass("displayProgramsDropDownMobile"))){
+
+        $("#programsList").toggleClass("toggleDropDown");
+        $("#programsDropDown").toggleClass("displayProgramsDropDownMobile");
+            }
+            else{
+                $("#programsList").removeClass("toggleDropDown");
+        $("#programsDropDown").removeClass("displayProgramsDropDownMobile");
+            }
     });
+
+
+
+
+
 
     $("#minAndMaxNews").click(function(){
         $("#newsList").toggleClass("toggleDropDown");
