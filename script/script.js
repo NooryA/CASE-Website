@@ -515,15 +515,35 @@ $("document").ready(function () {
 
             $("#aboutList").toggleClass("toggleDropDown");
             $("#aboutContent").toggleClass("displayAboutContentMobile");
+
+            // $("#programsDropDown").css({
+            //     "top":"30%",
+   
+   
+            //  });
+
+            //  $("#newsAndEventsDropDown").css({
+            //     "top":"58%",
+   
+   
+            //  });
         } else {
+            // $("#programsDropDown").css({
+            //     "top":"17%",
+   
+   
+            //  });
+
+            //  $("#newsAndEventsDropDown").css({
+            //     "top":"45%",
+   
+   
+            //  });
             $("#aboutList").removeClass("toggleDropDown");
             $("#aboutContent").removeClass("displayAboutContentMobile");
         }
 
-        $("#aboutContent").css({
-            
-
-        });
+     
 
 
 
@@ -534,7 +554,18 @@ $("document").ready(function () {
 
             $("#programsList").toggleClass("toggleDropDown");
             $("#programsDropDown").toggleClass("displayProgramsDropDownMobile");
+
+            // $("#newsAndEventsDropDown").css({
+            //     "top":"45%",
+   
+   
+            //  });
         } else {
+            // $("#newsAndEventsDropDown").css({
+            //     "top":"23%",
+   
+   
+            //  });
             $("#programsList").removeClass("toggleDropDown");
             $("#programsDropDown").removeClass("displayProgramsDropDownMobile");
         }

@@ -2907,6 +2907,18 @@ top:20%; */
             display: block;
         }
 
+        li.toggleDropDown.programsList{
+            padding-bottom: 165px;
+        }
+
+        li.toggleDropDown.newsList{
+            padding-bottom:190px;
+        }
+
+        li.toggleDropDown.contactList{
+            padding-bottom:140px;
+        }
+
         .newsAndEventsDropDown {
 
             z-index: 3;
@@ -2929,8 +2941,72 @@ top:20%; */
             color:yellow;
         }
       */
+      .aboutContent{
+          left:40%;
+          top:12%;
+      }
+
+      .aboutContent a {
+          border:none;
+      }
+
+   
+
+    .aboutContent a:not(:nth-child(3)) {
+        text-align: center;
+    }
+
+ 
+
+    .programsDropDown{
+        top:18%;
+
+    }
+    .programsDropDown a{
+        border:none;
+        text-align: center;
+    }
+
+    .newsAndEventsDropDown{
+        top:23%;
+        left:40%;
+    }
+
+ 
+    .newsAndEventsDropDown a {
+        border:none;
+        text-align: center;
+    }
+
+    .contactUsDropDown {
+        left:40%;
+        top:35%;
+    }
+
+    .contactUsDropDown a {
+        border:none;
+        text-align: center;
+    }
+    
+    /* .arrow{
+        display:none;
+    } */
+
+    /* .seniorsConnectDropDown{
+
+        display:none;
+    }
+
+    .youthProgramsDropDown{
+        display:none;
+    }
+
+    .singleParentsDropDown{
+        display:none;
+    } */
 
 
+   
 
         /* ####################################################### FIRST BODY ############################################################# */
 
