@@ -531,7 +531,8 @@ $("document").ready(function () {
             // $("#programsDropDown").css({
             //     "top":"17%",
    
-   
+          
+
             //  });
 
             //  $("#newsAndEventsDropDown").css({
@@ -542,8 +543,13 @@ $("document").ready(function () {
             $("#aboutList").removeClass("toggleDropDown");
             $("#aboutContent").removeClass("displayAboutContentMobile");
         }
+        $("#programsList").removeClass("toggleDropDown");
 
-     
+        $("#programsDropDown").removeClass("displayProgramsDropDownMobile");
+
+        $("#newsList").removeClass("toggleDropDown");
+        $("#newsAndEventsDropDown").removeClass("displayNewsAndEventsDropDownMobile");
+
 
 
 
@@ -569,6 +575,13 @@ $("document").ready(function () {
             $("#programsList").removeClass("toggleDropDown");
             $("#programsDropDown").removeClass("displayProgramsDropDownMobile");
         }
+
+        $("#aboutList").removeClass("toggleDropDown");
+        $("#aboutContent").removeClass("displayAboutContentMobile");
+
+        $("#newsList").removeClass("toggleDropDown");
+        $("#newsAndEventsDropDown").removeClass("displayNewsAndEventsDropDownMobile");
+
     });
 
 
@@ -586,6 +599,14 @@ $("document").ready(function () {
             $("#newsAndEventsDropDown").removeClass("displayNewsAndEventsDropDownMobile");
         }
 
+        $("#aboutList").removeClass("toggleDropDown");
+        $("#aboutContent").removeClass("displayAboutContentMobile");
+        $("#programsList").removeClass("toggleDropDown");
+
+        $("#programsDropDown").removeClass("displayProgramsDropDownMobile");
+        $("#contactList").removeClass("toggleDropDown");
+        $("#contactUsDropDown").removeClass("displayContactUsDropDownMobile");
+
 
     });
 
@@ -599,6 +620,15 @@ $("document").ready(function () {
             $("#contactList").removeClass("toggleDropDown");
             $("#contactUsDropDown").removeClass("displayContactUsDropDownMobile");
         }
+
+        
+        $("#aboutList").removeClass("toggleDropDown");
+        $("#aboutContent").removeClass("displayAboutContentMobile");
+        $("#programsList").removeClass("toggleDropDown");
+
+        $("#programsDropDown").removeClass("displayProgramsDropDownMobile");
+        $("#newsList").removeClass("toggleDropDown");
+        $("#newsAndEventsDropDown").removeClass("displayNewsAndEventsDropDownMobile");
     });
 
 
