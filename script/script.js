@@ -511,6 +511,10 @@ $("document").ready(function () {
 
 
     $("#minAndMaxAbout").click(function () {
+
+
+
+
         if (!($("#aboutContent").hasClass("displayAboutContentMobile"))) {
 
             $("#aboutList").toggleClass("toggleDropDown");
@@ -518,27 +522,32 @@ $("document").ready(function () {
 
             // $("#programsDropDown").css({
             //     "top":"30%",
-   
-   
+
+
             //  });
 
             //  $("#newsAndEventsDropDown").css({
             //     "top":"58%",
-   
-   
+
+
             //  });
+            $("#minAndMaxAbout").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>--<b>");
+            $("#minAndMaxPrograms").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
+            $("#minAndMaxNews").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
+            $("#minAndMaxContact").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
+
         } else {
             // $("#programsDropDown").css({
             //     "top":"17%",
-   
-          
+
+
 
             //  });
 
             //  $("#newsAndEventsDropDown").css({
             //     "top":"45%",
-   
-   
+            $("#minAndMaxAbout").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
+
             //  });
             $("#aboutList").removeClass("toggleDropDown");
             $("#aboutContent").removeClass("displayAboutContentMobile");
@@ -563,14 +572,17 @@ $("document").ready(function () {
 
             // $("#newsAndEventsDropDown").css({
             //     "top":"45%",
-   
-   
+
+            $("#minAndMaxPrograms").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>--<b>");
+            $("#minAndMaxAbout").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
+            $("#minAndMaxNews").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
+            $("#minAndMaxContact").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
             //  });
         } else {
             // $("#newsAndEventsDropDown").css({
             //     "top":"23%",
-   
-   
+
+            $("#minAndMaxPrograms").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
             //  });
             $("#programsList").removeClass("toggleDropDown");
             $("#programsDropDown").removeClass("displayProgramsDropDownMobile");
@@ -594,9 +606,15 @@ $("document").ready(function () {
 
             $("#newsList").toggleClass("toggleDropDown");
             $("#newsAndEventsDropDown").toggleClass("displayNewsAndEventsDropDownMobile");
+
+            $("#minAndMaxNews").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>--<b>");
+            $("#minAndMaxAbout").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
+            $("#minAndMaxPrograms").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
+            $("#minAndMaxContact").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
         } else {
             $("#newsList").removeClass("toggleDropDown");
             $("#newsAndEventsDropDown").removeClass("displayNewsAndEventsDropDownMobile");
+            $("#minAndMaxNews").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
         }
 
         $("#aboutList").removeClass("toggleDropDown");
@@ -616,12 +634,18 @@ $("document").ready(function () {
 
             $("#contactList").toggleClass("toggleDropDown");
             $("#contactUsDropDown").toggleClass("displayContactUsDropDownMobile");
+
+            $("#minAndMaxContact").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>--<b>");
+            $("#minAndMaxAbout").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
+            $("#minAndMaxNews").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
+            $("#minAndMaxPrograms").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
         } else {
             $("#contactList").removeClass("toggleDropDown");
             $("#contactUsDropDown").removeClass("displayContactUsDropDownMobile");
+            $("#minAndMaxContact").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
         }
 
-        
+
         $("#aboutList").removeClass("toggleDropDown");
         $("#aboutContent").removeClass("displayAboutContentMobile");
         $("#programsList").removeClass("toggleDropDown");
