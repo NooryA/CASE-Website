@@ -2907,16 +2907,16 @@ top:20%; */
             display: block;
         }
 
-        li.toggleDropDown.programsList{
+        li.toggleDropDown.programsList {
             padding-bottom: 165px;
         }
 
-        li.toggleDropDown.newsList{
-            padding-bottom:190px;
+        li.toggleDropDown.newsList {
+            padding-bottom: 190px;
         }
 
-        li.toggleDropDown.contactList{
-            padding-bottom:140px;
+        li.toggleDropDown.contactList {
+            padding-bottom: 140px;
         }
 
         .newsAndEventsDropDown {
@@ -2941,58 +2941,59 @@ top:20%; */
             color:yellow;
         }
       */
-      .aboutContent{
-          left:40%;
-          top:12%;
-      }
+        .aboutContent {
+            left: 40%;
+            top: 12%;
+        }
 
-      .aboutContent a {
-          border:none;
-      }
+        .aboutContent a {
+            border: none;
+        }
 
-   
 
-    .aboutContent a:not(:nth-child(3)) {
-        text-align: center;
-    }
 
- 
+        .aboutContent a:not(:nth-child(3)) {
+            text-align: center;
+        }
 
-    .programsDropDown{
-        top:18%;
 
-    }
-    .programsDropDown a{
-        border:none;
-        text-align: center;
-    }
 
-    .newsAndEventsDropDown{
-        top:23%;
-        left:40%;
-    }
+        .programsDropDown {
+            top: 18%;
 
- 
-    .newsAndEventsDropDown a {
-        border:none;
-        text-align: center;
-    }
+        }
 
-    .contactUsDropDown {
-        left:40%;
-        top:35%;
-    }
+        .programsDropDown a {
+            border: none;
+            text-align: center;
+        }
 
-    .contactUsDropDown a {
-        border:none;
-        text-align: center;
-    }
-    
-    /* .arrow{
+        .newsAndEventsDropDown {
+            top: 23%;
+            left: 40%;
+        }
+
+
+        .newsAndEventsDropDown a {
+            border: none;
+            text-align: center;
+        }
+
+        .contactUsDropDown {
+            left: 40%;
+            top: 35%;
+        }
+
+        .contactUsDropDown a {
+            border: none;
+            text-align: center;
+        }
+
+        .arrow{
         display:none;
-    } */
+    }
 
-    /* .seniorsConnectDropDown{
+        /* .seniorsConnectDropDown{
 
         display:none;
     }
@@ -3006,7 +3007,7 @@ top:20%; */
     } */
 
 
-   
+
 
         /* ####################################################### FIRST BODY ############################################################# */
 

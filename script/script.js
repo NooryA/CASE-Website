@@ -459,6 +459,8 @@ $("document").ready(function () {
         // }
 
 
+
+
         if ($("#navBar").hasClass("navBar")) {
             $("#navBar").removeClass("navBar").addClass("navBarMobile");
             $("#top-section").addClass("top-section-mobile");
@@ -490,7 +492,10 @@ $("document").ready(function () {
             $("#contactUsDropDown").removeClass("displayContactUsDropDownMobile");
         }
 
-
+        $("#minAndMaxAbout").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
+        $("#minAndMaxPrograms").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
+        $("#minAndMaxNews").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
+        $("#minAndMaxContact").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
 
     });
 
@@ -559,7 +564,8 @@ $("document").ready(function () {
         $("#newsList").removeClass("toggleDropDown");
         $("#newsAndEventsDropDown").removeClass("displayNewsAndEventsDropDownMobile");
 
-
+        $("#contactList").removeClass("toggleDropDown");
+        $("#contactUsDropDown").removeClass("displayContactUsDropDownMobile");
 
 
     });
@@ -593,6 +599,9 @@ $("document").ready(function () {
 
         $("#newsList").removeClass("toggleDropDown");
         $("#newsAndEventsDropDown").removeClass("displayNewsAndEventsDropDownMobile");
+
+        $("#contactList").removeClass("toggleDropDown");
+        $("#contactUsDropDown").removeClass("displayContactUsDropDownMobile");
 
     });
 
