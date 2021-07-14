@@ -570,7 +570,7 @@ $("document").ready(function () {
         $("#seniorsConnect").removeClass("subToggleDropDownPadding");
         $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
         $("#youthPrograms").removeClass("subToggleDropDownPadding");
-        $("#youthProgramsDropDown").removeClass("displaySeniorsConnectDropDownMobile");
+        $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDownMobile");
 
     });
 
@@ -601,7 +601,7 @@ $("document").ready(function () {
             $("#seniorsConnect").removeClass("subToggleDropDownPadding");
             $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
             $("#youthPrograms").removeClass("subToggleDropDownPadding");
-            $("#youthProgramsDropDown").removeClass("displaySeniorsConnectDropDownMobile");
+            $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDownMobile");
 
 
         }
@@ -658,7 +658,7 @@ $("document").ready(function () {
         $("#seniorsConnect").removeClass("subToggleDropDownPadding");
         $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
         $("#youthPrograms").removeClass("subToggleDropDownPadding");
-        $("#youthProgramsDropDown").removeClass("displaySeniorsConnectDropDownMobile");
+        $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDownMobile");
     });
 
 
@@ -691,7 +691,7 @@ $("document").ready(function () {
         $("#seniorsConnect").removeClass("subToggleDropDownPadding");
         $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
         $("#youthPrograms").removeClass("subToggleDropDownPadding");
-        $("#youthProgramsDropDown").removeClass("displaySeniorsConnectDropDownMobile");
+        $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDownMobile");
     });
 
 
@@ -714,7 +714,7 @@ $("document").ready(function () {
         $("#seniorsConnectDropDown").toggleClass("displaySeniorsConnectDropDownMobile");
 
         $("#youthPrograms").removeClass("subToggleDropDownPadding");
-        $("#youthProgramsDropDown").removeClass("displaySeniorsConnectDropDownMobile");
+        $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDownMobile");
         // $("#seniorsConnect").css({
         //     "padding-bottom":"100px",
         // });
