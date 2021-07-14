@@ -3107,7 +3107,23 @@ a.subToggleDropDownPadding.seniorsConnect{
     display:block;
 }
 
+a.subToggleDropDownPadding.youthPrograms{
+    padding-bottom: 140px;
+    transition:none;
+}
 
+.youthProgramsDropDown{
+    left:5%;
+    top:20%;
+    font-size:10px;
+}
+.youthProgramsDropDown{
+    display:none;
+}
+
+.displayYouthProgramsDropDownMobile{
+    display:block;
+}
 
   /* span.minAndMaxYouthProgramsMobile{
     display:inline-block;

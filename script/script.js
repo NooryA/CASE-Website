@@ -513,7 +513,7 @@ $("document").ready(function () {
 
 
 
-//##################################################################################### MAIN MINIMIZING AND MAXIMIZING FOR MOBILE ###########################################################################
+    //##################################################################################### MAIN MINIMIZING AND MAXIMIZING FOR MOBILE ###########################################################################
 
     $("#minAndMaxAbout").click(function () {
 
@@ -566,7 +566,11 @@ $("document").ready(function () {
 
         $("#contactList").removeClass("toggleDropDown");
         $("#contactUsDropDown").removeClass("displayContactUsDropDownMobile");
-
+        $("#programsList").removeClass("subToggleDropDown");
+        $("#seniorsConnect").removeClass("subToggleDropDownPadding");
+        $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
+        $("#youthPrograms").removeClass("subToggleDropDownPadding");
+        $("#youthProgramsDropDown").removeClass("displaySeniorsConnectDropDownMobile");
 
     });
 
@@ -596,6 +600,9 @@ $("document").ready(function () {
             $("#programsList").removeClass("subToggleDropDown");
             $("#seniorsConnect").removeClass("subToggleDropDownPadding");
             $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
+            $("#youthPrograms").removeClass("subToggleDropDownPadding");
+            $("#youthProgramsDropDown").removeClass("displaySeniorsConnectDropDownMobile");
+
 
         }
 
@@ -647,7 +654,11 @@ $("document").ready(function () {
         $("#contactList").removeClass("toggleDropDown");
         $("#contactUsDropDown").removeClass("displayContactUsDropDownMobile");
 
-
+        $("#programsList").removeClass("subToggleDropDown");
+        $("#seniorsConnect").removeClass("subToggleDropDownPadding");
+        $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
+        $("#youthPrograms").removeClass("subToggleDropDownPadding");
+        $("#youthProgramsDropDown").removeClass("displaySeniorsConnectDropDownMobile");
     });
 
 
@@ -675,31 +686,64 @@ $("document").ready(function () {
         $("#programsDropDown").removeClass("displayProgramsDropDownMobile");
         $("#newsList").removeClass("toggleDropDown");
         $("#newsAndEventsDropDown").removeClass("displayNewsAndEventsDropDownMobile");
+
+        $("#programsList").removeClass("subToggleDropDown");
+        $("#seniorsConnect").removeClass("subToggleDropDownPadding");
+        $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
+        $("#youthPrograms").removeClass("subToggleDropDownPadding");
+        $("#youthProgramsDropDown").removeClass("displaySeniorsConnectDropDownMobile");
     });
 
 
 
 
 
-//##################################################################################### SUB MINIMIZING AND MAXIMIZING FOR MOBILE ###########################################################################
+    //##################################################################################### SUB MINIMIZING AND MAXIMIZING FOR MOBILE ###########################################################################
 
 
-$("#minAndMaxSeniorsConnectMobile").click(function(){
-console.log('clicked');
+    $("#minAndMaxSeniorsConnectMobile").click(function () {
+        console.log('clicked');
+        if ($("#youthPrograms").hasClass("subToggleDropDownPadding")) {
+            $("#programsList").removeClass('subToggleDropDown');
+        }
 
-$("#programsList").toggleClass("subToggleDropDown")
-
-
-$("#seniorsConnect").toggleClass("subToggleDropDownPadding");
-$("#seniorsConnectDropDown").toggleClass("displaySeniorsConnectDropDownMobile");
-// $("#seniorsConnect").css({
-//     "padding-bottom":"100px",
-// });
+        $("#programsList").toggleClass("subToggleDropDown");
 
 
+        $("#seniorsConnect").toggleClass("subToggleDropDownPadding");
+        $("#seniorsConnectDropDown").toggleClass("displaySeniorsConnectDropDownMobile");
 
-});
+        $("#youthPrograms").removeClass("subToggleDropDownPadding");
+        $("#youthProgramsDropDown").removeClass("displaySeniorsConnectDropDownMobile");
+        // $("#seniorsConnect").css({
+        //     "padding-bottom":"100px",
+        // });
 
+
+
+    });
+
+    $("#minAndMaxYouthProgramsMobile").click(function () {
+        console.log('clicked');
+        if ($("#seniorsConnect").hasClass("subToggleDropDownPadding")) {
+            $("#programsList").removeClass('subToggleDropDown');
+        }
+
+        $("#programsList").toggleClass("subToggleDropDown");
+
+
+        $("#youthPrograms").toggleClass("subToggleDropDownPadding");
+        $("#youthProgramsDropDown").toggleClass("displayYouthProgramsDropDownMobile");
+
+        $("#seniorsConnect").removeClass("subToggleDropDownPadding");
+        $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
+        // $("#seniorsConnect").css({
+        //     "padding-bottom":"100px",
+        // });
+
+
+
+    });
 
 
 
