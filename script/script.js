@@ -513,7 +513,7 @@ $("document").ready(function () {
 
 
 
-
+//##################################################################################### MAIN MINIMIZING AND MAXIMIZING FOR MOBILE ###########################################################################
 
     $("#minAndMaxAbout").click(function () {
 
@@ -592,6 +592,11 @@ $("document").ready(function () {
             //  });
             $("#programsList").removeClass("toggleDropDown");
             $("#programsDropDown").removeClass("displayProgramsDropDownMobile");
+
+            $("#programsList").removeClass("subToggleDropDown");
+            $("#seniorsConnect").removeClass("subToggleDropDownPadding");
+            $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
+
         }
 
         $("#aboutList").removeClass("toggleDropDown");
@@ -602,6 +607,14 @@ $("document").ready(function () {
 
         $("#contactList").removeClass("toggleDropDown");
         $("#contactUsDropDown").removeClass("displayContactUsDropDownMobile");
+
+
+        // $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
+
+        // if(("#seniorsConnectDropDown").hasClass("displaySeniorsConnectDropDownMobile")){
+        //     $("#programsList").toggleClass("subToggleDropDownRemove");
+
+        // }
 
     });
 
@@ -668,9 +681,24 @@ $("document").ready(function () {
 
 
 
+//##################################################################################### SUB MINIMIZING AND MAXIMIZING FOR MOBILE ###########################################################################
+
+
+$("#minAndMaxSeniorsConnectMobile").click(function(){
+console.log('clicked');
+
+$("#programsList").toggleClass("subToggleDropDown")
+
+
+$("#seniorsConnect").toggleClass("subToggleDropDownPadding");
+$("#seniorsConnectDropDown").toggleClass("displaySeniorsConnectDropDownMobile");
+// $("#seniorsConnect").css({
+//     "padding-bottom":"100px",
+// });
 
 
 
+});
 
 
 

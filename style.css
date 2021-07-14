@@ -349,6 +349,28 @@
         float: right;
     }
 
+    .minAndMaxSeniorsConnectMobile{
+        display:none;
+    }
+
+    .minAndMaxYouthProgramsMobile{
+        display:none;
+
+    }
+    .minAndMaxWorkplaceExperienceMobile{
+        display:none;
+    }
+    .minAndMaxSingleParentsMobile{
+        display:none;
+    }
+    .minAndMaxCommunityResourcesMobile{
+        display:none;
+    }
+
+    li.youthList, li.singleParentsList, li.communityList {
+        list-style: none;
+    }
+
 
     /* ####################################################### FIRST BODY ############################################################# */
 
@@ -2992,6 +3014,110 @@ top:20%; */
         .arrow{
         display:none;
     }
+
+ 
+    
+
+    span.minAndMaxSeniorsConnectMobile{
+        display:inline-block;
+        color:white;
+        text-align: center;
+        padding-left:15px;
+        cursor:pointer;
+
+    }
+  .programsDropDown a.seniorsConnect{
+      display:inline-block;
+      margin-left: 35px;
+  }
+
+span.minAndMaxYouthProgramsMobile{
+    display:inline-block;
+    color:white;
+    padding-left:23px;
+    cursor: pointer;
+
+}
+.programsDropDown a.youthPrograms{
+    display:inline-block;
+}
+li.youthList{
+    list-style: none;
+    padding-left: 30px;
+}
+
+span.minAndMaxSingleParentsMobile{
+    display:inline-block;
+    color:white;
+    padding-left:30px;
+    cursor: pointer;
+
+}
+
+.programsDropDown a.singleParents {
+    display:inline-block;
+    margin-left: 35px;
+
+}
+li.singleParentsList{
+    list-style: none;
+}
+
+span.minAndMaxCommunityResourcesMobile{
+    display:inline-block;
+    color:white;
+    cursor: pointer;
+
+}
+
+.newsAndEventsDropDown a.communityResources {
+    display:inline-block;
+
+
+}
+li.communityList{
+    list-style: none;
+
+}
+
+li.subToggleDropDown.programsList {
+padding-bottom: 325px;
+transition:none;
+}
+
+a.subToggleDropDownPadding.seniorsConnect{
+    padding-bottom: 175px;
+    transition:none;
+}
+
+.programsDropDown a{
+    transition:none;
+}
+.seniorsConnectDropDown{
+    left:5%;
+    top:8%;
+    font-size: 10px;
+}
+
+.seniorsConnectDropDown{
+    display:none;
+}
+
+.displaySeniorsConnectDropDownMobile{
+    display:block;
+}
+
+
+
+  /* span.minAndMaxYouthProgramsMobile{
+    display:inline-block;
+    color:white;
+    text-align: center;
+    padding-left:15px;
+    cursor:pointer;
+
+} */
+
 
         /* .seniorsConnectDropDown{
 
