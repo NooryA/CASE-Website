@@ -470,6 +470,7 @@ $("document").ready(function () {
         }
 
         $("#newsList").removeClass("toggleDropDown");
+        $("#newsList").removeClass("subToggleDropDown");
         if ($("#newsAndEventsDropDown").hasClass("displayNewsAndEventsDropDownMobile")) {
             $("#newsAndEventsDropDown").removeClass("displayNewsAndEventsDropDownMobile");
         }
@@ -490,6 +491,8 @@ $("document").ready(function () {
          $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDownMobile");
          $("#singleParents").removeClass("subToggleDropDownPadding");
          $("#singleParentsDropDown").removeClass("displaySingleParentsDropDownMobile");
+         $("#communityResources").removeClass("subToggleDropDownPadding");
+        $("#communityResourcesDropDown").removeClass("displayCommunityResourcesDropDownMobile");
 
     });
 
@@ -537,6 +540,11 @@ $("document").ready(function () {
         $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDownMobile");
         $("#singleParents").removeClass("subToggleDropDownPadding");
         $("#singleParentsDropDown").removeClass("displaySingleParentsDropDownMobile");
+        
+        $("#communityResources").removeClass("subToggleDropDownPadding");
+        $("#communityResourcesDropDown").removeClass("displayCommunityResourcesDropDownMobile");
+
+        $("#newsList").removeClass("subToggleDropDown");
 
     });
 
@@ -580,7 +588,10 @@ $("document").ready(function () {
         $("#contactList").removeClass("toggleDropDown");
         $("#contactUsDropDown").removeClass("displayContactUsDropDownMobile");
 
+        $("#newsList").removeClass("subToggleDropDown");
 
+        $("#communityResources").removeClass("subToggleDropDownPadding");
+        $("#communityResourcesDropDown").removeClass("displayCommunityResourcesDropDownMobile");
 
 
     });
@@ -621,6 +632,7 @@ $("document").ready(function () {
         $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDownMobile");
         $("#singleParents").removeClass("subToggleDropDownPadding");
         $("#singleParentsDropDown").removeClass("displaySingleParentsDropDownMobile");
+      
     });
 
 
@@ -656,6 +668,10 @@ $("document").ready(function () {
         $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDownMobile");
         $("#singleParents").removeClass("subToggleDropDownPadding");
         $("#singleParentsDropDown").removeClass("displaySingleParentsDropDownMobile");
+        $("#communityResources").removeClass("subToggleDropDownPadding");
+        $("#communityResourcesDropDown").removeClass("displayCommunityResourcesDropDownMobile");
+
+        $("#newsList").removeClass("subToggleDropDown");
     });
 
 
@@ -685,6 +701,8 @@ $("document").ready(function () {
         $("#singleParentsDropDown").removeClass("displaySingleParentsDropDownMobile");
 
 
+        $("#communityResources").removeClass("subToggleDropDownPadding");
+        $("#communityResourcesDropDown").removeClass("displayCommunityResourcesDropDownMobile");
 
 
     });
@@ -709,6 +727,8 @@ $("document").ready(function () {
         $("#singleParentsDropDown").removeClass("displaySingleParentsDropDownMobile");
   
 
+        $("#communityResources").removeClass("subToggleDropDownPadding");
+        $("#communityResourcesDropDown").removeClass("displayCommunityResourcesDropDownMobile");
 
 
     });
@@ -731,8 +751,30 @@ $("document").ready(function () {
         $("#youthPrograms").removeClass("subToggleDropDownPadding");
         $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDownMobile");
    
+        $("#communityResources").removeClass("subToggleDropDownPadding");
+        $("#communityResourcesDropDown").removeClass("displayCommunityResourcesDropDownMobile");
 
 
+    });
+
+    $("#minAndMaxCommunityResourcesMobile").click(function () {
+        console.log('clicked');
+       
+   
+        $("#newsList").toggleClass("subToggleDropDown");
+       
+        $("#communityResources").toggleClass("subToggleDropDownPadding");
+        $("#communityResourcesDropDown").toggleClass("displayCommunityResourcesDropDownMobile");
+
+        
+        $("#seniorsConnect").removeClass("subToggleDropDownPadding");
+        $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
+
+        $("#youthPrograms").removeClass("subToggleDropDownPadding");
+        $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDownMobile");
+
+        $("#singleParents").removeClass("subToggleDropDownPadding");
+        $("#singleParentsDropDown").removeClass("displaySingleParentsDropDownMobile");
 
     });
 

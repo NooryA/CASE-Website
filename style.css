@@ -3150,6 +3150,10 @@ a.subToggleDropDownPadding.youthPrograms{
     display:block;
 }
 
+.singleParentsDropDown{
+    display:none;
+} 
+
 .displaySingleParentsDropDownMobile{
     display:block;
 }
@@ -3158,6 +3162,7 @@ a.subToggleDropDownPadding.singleParents{
     padding-bottom: 85px;
     transition:none;
 }
+
 .singleParentsDropDown{
     left:2%;
     top:39%;
@@ -3166,9 +3171,35 @@ a.subToggleDropDownPadding.singleParents{
 }
 
 
-/* .singleParentsDropDown{
+ .communityResourcesDropDown{
     display:none;
-} */
+} 
+
+.displayCommunityResourcesDropDownMobile{
+    display:block;
+}
+
+li.subToggleDropDown.newsList{
+    padding-bottom: 300px;
+    transition:none;
+}
+
+a.subToggleDropDownPadding.communityResources{
+    padding-bottom: 120px;
+    transition:none;
+}
+
+.newsAndEventsDropDown a {
+    transition:none;
+}
+
+.communityResourcesDropDown{
+    left:1%;
+    top:10%;
+    font-size:11px;
+
+}
+
 
   /* span.minAndMaxYouthProgramsMobile{
     display:inline-block;
