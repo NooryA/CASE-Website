@@ -349,25 +349,11 @@
         float: right;
     }
 
-    .minAndMaxSeniorsConnectMobile{
+    .minAndMaxSeniorsConnectMobile, .minAndMaxYouthProgramsMobile,  .minAndMaxWorkplaceExperienceMobile,  .minAndMaxSingleParentsMobile, .minAndMaxCommunityResourcesMobile, .minAndMaxWorkplaceExperienceMobile{
         display:none;
     }
 
-    .minAndMaxYouthProgramsMobile{
-        display:none;
-
-    }
-    .minAndMaxWorkplaceExperienceMobile{
-        display:none;
-    }
-    .minAndMaxSingleParentsMobile{
-        display:none;
-    }
-    .minAndMaxCommunityResourcesMobile{
-        display:none;
-    }
-
-    li.youthList, li.singleParentsList, li.communityList {
+    li.youthList, li.singleParentsList, li.communityList li.workplaceList {
         list-style: none;
     }
 
@@ -3197,6 +3183,26 @@ a.subToggleDropDownPadding.communityResources{
     left:1%;
     top:10%;
     font-size:11px;
+
+}
+
+li.workplaceList{
+    list-style: none;
+    
+}
+
+span.minAndMaxWorkplaceExperienceMobile{
+    display:inline-block;
+    color:white;
+    padding-left: 20px;
+    cursor:pointer;
+    
+}
+
+.programsDropDown a.workplace {
+    display:inline-block;
+    padding-left: 50px;
+
 
 }
 

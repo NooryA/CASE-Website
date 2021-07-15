@@ -779,7 +779,11 @@ $("document").ready(function () {
     });
 
 
+    $("#minAndMaxWorkplaceExperienceMobile").click(function () {
+        console.log('clicked workplace');
+       
 
+    });
 
 
 
