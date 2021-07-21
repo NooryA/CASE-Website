@@ -104,7 +104,7 @@
 
     .top-section {
 
-        background-color: #000000;
+        background-color: black;
         background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
         height: 100px;
         margin-top: 0;
@@ -116,7 +116,7 @@
     .overlayLogo {
         color: white;
         position: absolute;
-        left: 5.5%;
+        left: 4.5%;
         top: 65%;
         font-size: 15px;
         font-family: 'Noto Sans HK', sans-serif;
@@ -451,7 +451,8 @@
         position: absolute;
         left: 0%;
         top: 40%;
-        background: rgb(141, 7, 250);
+        /* background: rgb(141, 7, 250); */
+        background: red;
         height: 100px;
         z-index: 2;
         width: 33.3%;
@@ -534,7 +535,8 @@
         position: absolute;
         left: 33.3%;
         top: 40%;
-        background: rgb(0, 151, 252);
+        /* background: rgb(0, 151, 252); */
+        background: #1974bb;
         height: 100px;
         z-index: 2;
         width: 33.3%;
@@ -548,7 +550,7 @@
         position: absolute;
         left: 33.3%;
         top: 89.5%;
-        background: rgb(252, 0, 0);
+        background: #ec2e59;
         height: 100px;
         z-index: 2;
         width: 33.3%;
@@ -598,7 +600,7 @@
         position: absolute;
         left: 66.6%;
         top: 40%;
-        background: rgb(255, 0, 179);
+        background: #fcbd10;
         height: 100px;
         z-index: 2;
         width: 33.3%;
@@ -629,6 +631,7 @@
         display: none;
         font-size: 15px;
         color: rgb(255, 115, 0);
+    
     }
 
 
@@ -1030,7 +1033,7 @@
 
         .contactUsDropDown {
             position: absolute;
-            left: 72.9%;
+            left: 71%;
             bottom: 83.8%;
 
 
@@ -1054,7 +1057,7 @@
 
         .mainHeader h1 {
             position: absolute;
-            left: 21%;
+            left: 14%;
             top: 55%;
             font-size: 80px;
             color: white;
@@ -1064,7 +1067,7 @@
 
         .mainHeader p {
             position: absolute;
-            left: 40%;
+            left: 34%;
             top: 67%;
             font-size: 30px;
             color: white;
@@ -1079,7 +1082,7 @@
         .aboutUsContent button {
             position: absolute;
             left: 34%;
-            top: 97%;
+            top: 105%;
 
 
 
@@ -3096,6 +3099,11 @@ padding-bottom: 325px;
 transition:none;
 }
 
+li.doubleSubToggleDropDown.programsList{
+    padding-bottom:425px;
+    transition:none;
+}
+
 a.subToggleDropDownPadding.seniorsConnect{
     padding-bottom: 175px;
     transition:none;
@@ -3205,7 +3213,15 @@ span.minAndMaxWorkplaceExperienceMobile{
 
 
 }
+/* 
+a.workplaceDropDownPadding.youthPrograms{
+    padding-bottom:200px;
+}
 
+.reposition{
+    position:absolute;
+    top:90%;
+} */
 
   /* span.minAndMaxYouthProgramsMobile{
     display:inline-block;

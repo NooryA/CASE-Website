@@ -779,11 +779,16 @@ $("document").ready(function () {
     });
 
 
-    $("#minAndMaxWorkplaceExperienceMobile").click(function () {
-        console.log('clicked workplace');
-       
+    // $("#minAndMaxWorkplaceExperienceMobile").click(function () {
+    //     console.log('clicked workplace');
 
-    });
+    //     $("#programsList").toggleClass("doubleSubToggleDropDown");
+
+    //     $("#youthPrograms").toggleClass("workplaceDropDownPadding");
+    //     $("#youthProgramsDropDown").toggleClass("reposition");
+    
+
+    // });
 
 
 
