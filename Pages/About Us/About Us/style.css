@@ -16,7 +16,7 @@
 
 
 
-   
+
 
     /* ######################################################## NAV BAR ############################################################### */
 
@@ -25,6 +25,7 @@
         width: 100%;
         margin: 0;
         position: relative;
+        
     }
 
     .navBar {
@@ -47,6 +48,7 @@
         /* font-family: 'Mate SC', serif; */
         /* font-family: 'Barlow', sans-serif; */
         font-family: 'Lato', sans-serif;
+        
     }
 
     nav ul li a {
@@ -106,6 +108,7 @@
         top: 13.5%;
         height: 700px;
         width: 100%;
+        z-index: 4;
 
     }
 
@@ -309,11 +312,19 @@
         float: right;
     }
 
-    .minAndMaxSeniorsConnectMobile, .minAndMaxYouthProgramsMobile,  .minAndMaxWorkplaceExperienceMobile,  .minAndMaxSingleParentsMobile, .minAndMaxCommunityResourcesMobile, .minAndMaxWorkplaceExperienceMobile{
-        display:none;
+    .minAndMaxSeniorsConnectMobile,
+    .minAndMaxYouthProgramsMobile,
+    .minAndMaxWorkplaceExperienceMobile,
+    .minAndMaxSingleParentsMobile,
+    .minAndMaxCommunityResourcesMobile,
+    .minAndMaxWorkplaceExperienceMobile {
+        display: none;
     }
 
-    li.youthList, li.singleParentsList, li.communityList, li.workplaceList {
+    li.youthList,
+    li.singleParentsList,
+    li.communityList,
+    li.workplaceList {
         list-style: none;
     }
 
@@ -325,10 +336,12 @@
 
 
 
-    .container{
+    .container {
         width: 100%;
-        height:4000px;
-        background:white;
+        height: 4000px;
+        background: white;
+        position: relative;
+        overflow: hidden;
     }
 
     .firstBody .bar h1 {
@@ -337,60 +350,220 @@
         margin-top: 100px;
     }
 
-    .bar{
-        height:100px;
+    .bar {
+        height: 100px;
         width: 100%;
-        background:#3292e6;
+        background: #1A2980;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+        
+        
     }
 
     .firstBody h1 {
         padding-bottom: 40px;
     }
 
-    img.teamPicture{
+    img.teamPicture {
 
-     margin-left: 250px;
-        height:75%;
+        margin-left: 250px;
+        height: 75%;
         width: 75%;
         margin-top: 50px;
-      
+
     }
 
-h1.coreValues {
-    padding-bottom: 40px;
-    padding-top: 200px;
-    text-align: center;
-    font-size: 55px;
-}
 
 
 
-.missionBar{
-    width:100%;
-    height:65px;
-    background: lightskyblue;
-    margin-top: 50px;
-    position:relative;
-}
-
-h1.mission {
-    padding-bottom: 20px;
-
-    text-align: center;
-    font-size: 70px;
-}
-
-p.missionParagraph {
-    text-align: center;
-    font-size: 45px;
-    padding-top: 50px;
-    background: linear-gradient(to right, #000000 0%, #434343 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-    font-family: 'Amaranth', sans-serif;
-}
 
 
+
+    /* .missionBar {
+        width: 100%;
+        height: 65px;
+        background: lightskyblue;
+        margin-top: 50px;
+        position: relative;
+    } */
+
+    h1.mission {
+        padding-bottom: 20px;
+padding-top: 40px;
+        text-align: center;
+        font-size: 70px;
+
+        font-family: 'Bungee Inline', cursive;
+    }
+
+
+    p.missionParagraph {
+        text-align: center;
+        font-size: 45px;
+        padding-top: 50px;
+        background: linear-gradient(to right, #000000 0%, #434343 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Amaranth', sans-serif;
+    }
+
+
+    h1.coreValues {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Bungee Inline', cursive;
+    }
+
+    .communityBar,
+    .diversityBar,
+    .empowermentBar,
+    .self-determinationBar,
+    .collaborationBar,
+    .equityBar,
+    .humanityBar {
+        width: 100%;
+        height: 300px;
+        background: rgb(64, 202, 226);
+        position: relative;
+        overflow: hidden;
+    }
+
+    h1.communityHeader,
+    h1.empowermentHeader,
+    h1.collaborationHeader,
+    h1.humanityHeader {
+ text-align:end;
+        font-family: 'Cinzel', serif;
+        margin-left: 200px;
+        font-size: 65px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        margin-right: 400px;
+
+    }
+
+    .communityBar img,
+    .empowermentBar img,
+    .collaborationBar img,
+    .humanityBar img {
+        position: absolute;
+        left: 5%;
+        top: 17%;
+        width: 25%;
+        height: 75%;
+    }
+
+    p.communityParagraph,
+    p.empowermentParagraph,
+    p.collaborationParagraph,
+    p.humanityParagraph {
+        font-family: 'Special Elite', cursive;
+        text-align: center;
+        font-size: 30px;
+        margin-left: 600px;
+        margin-right: 100px;
+    }
+
+    .diversityBar {
+        background: crimson;
+
+    }
+
+    h1.diversityHeader,
+    h1.self-determinationHeader,
+    h1.equityHeader {
+        font-family: 'Cinzel', serif;
+        margin-left: 450px;
+        font-size: 65px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .diversityBar img,
+    .equityBar img,
+    .self-determinationBar img {
+        position: absolute;
+        top: 10%;
+        width: 25%;
+        height: 75%;
+        left: 70%;
+    }
+
+
+    p.diversityParagraph,
+    p.self-determinationParagraph,
+    p.equityParagraph {
+        font-family: 'Special Elite', cursive;
+        text-align: center;
+        font-size: 25px;
+        margin-left: 15px;
+        margin-right: 600px;
+    }
+
+
+    .empowermentBar {
+        background: darkgoldenrod;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .self-determinationBar {
+        background: darksalmon;
+    }
+
+    h1.self-determinationHeader {
+        margin-left: 300px;
+    }
+
+
+
+
+    p.self-determinationParagraph {
+        font-size: 30px;
+    }
+
+
+
+
+
+    .collaborationBar {
+        background: green;
+    }
+
+    .equityBar {
+        background: silver;
+    }
+
+
+
+
+    .humanityBar {
+        background: steelblue;
+    }
+
+    p.humanityParagraph {
+        font-size: 32px;
+    }
+
+    .humanityBar img {
+        position: absolute;
+        left: 5%;
+        top: 7%;
+        width: 25%;
+        height: 100%;
+    }
 
     /* ####################################################### FOOTER ############################################################# */
     footer {
@@ -529,7 +702,7 @@ p.missionParagraph {
     }
 
 
-    
+
 
 
 
@@ -566,7 +739,8 @@ p.missionParagraph {
         }
 
         .aboutContent a {
-            border: 1px solid black;;
+            border: 1px solid black;
+            ;
         }
 
         .programsDropDown {
@@ -579,7 +753,8 @@ p.missionParagraph {
         }
 
         .programsDropDown a {
-            border: 1px solid black;;
+            border: 1px solid black;
+            ;
         }
 
 
@@ -614,7 +789,8 @@ p.missionParagraph {
 
 
 
-            border: solid 1px black;;
+            border: solid 1px black;
+            ;
 
 
 
@@ -725,7 +901,8 @@ p.missionParagraph {
 
 
 
-            border: solid 1px black;;
+            border: solid 1px black;
+            ;
 
 
         }
@@ -742,7 +919,8 @@ p.missionParagraph {
 
 
 
-            border: solid 1px black;;
+            border: solid 1px black;
+            ;
 
 
         }
@@ -759,7 +937,8 @@ p.missionParagraph {
 
 
 
-            border: solid 1px black;;
+            border: solid 1px black;
+            ;
 
 
         }
@@ -796,7 +975,7 @@ p.missionParagraph {
 
 
 
-     
+
 
 
 
@@ -870,7 +1049,8 @@ p.missionParagraph {
 
 
 
-            border: solid 1px black;;
+            border: solid 1px black;
+            ;
 
 
         }
@@ -888,7 +1068,8 @@ p.missionParagraph {
 
 
 
-            border: solid 1px black;;
+            border: solid 1px black;
+            ;
 
 
         }
@@ -906,7 +1087,8 @@ p.missionParagraph {
 
 
 
-            border: solid 1px black;;
+            border: solid 1px black;
+            ;
 
 
         }
@@ -925,7 +1107,8 @@ p.missionParagraph {
 
 
 
-            border: solid 1px black;;
+            border: solid 1px black;
+            ;
 
 
 
@@ -937,7 +1120,7 @@ p.missionParagraph {
 
 
 
-        
+
     }
 
 
@@ -949,7 +1132,7 @@ p.missionParagraph {
 
 
 
-      
+
 
 
         /* ######################################################## NAV BAR ############################################################### */
@@ -1022,7 +1205,8 @@ p.missionParagraph {
 
 
 
-            border: solid 1px black;;
+            border: solid 1px black;
+            ;
 
 
 
@@ -1041,7 +1225,8 @@ p.missionParagraph {
 
 
 
-            border: solid 1px black;;
+            border: solid 1px black;
+            ;
 
 
         }
@@ -1060,7 +1245,8 @@ p.missionParagraph {
 
 
 
-            border: solid 1px black;;
+            border: solid 1px black;
+            ;
 
 
 
@@ -1080,7 +1266,8 @@ p.missionParagraph {
 
 
 
-            border: solid 1px black;;
+            border: solid 1px black;
+            ;
 
 
 
@@ -1294,194 +1481,201 @@ p.missionParagraph {
             text-align: center;
         }
 
-        .arrow{
-        display:none;
-    }
-
- 
-    
-
-    span.minAndMaxSeniorsConnectMobile{
-        display:inline-block;
-        color:white;
-        text-align: center;
-        padding-left:15px;
-        cursor:pointer;
-
-    }
-  .programsDropDown a.seniorsConnect{
-      display:inline-block;
-      margin-left: 35px;
-  }
-
-span.minAndMaxYouthProgramsMobile{
-    display:inline-block;
-    color:white;
-    padding-left:23px;
-    cursor: pointer;
-
-}
-.programsDropDown a.youthPrograms{
-    display:inline-block;
-}
-li.youthList{
-    list-style: none;
-    padding-left: 30px;
-}
-
-span.minAndMaxSingleParentsMobile{
-    display:inline-block;
-    color:white;
-    padding-left:30px;
-    cursor: pointer;
-
-}
-
-.programsDropDown a.singleParents {
-    display:inline-block;
-    margin-left: 35px;
-
-}
-li.singleParentsList{
-    list-style: none;
-}
-
-span.minAndMaxCommunityResourcesMobile{
-    display:inline-block;
-    color:white;
-    cursor: pointer;
-
-}
-
-.newsAndEventsDropDown a.communityResources {
-    display:inline-block;
+        .arrow {
+            display: none;
+        }
 
 
-}
-li.communityList{
-    list-style: none;
-
-}
-
-li.subToggleDropDown.programsList {
-padding-bottom: 325px;
-transition:none;
-}
-
-li.doubleSubToggleDropDown.programsList{
-    padding-bottom:425px;
-    transition:none;
-}
-
-a.subToggleDropDownPadding.seniorsConnect{
-    padding-bottom: 175px;
-    transition:none;
-}
-
-.programsDropDown a{
-    transition:none;
-}
-.seniorsConnectDropDown{
-    left:5%;
-    top:8%;
-    font-size: 10px;
-}
-
-.seniorsConnectDropDown{
-    display:none;
-}
-
-.displaySeniorsConnectDropDownMobile{
-    display:block;
-}
-
-a.subToggleDropDownPadding.youthPrograms{
-    padding-bottom: 140px;
-    transition:none;
-}
-
-.youthProgramsDropDown{
-    left:5%;
-    top:20%;
-    font-size:10px;
-}
-.youthProgramsDropDown{
-    display:none;
-}
-
-.displayYouthProgramsDropDownMobile{
-    display:block;
-}
-
-.singleParentsDropDown{
-    display:none;
-} 
-
-.displaySingleParentsDropDownMobile{
-    display:block;
-}
-
-a.subToggleDropDownPadding.singleParents{
-    padding-bottom: 85px;
-    transition:none;
-}
-
-.singleParentsDropDown{
-    left:2%;
-    top:39%;
-    font-size: 12px;
-
-}
 
 
- .communityResourcesDropDown{
-    display:none;
-} 
+        span.minAndMaxSeniorsConnectMobile {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding-left: 15px;
+            cursor: pointer;
 
-.displayCommunityResourcesDropDownMobile{
-    display:block;
-}
+        }
 
-li.subToggleDropDown.newsList{
-    padding-bottom: 300px;
-    transition:none;
-}
+        .programsDropDown a.seniorsConnect {
+            display: inline-block;
+            margin-left: 35px;
+        }
 
-a.subToggleDropDownPadding.communityResources{
-    padding-bottom: 120px;
-    transition:none;
-}
+        span.minAndMaxYouthProgramsMobile {
+            display: inline-block;
+            color: white;
+            padding-left: 23px;
+            cursor: pointer;
 
-.newsAndEventsDropDown a {
-    transition:none;
-}
+        }
 
-.communityResourcesDropDown{
-    left:1%;
-    top:10%;
-    font-size:11px;
+        .programsDropDown a.youthPrograms {
+            display: inline-block;
+        }
 
-}
+        li.youthList {
+            list-style: none;
+            padding-left: 30px;
+        }
 
-li.workplaceList{
-    list-style: none;
-    
-}
+        span.minAndMaxSingleParentsMobile {
+            display: inline-block;
+            color: white;
+            padding-left: 30px;
+            cursor: pointer;
 
-span.minAndMaxWorkplaceExperienceMobile{
-    display:inline-block;
-    color:white;
-    padding-left: 20px;
-    cursor:pointer;
-    
-}
+        }
 
-.programsDropDown a.workplace {
-    display:inline-block;
-    padding-left: 50px;
+        .programsDropDown a.singleParents {
+            display: inline-block;
+            margin-left: 35px;
+
+        }
+
+        li.singleParentsList {
+            list-style: none;
+        }
+
+        span.minAndMaxCommunityResourcesMobile {
+            display: inline-block;
+            color: white;
+            cursor: pointer;
+
+        }
+
+        .newsAndEventsDropDown a.communityResources {
+            display: inline-block;
 
 
-}
+        }
+
+        li.communityList {
+            list-style: none;
+
+        }
+
+        li.subToggleDropDown.programsList {
+            padding-bottom: 325px;
+            transition: none;
+        }
+
+        li.doubleSubToggleDropDown.programsList {
+            padding-bottom: 425px;
+            transition: none;
+        }
+
+        a.subToggleDropDownPadding.seniorsConnect {
+            padding-bottom: 175px;
+            transition: none;
+        }
+
+        .programsDropDown a {
+            transition: none;
+        }
+
+        .seniorsConnectDropDown {
+            left: 5%;
+            top: 8%;
+            font-size: 10px;
+        }
+
+        .seniorsConnectDropDown {
+            display: none;
+        }
+
+        .displaySeniorsConnectDropDownMobile {
+            display: block;
+        }
+
+        a.subToggleDropDownPadding.youthPrograms {
+            padding-bottom: 140px;
+            transition: none;
+        }
+
+        .youthProgramsDropDown {
+            left: 5%;
+            top: 20%;
+            font-size: 10px;
+        }
+
+        .youthProgramsDropDown {
+            display: none;
+        }
+
+        .displayYouthProgramsDropDownMobile {
+            display: block;
+        }
+
+        .singleParentsDropDown {
+            display: none;
+        }
+
+        .displaySingleParentsDropDownMobile {
+            display: block;
+        }
+
+        a.subToggleDropDownPadding.singleParents {
+            padding-bottom: 85px;
+            transition: none;
+        }
+
+        .singleParentsDropDown {
+            left: 2%;
+            top: 39%;
+            font-size: 12px;
+
+        }
+
+
+        .communityResourcesDropDown {
+            display: none;
+        }
+
+        .displayCommunityResourcesDropDownMobile {
+            display: block;
+        }
+
+        li.subToggleDropDown.newsList {
+            padding-bottom: 300px;
+            transition: none;
+        }
+
+        a.subToggleDropDownPadding.communityResources {
+            padding-bottom: 120px;
+            transition: none;
+        }
+
+        .newsAndEventsDropDown a {
+            transition: none;
+        }
+
+        .communityResourcesDropDown {
+            left: 1%;
+            top: 10%;
+            font-size: 11px;
+
+        }
+
+        li.workplaceList {
+            list-style: none;
+
+        }
+
+        span.minAndMaxWorkplaceExperienceMobile {
+            display: inline-block;
+            color: white;
+            padding-left: 20px;
+            cursor: pointer;
+
+        }
+
+        .programsDropDown a.workplace {
+            display: inline-block;
+            padding-left: 50px;
+
+
+        }
 
 
     }
