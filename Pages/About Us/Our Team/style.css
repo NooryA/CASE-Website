@@ -236,12 +236,11 @@
 
 
 
-
     /* ######################################################################## FIRST BODY ############################################################# */
 
 
 
-
+  
     .container {
         width: 100%;
         height: 2790px;
@@ -250,7 +249,7 @@
         overflow: hidden;
     }
 
-    .firstBody .bar h1 {
+    .bar h1 {
         font-size: 100px;
         text-align: center;
         margin-top: 100px;
@@ -259,221 +258,21 @@
     .bar {
         height: 100px;
         width: 100%;
-        background: #1A2980;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #26D0CE, #1A2980);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-
+        background: #1A2980;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+        
+        
     }
 
-    .firstBody h1 {
-        padding-bottom: 40px;
-    }
-
-    img.teamPicture {
-
-        margin-left: 250px;
-        height: 75%;
-        width: 75%;
-        margin-top: 50px;
-
-    }
+    img.ourTeam{
+        width: 50%;
+        height: 20%;
+        margin-top: 100px;
+        margin-left:470px;
 
 
-
-
-
-
-
-    /* .missionBar {
-        width: 100%;
-        height: 65px;
-        background: lightskyblue;
-        margin-top: 50px;
-        position: relative;
-    } */
-
-    h1.mission {
-        padding-bottom: 20px;
-        padding-top: 40px;
-        text-align: center;
-        font-size: 70px;
-
-        font-family: 'Bungee Inline', cursive;
-    }
-
-
-    p.missionParagraph {
-        text-align: center;
-        font-size: 45px;
-        padding-top: 50px;
-        background: linear-gradient(to right, #000000 0%, #434343 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-family: 'Amaranth', sans-serif;
-    }
-
-
-    h1.coreValues {
-        padding-top: 50px;
-        padding-bottom: 40px;
-        text-align: center;
-        font-size: 70px;
-        font-family: 'Bungee Inline', cursive;
-    }
-
-    .communityBar,
-    .diversityBar,
-    .empowermentBar,
-    .self-determinationBar,
-    .collaborationBar,
-    .equityBar,
-    .humanityBar {
-        width: 100%;
-        height: 300px;
-        background: rgb(64, 202, 226);
-        position: relative;
-        overflow: hidden;
-    }
-
-    h1.communityHeader,
-    h1.empowermentHeader,
-    h1.collaborationHeader,
-    h1.humanityHeader {
-        text-align: end;
-        font-family: 'Cinzel', serif;
-        margin-left: 770px;
-        font-size: 65px;
-        padding-top: 50px;
-        padding-bottom: 20px;
-        margin-right: 400px;
-
-    }
-
-    .communityBar img,
-    .empowermentBar img,
-    .collaborationBar img,
-    .humanityBar img {
-        position: absolute;
-        left: 5%;
-        top: 17%;
-        width: 25%;
-        height: 75%;
-    }
-
-    p.communityParagraph,
-    p.empowermentParagraph,
-    p.collaborationParagraph,
-    p.humanityParagraph {
-        font-family: 'Special Elite', cursive;
-        text-align: center;
-        font-size: 30px;
-        margin-left: 600px;
-        margin-right: 100px;
-    }
-
-    .diversityBar {
-        background: crimson;
-
-    }
-
-    h1.diversityHeader,
-    h1.self-determinationHeader,
-    h1.equityHeader {
-        text-align: end;
-        font-family: 'Cinzel', serif;
-        margin-left: 500px;
-        margin-right: 1080px;
-        font-size: 65px;
-        padding-top: 50px;
-        padding-bottom: 20px;
-    }
-
-    .diversityBar img,
-    .equityBar img,
-    .self-determinationBar img {
-        position: absolute;
-        top: 10%;
-        width: 25%;
-        height: 75%;
-        left: 70%;
-    }
-
-
-    p.diversityParagraph,
-    p.self-determinationParagraph,
-    p.equityParagraph {
-        font-family: 'Special Elite', cursive;
-        text-align: center;
-        font-size: 25px;
-        margin-left: 15px;
-        margin-right: 600px;
-    }
-
-
-    .empowermentBar {
-        background: darkgoldenrod;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-    .self-determinationBar {
-        background: darksalmon;
-    }
-
-    h1.self-determinationHeader {
-        margin-left: 300px;
-    }
-
-
-
-
-    p.self-determinationParagraph {
-        font-size: 30px;
-    }
-
-
-
-
-
-    .collaborationBar {
-        background: green;
-    }
-
-    .equityBar {
-        background: silver;
-    }
-
-
-
-
-    .humanityBar {
-        background: steelblue;
-    }
-
-    p.humanityParagraph {
-        font-size: 32px;
-    }
-
-    .humanityBar img {
-        position: absolute;
-        left: 5%;
-        top: 7%;
-        width: 25%;
-        height: 100%;
     }
 
     /* ####################################################### FOOTER ############################################################# */
@@ -738,36 +537,8 @@
 
 
 
-        /*################### ################################################### FIRST BODY ################################################################### */
+          /*################### ################################################### FIRST BODY ################################################################### */
 
-
-
-
-        p.communityParagraph,
-        p.empowermentParagraph,
-        p.collaborationParagraph,
-        p.humanityParagraph {
-            font-family: 'Special Elite', cursive;
-            text-align: center;
-            font-size: 25px;
-            margin-left: 650px;
-            margin-right: 100px;
-        }
-
-
-        h1.communityHeader,
-        h1.empowermentHeader,
-        h1.collaborationHeader,
-        h1.humanityHeader {
-            text-align: end;
-            font-family: 'Cinzel', serif;
-            margin-left: 700px;
-            font-size: 50px;
-            padding-top: 50px;
-            padding-bottom: 20px;
-            margin-right: 330px;
-
-        }
 
 
 
@@ -917,38 +688,12 @@
 
 
 
-        /*################### ################################################### FIRST BODY ################################################################### */
+    /*################### ################################################### FIRST BODY ################################################################### */
 
 
 
 
-        p.communityParagraph,
-        p.empowermentParagraph,
-        p.collaborationParagraph,
-        p.humanityParagraph {
-            font-family: 'Special Elite', cursive;
-            text-align: center;
-            font-size: 25px;
-            margin-left: 650px;
-            margin-right: 100px;
-        }
-
-
-        h1.communityHeader,
-        h1.empowermentHeader,
-        h1.collaborationHeader,
-        h1.humanityHeader {
-            text-align: end;
-            font-family: 'Cinzel', serif;
-            margin-left: 770px;
-            font-size: 65px;
-            padding-top: 50px;
-            padding-bottom: 20px;
-            margin-right: 330px;
-
-        }
-
-
+    
 
 
     }
@@ -1101,65 +846,8 @@
 
 
 
-        /*################### ################################################### FIRST BODY ################################################################### */
+          /*################### ################################################### FIRST BODY ################################################################### */
 
-
-
-
-        p.communityParagraph,
-        p.empowermentParagraph,
-        p.collaborationParagraph,
-        p.humanityParagraph {
-            font-family: 'Special Elite', cursive;
-            text-align: center;
-            font-size: 25px;
-            margin-left: 650px;
-            margin-right: 100px;
-        }
-
-
-        h1.communityHeader,
-        h1.empowermentHeader,
-        h1.collaborationHeader,
-        h1.humanityHeader {
-            text-align: end;
-            font-family: 'Cinzel', serif;
-            margin-left: 770px;
-            font-size: 65px;
-            padding-top: 50px;
-            padding-bottom: 20px;
-            margin-right: 330px;
-
-        }
-
-
-
-
-
-
-        h1.diversityHeader,
-        h1.self-determinationHeader,
-        h1.equityHeader {
-            text-align: left;
-            font-family: 'Cinzel', serif;
-            margin-left: 500px;
-            font-size: 65px;
-            padding-top: 50px;
-            padding-bottom: 20px;
-        }
-
-
-
-
-        p.diversityParagraph,
-        p.self-determinationParagraph,
-        p.equityParagraph {
-            font-family: 'Special Elite', cursive;
-            text-align: center;
-            font-size: 25px;
-            margin-left: 15px;
-            margin-right: 600px;
-        }
 
 
     }
@@ -1308,7 +996,7 @@
 
 
             border: solid 1px black;
-
+            
 
 
 
@@ -1319,88 +1007,11 @@
 
 
 
-        /* ######################################################################## FIRST BODY ############################################################# */
+         /* ######################################################################## FIRST BODY ############################################################# */
 
 
 
-
-        h1.communityHeader,
-        h1.empowermentHeader,
-        h1.collaborationHeader,
-        h1.humanityHeader {
-            text-align: end;
-            font-family: 'Cinzel', serif;
-            margin-left: 770px;
-            font-size: 65px;
-            padding-top: 50px;
-            padding-bottom: 20px;
-            margin-right: 400px;
-
-        }
-
-        .communityBar img,
-        .empowermentBar img,
-        .collaborationBar img,
-        .humanityBar img {
-            position: absolute;
-            left: 5%;
-            top: 17%;
-            width: 25%;
-            height: 75%;
-        }
-
-        p.communityParagraph,
-        p.empowermentParagraph,
-        p.collaborationParagraph,
-        p.humanityParagraph {
-            font-family: 'Special Elite', cursive;
-            text-align: center;
-            font-size: 30px;
-            margin-left: 600px;
-            margin-right: 100px;
-        }
-
-        .diversityBar {
-            background: crimson;
-
-        }
-
-        h1.diversityHeader,
-        h1.self-determinationHeader,
-        h1.equityHeader {
-
-            text-align: end;
-            font-family: 'Cinzel', serif;
-            margin-left: 500px;
-            margin-right: 1080px;
-            font-size: 65px;
-            padding-top: 50px;
-            padding-bottom: 20px;
-        }
-
-        .diversityBar img,
-        .equityBar img,
-        .self-determinationBar img {
-            position: absolute;
-            top: 10%;
-            width: 25%;
-            height: 75%;
-            left: 70%;
-        }
-
-
-        p.diversityParagraph,
-        p.self-determinationParagraph,
-        p.equityParagraph {
-            font-family: 'Special Elite', cursive;
-            text-align: center;
-            font-size: 25px;
-            margin-left: 15px;
-            margin-right: 600px;
-        }
-
-
-
+    
 
     }
 
