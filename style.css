@@ -299,13 +299,18 @@
     /* ####################################################### SECOND BODY ############################################################# */
     .secondBody {
         overflow: hidden;
-        height: 875px;
-        background: black;
+        height: 800px;
+        background: white;
         position: relative;
         display: block;
         width: 100%;
 
 
+    }
+
+    .slideshows {
+        margin-top: 50px;
+        margin-left:200px;
     }
 
     .row1 {
@@ -1193,8 +1198,8 @@
         /* ####################################################### SECOND BODY ############################################################# */
         .secondBody {
             overflow: hidden;
-            height: 875px;
-            background: black;
+         
+            background: white;
             position: relative;
             display: block;
             width: 100%;
@@ -1763,8 +1768,8 @@ top:20%; */
         /* ####################################################### SECOND BODY ############################################################# */
         .secondBody {
             overflow: hidden;
-            height: 875px;
-            background: black;
+          
+            background: white;
             position: relative;
             display: block;
             width: 100%;
@@ -2359,8 +2364,8 @@ top:20%; */
         /* ####################################################### SECOND BODY ############################################################# */
         .secondBody {
             overflow: hidden;
-            height: 875px;
-            background: black;
+          
+            background: white;
             position: relative;
             display: block;
             width: 100%;

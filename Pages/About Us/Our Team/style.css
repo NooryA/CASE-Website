@@ -103,9 +103,10 @@
     }
 
     .dropDown {
-
+ 
         position: absolute;
-        top: 13.5%;
+        /* top: 13.5%;  */
+        margin-top: 28px;
         height: 700px;
         width: 100%;
         z-index: 4;
@@ -240,7 +241,7 @@
 
 
 
-  
+
     .container {
         width: 100%;
         height: 2100px;
@@ -258,38 +259,45 @@
     .bar {
         height: 100px;
         width: 100%;
-        background: #1A2980;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
-        
-        
+        background: #1A2980;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #26D0CE, #1A2980);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
     }
-    .directors, .theTeam{
+
+    .directors,
+    .theTeam {
         text-align: center;
         font-size: 50px;
-margin-top: 100px;
-font-family: 'Marcellus SC', serif;
+        margin-top: 100px;
+        font-family: 'Marcellus SC', serif;
     }
-    
-    .theTeam{
+
+    .theTeam {
         margin-top: 250px;
     }
 
-    img.ourTeam{
+    img.ourTeam {
         width: 70%;
         height: 35%;
         margin-top: 50px;
-     padding-left: 320px;
-margin-right:auto;
-
-    }  
+        position:absolute;
+        left:15%;
     
-    .row1{
-        display:flex;
     }
 
-    .column1 img, .column2 img, .column3 img {
+    .row1 {
+        display: flex;
+    }
+
+    .column1 img,
+    .column2 img,
+    .column3 img {
         width: 95%;
         height: 100%;
         margin-top: 50px;
@@ -298,20 +306,24 @@ margin-right:auto;
         filter: drop-shadow(8px 8px 10px black);
     }
 
-  
-    .column1, .column2 , .column3{
-        width:33%;
-        height:600px;
-       
-    }
-  
-    .column1 h1, .column2 h1 , .column3 h1{
-     text-align: center;
-     margin-top: 10px;
-       
+
+    .column1,
+    .column2,
+    .column3 {
+        width: 33%;
+        height: 600px;
+
     }
 
-    .column3 h1{
+    .column1 h1,
+    .column2 h1,
+    .column3 h1 {
+        text-align: center;
+        margin-top: 10px;
+
+    }
+
+    .column3 h1 {
         margin-left: 50px;
     }
 
@@ -478,6 +490,18 @@ margin-right:auto;
             font-family: 'Lato', sans-serif;
         }
 
+        
+
+        .dropDown {
+ 
+            position: absolute;
+            /* top: 13.5%;  */
+            margin-top: -5px;
+            height: 700px;
+            width: 100%;
+            z-index: 4;
+    
+        }
 
 
         .aboutContent {
@@ -491,7 +515,7 @@ margin-right:auto;
 
         .aboutContent a {
             border: 1px solid black;
-            ;
+            
         }
 
         .programsDropDown {
@@ -578,7 +602,7 @@ margin-right:auto;
 
 
 
-          /*################### ################################################### FIRST BODY ################################################################### */
+        /*################### ################################################### FIRST BODY ################################################################### */
 
 
 
@@ -632,6 +656,16 @@ margin-right:auto;
         }
 
 
+        .dropDown {
+ 
+            position: absolute;
+            /* top: 13.5%;  */
+            margin-top: -6px;
+            height: 700px;
+            width: 100%;
+            z-index: 4;
+    
+        }
 
 
         .overlayLogo {
@@ -729,12 +763,12 @@ margin-right:auto;
 
 
 
-    /*################### ################################################### FIRST BODY ################################################################### */
+        /*################### ################################################### FIRST BODY ################################################################### */
 
 
 
 
-    
+
 
 
     }
@@ -786,7 +820,7 @@ margin-right:auto;
 
 
 
-
+  
 
         .overlayLogo {
             color: white;
@@ -887,7 +921,7 @@ margin-right:auto;
 
 
 
-          /*################### ################################################### FIRST BODY ################################################################### */
+        /*################### ################################################### FIRST BODY ################################################################### */
 
 
 
@@ -1037,7 +1071,7 @@ margin-right:auto;
 
 
             border: solid 1px black;
-            
+
 
 
 
@@ -1048,11 +1082,11 @@ margin-right:auto;
 
 
 
-         /* ######################################################################## FIRST BODY ############################################################# */
+        /* ######################################################################## FIRST BODY ############################################################# */
 
 
 
-    
+
 
     }
 
