@@ -55,10 +55,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&family=Graduate&display=swap" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@800&display=swap" rel="stylesheet">
     <!-- ALL FONTS BEING USED -->
-
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <script src="/script/jquery-3.6.0.min.js"></script>
 
@@ -90,8 +92,8 @@
                             <li class="aboutList" id="aboutList"> <a href="/Pages/About Us/About Us/aboutUs.html"
                                     id="about" class="about">About Us </a>
                                 <span id="minAndMaxAbout">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+</span></li>
-                            <li id="programsList" class="programsList"> <a href="" id="programs"
-                                    class="programs">Programs </a> <span
+                            <li id="programsList" class="programsList"> <a href="/Pages/Programs/programs.html"
+                                    id="programs" class="programs">Programs </a> <span
                                     id="minAndMaxPrograms">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+</span></li>
                             <li id="newsList" class="newsList"> <a href="" id="newsAndEvents" class="newsAndEvents">News
                                     and Events </a>
@@ -112,9 +114,9 @@
 
         <div class="dropDown">
             <div class="aboutContent" id="aboutContent">
-                <a href="/Pages/About Us/About Us/aboutUs.html"">About Us</a>
-                <a href="/Pages/About Us/Our Team/ourTeam.html">Our Team</a> <a
-                    href="/Pages/About Us/Sponsors And Partners/sponsors.html">Sponsor and Partners</a>
+                <a href="/Pages/About Us/About Us/aboutUs.html">About Us</a>
+                <a href="/Pages/About Us/Our Team/ourTeam.html">Our Team</a>
+                <a href="/Pages/About Us/Sponsors And Partners/sponsors.html">Sponsor and Partners</a>
             </div>
 
             <div class="programsDropDown" id="programsDropDown">
@@ -212,102 +214,45 @@
     <div class="container">
         <div class="bar">
             <h1>
-                OUR TEAM
+                Programs
             </h1>
 
 
-        </div>
-        <h1 class="directors">Program Directors</h1>
-
-        <div class="row1">
-            <div class="column1">
-                <img src="/assets/blackwhite.jpg" alt="">
-                <h1>Peace Okpara</h1>
-
-            </div>
-
-            <div class="column2">
-                <img src="/assets/blackwhite.jpg" alt="">
-                <h1>Amaka Ahaotu</h1>
-
-            </div>
-
-            <div class="column3">
-                <img src="/assets/blackwhite.jpg" alt="">
-                <h1>Bunmi Joseph</h1>
-
-            </div>
 
         </div>
-
-
-
-
-        <h1 class="theTeam">Team</h1>
-
-        <!-- <img src="/assets/theRealTeam.jpg" alt="" class="ourTeam">
-
-<h2 class="w3-center">Automatic Slideshow</h2> -->
-        <style>
-            .mySlides {
-                display: none;
-            }
-
-            .animate-pictures {
-                animation: fading 10s infinite
-            }
-
-            @keyframes fading {
-                0% {
-                    opacity: 0
-                }
-
-                50% {
-                    opacity: 1
-                }
-
-                100% {
-                    opacity: 0
-                }
-            }
-        </style>
-        <div class="ourTeam" style="max-width:500px">
-            <img class="mySlides animate-pictures"
-                src="/assets/office pictures/A8A9223B-7290-4771-8B68-561D1B337678.jpeg">
-            <img class="mySlides animate-pictures"
-                src="/assets/office pictures/B72CA77E-C59F-4361-8F42-5D9B56698B15.jpeg">
-            <img class="mySlides animate-pictures"
-                src="/assets/office pictures/D4A6AD93-D00D-458E-A03B-98E5A6B3C1DA.jpeg">
-            <img class="mySlides animate-pictures"
-                src="/assets/office pictures/DF5DEEEB-33FD-49B1-B6D2-488797EAEF01.jpeg">
+        <div class="paragraph">
+        <h1>The Community Alliance for Support and Empowerment has designed programs that inspire the youth to fulfill
+            their full potential, and to vastly improve the quality of life for seniors. We have partnered with other
+            agencies to offer a series of enrichment programs where seniors, youths and families participate actively,
+            learn new skills, volunteer and mentor others.</h1>
+        <br>
+        <h1>Our youth programs give students opportunities to socialize with others, enjoy the outdoors, and learn vital
+            skills that will help them throughout life. We also provide opportunities for students in high school to be
+            mentored so that they will have a smooth transition into post-secondary life.</h1>
+        <br>
+        <h1>Our seniors-connect programs will help seniors live an active and healthy lifestyle. Recreational
+            activities, and parties will ensure that they enjoy their time with us. Our team is very dedicated and
+            passionate about helping the community, and we promise to give to the best experience possible.</h1>
+</div>
+            <div class="row1">
+                <div class= "image1">
+                <img src="/assets/finance.jpg" class="financePicture">
+                <div class="text">
+                    Financial Literacy
+                </div>
+                </div>
+            <img src="/assets/youthprograms.jpg" class="youthPicture">
+            <img src="/assets/computerliteracy.jpg" class="computerPicture">
         </div>
 
-        <script>
-            var myIndex = 0;
-            carousel();
-
-            function carousel() {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                }
-                myIndex++;
-                if (myIndex > x.length) {
-                    myIndex = 1
-                }
-                x[myIndex - 1].style.display = "block";
-                setTimeout(carousel, 5000); // Change image every 2 seconds
-            }
-        </script>
-
-
-
-
-
+        <div class="row2">
+            <img src="/assets/party.jpg" class="partyPicture">
+            <img src="/assets/groceryvoucher.jpg" class="groceryPicture">
+          
+            <img src="/assets/poverty.jpg">
+        </div>
+    
     </div>
-
-
 
 
 

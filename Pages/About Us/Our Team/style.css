@@ -18,222 +18,222 @@
 
 
 
-    /* ######################################################## NAV BAR ############################################################### */
+   /* ######################################################## NAV BAR ############################################################### */
 
-    nav {
+nav {
 
-        width: 100%;
-        margin: 0;
-        position: relative;
+    width: 100%;
+    margin: 0;
+    position: relative;
 
-    }
+}
 
-    .navBar {
+.navBar {
 
-        position: absolute;
-        left: 30%;
-        top: 66px;
+    position: absolute;
+    left: 30%;
+    top: 66px;
 
-    }
+}
 
 
 
 
-    nav ul li {
-        list-style: none;
-        float: left;
-        padding-right: 30px;
-        font-size: 20px;
-        text-decoration: none;
-        /* font-family: 'Mate SC', serif; */
-        /* font-family: 'Barlow', sans-serif; */
-        font-family: 'Lato', sans-serif;
+nav ul li {
+    list-style: none;
+    float: left;
+    padding-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    /* font-family: 'Mate SC', serif; */
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: 'Lato', sans-serif;
 
-    }
+}
 
-    nav ul li a {
-        text-decoration: none;
-        color: white;
-        border: solid 1px transparent;
-        padding: 5px;
-    }
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    border: solid 1px transparent;
+    padding: 5px;
+}
 
-    nav img {
-        height: 25%;
-        width: 25%;
-        margin-top: 15px;
-    }
+nav img {
+    height: 25%;
+    width: 25%;
+    margin-top: 15px;
+}
 
-    .top-section {
+.top-section {
 
-        background-color: black;
-        background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
-        height: 100px;
-        margin-top: 0;
-        padding-top: 0;
+    background-color: black;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    height: 100px;
+    margin-top: 0;
+    padding-top: 0;
 
 
-    }
+}
 
-    .overlayLogo {
-        color: white;
-        position: absolute;
-        left: 4.5%;
-        top: 65%;
-        font-size: 15px;
-        font-family: 'Noto Sans HK', sans-serif;
+.overlayLogo {
+    color: white;
+    position: absolute;
+    left: 4.5%;
+    top: 65%;
+    font-size: 15px;
+    font-family: 'Noto Sans HK', sans-serif;
 
 
-    }
+}
 
-    .donation a {
+.donation a {
 
-        border: solid white;
-    }
+    border: solid white;
+}
 
-    .navBar li a:hover {
-        border: solid 1px white;
-        transition: 0.5s;
+.navBar li a:hover {
+    border: solid 1px white;
+    transition: 0.5s;
 
 
-    }
+}
 
-    .navBar li span {
-        display: none;
-    }
+.navBar li span {
+    display: none;
+}
 
-    .dropDown {
- 
-        position: absolute;
-        /* top: 13.5%;  */
-        margin-top: 28px;
-        height: 700px;
-        width: 100%;
-        z-index: 4;
+.dropDown {
 
-    }
+    position: absolute;
+    top: 13.5%;
+    height: 700px;
+    width: 100%;
+    z-index: 4;
 
-    .aboutContent a:hover,
-    .programsDropDown a:hover,
-    .newsAndEventsDropDown a:hover,
-    .contactUsDropDown a:hover {
-        color: black;
+}
 
+.aboutContent a:hover,
+.programsDropDown a:hover,
+.newsAndEventsDropDown a:hover,
+.contactUsDropDown a:hover {
+    color: black;
 
 
-    }
 
-    .aboutContent,
-    .programsDropDown,
-    .newsAndEventsDropDown,
-    .contactUsDropDown {
-        display: none;
-        position: absolute;
-        left: 37.5%;
+}
 
+.aboutContent,
+.programsDropDown,
+.newsAndEventsDropDown,
+.contactUsDropDown {
+    display: none;
+    position: absolute;
+    left: 37.5%;
 
-    }
 
-    .aboutContent a,
-    .programsDropDown a,
-    .newsAndEventsDropDown a,
-    .contactUsDropDown a {
-        display: block;
-        text-decoration: none;
-        color: black;
-        border: solid black;
-        padding: 5px;
-        margin-top: 2px;
-        transition: 0.5s;
+}
 
-    }
+.aboutContent a,
+.programsDropDown a,
+.newsAndEventsDropDown a,
+.contactUsDropDown a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border: solid black;
+    padding: 5px;
+    margin-top: 2px;
+    transition: 0.5s;
 
+}
 
-    .displayAboutContent,
-    .displayProgramsDropDown,
-    .displaySeniorsConnectDropDown,
-    .displayYouthProgramsDropDown,
-    .displayWorkPlaceDropDown,
-    .displaySingleParentsDropDown,
-    .displayCommunityResourcesDropDown,
-    .displayContactUsDropDown {
-        display: block;
 
-    }
+.displayAboutContent,
+.displayProgramsDropDown,
+.displaySeniorsConnectDropDown,
+.displayYouthProgramsDropDown,
+.displayWorkPlaceDropDown,
+.displaySingleParentsDropDown,
+.displayCommunityResourcesDropDown,
+.displayContactUsDropDown {
+    display: block;
 
+}
 
 
 
-    .seniorsConnectDropDown,
-    .youthProgramsDropDown,
-    .workplaceExperienceDropDown,
-    .singleParentsDropDown,
-    .communityResourcesDropDown {
-        display: none;
-        position: absolute;
-        left: 100%;
-        top: 0.1%;
-        width: 100%;
-    }
 
+.seniorsConnectDropDown,
+.youthProgramsDropDown,
+.workplaceExperienceDropDown,
+.singleParentsDropDown,
+.communityResourcesDropDown {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0.1%;
+    width: 100%;
+}
 
-    .youthProgramsDropDown {
-        top: 20%;
-    }
 
+.youthProgramsDropDown {
+    top: 20%;
+}
 
-    .workplaceExperienceDropDown {
-        top: 84%;
 
-    }
+.workplaceExperienceDropDown {
+    top: 84%;
 
+}
 
-    .singleParentsDropDown {
-        top: 40%;
 
-    }
+.singleParentsDropDown {
+    top: 40%;
 
+}
 
 
 
-    .communityResourcesDropDown {
-        top: 0.2%;
 
-    }
+.communityResourcesDropDown {
+    top: 0.2%;
 
+}
 
 
-    .displayAboutContent,
-    .displayProgramsDropDown,
-    .displaySeniorsConnectDropDown,
-    .displayYouthProgramsDropDown,
-    .displayWorkPlaceDropDown,
-    .displaySingleParentsDropDown,
-    .displayCommunityResourcesDropDown,
-    .displayContactUsDropDown {
-        display: block;
 
-    }
+.displayAboutContent,
+.displayProgramsDropDown,
+.displaySeniorsConnectDropDown,
+.displayYouthProgramsDropDown,
+.displayWorkPlaceDropDown,
+.displaySingleParentsDropDown,
+.displayCommunityResourcesDropDown,
+.displayContactUsDropDown {
+    display: block;
 
-    .arrow {
-        float: right;
-    }
+}
 
-    .minAndMaxSeniorsConnectMobile,
-    .minAndMaxYouthProgramsMobile,
-    .minAndMaxWorkplaceExperienceMobile,
-    .minAndMaxSingleParentsMobile,
-    .minAndMaxCommunityResourcesMobile,
-    .minAndMaxWorkplaceExperienceMobile {
-        display: none;
-    }
+.arrow {
+    float: right;
+}
 
-    li.youthList,
-    li.singleParentsList,
-    li.communityList,
-    li.workplaceList {
-        list-style: none;
-    }
+.minAndMaxSeniorsConnectMobile,
+.minAndMaxYouthProgramsMobile,
+.minAndMaxWorkplaceExperienceMobile,
+.minAndMaxSingleParentsMobile,
+.minAndMaxCommunityResourcesMobile,
+.minAndMaxWorkplaceExperienceMobile {
+    display: none;
+}
+
+li.youthList,
+li.singleParentsList,
+li.communityList,
+li.workplaceList {
+    list-style: none;
+}
+
 
 
 
@@ -282,12 +282,13 @@
         margin-top: 250px;
     }
 
-    img.ourTeam {
+    .ourTeam img {
         width: 70%;
-        height: 35%;
+        height: 30%;
         margin-top: 50px;
         position:absolute;
         left:15%;
+        
     
     }
 

@@ -377,7 +377,7 @@
     }
 
     .diversityBar {
-        background: crimson;
+        background: #f85646;
 
     }
 
@@ -416,7 +416,7 @@
 
 
     .empowermentBar {
-        background: darkgoldenrod;
+        background: #e8ceb0;
     }
 
 
@@ -431,7 +431,7 @@
 
 
     .self-determinationBar {
-        background: darksalmon;
+        background: #76b9f0;
     }
 
     h1.self-determinationHeader {
