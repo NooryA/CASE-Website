@@ -278,6 +278,7 @@ li.workplaceList {
         font-family: 'Marcellus SC', serif;
     }
 
+   
     .theTeam {
         margin-top: 250px;
     }
@@ -305,8 +306,12 @@ li.workplaceList {
         margin-left: 25px;
         border-radius: 50%;
         filter: drop-shadow(8px 8px 10px black);
+        
     }
 
+    .column1 img{
+      
+    }
 
     .column1,
     .column2,
