@@ -268,104 +268,86 @@ li.workplaceList {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
-
 }
 
-.row1{
+form{
+    text-align: center;
+}
+.bodyContainer {
     display:flex;
 }
+.column2 {
+    width:50%;
+    margin-top:150px;
+    margin-left:100px;
+    
+}
+
 .column1{
-    z-index:7;
-    width:24.1%;
+    width:50%;
 }
 
-.column1 ul {
-    margin-top:300px;
-}
+ input[type=text], select, textarea {
+    width: 60%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
 
-.column1 ul li{
-padding:20px;
-padding-left:75px;
-list-style: none;;
-}
 
-.column1 ul li a {
-    text-decoration: none;
-    font-size: 25px;
-    color:black;
-  
-   padding-right:100px;
-   padding-top:10px;
-   padding-bottom:10px;
-/* border:1px yellow solid; */
 
-}
+  }
 
-.column1 ul li:hover{
-
-   background:skyblue;
-}
-
-.column1 ul li.recreationList{
-   background:skyblue;
-}
-
-.column1 a.recreation {
-    padding-right:150px;
-}
-
-.column1 a.grocery {
-    padding-right:187px;
-}
-
-.column1 a.computerLit{
-    padding-right:170px;
-}
-
-.column1 a.financial{
-    padding-right:177px;
-}
-
-.column1 a.wellness {
-    padding-right:200px;
-}
-
-.column1 a.upcomingEvents{
-    padding-right:180px;
-}
-
-.column1 a.testimonials{
-    padding-right:232px;
-}
-
-.column2 h1 {
-    font-size:60px;
-    margin-top:120px;
-    margin-left:80px;
-
-}
-
-.column2Container {
-    height:800px;
-    margin-top:95px;
-    margin-left:50px;
-    background:whitesmoke;
-    width:200%;
-    border:1px solid;
-    border-radius: 25px;
  
-}
 
-/* .column1 {
-    width:33%;
-
-}
-.column1 ul li{
-    list-style: none;
-}
- */
 
   
+  label {
+    padding: 12px 12px 12px 0;
+    display: block;
+   
+   font-size:60px;
+  }
+  /*
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+   
 
 /* ####################################################### FOOTER ############################################################# */
 footer {
@@ -1695,5 +1677,11 @@ span.thumbs {
 
     }
 
+
+
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
 
 }

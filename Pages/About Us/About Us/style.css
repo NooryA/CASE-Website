@@ -254,6 +254,7 @@
         font-size: 100px;
         text-align: center;
         margin-top: 100px;
+        font-family: 'Bungee Inline', cursive;
     }
 
     .bar {
@@ -301,7 +302,7 @@
         padding-bottom: 20px;
         padding-top: 40px;
         text-align: center;
-        font-size: 70px;
+        font-size: 50px;
 
         font-family: 'Bungee Inline', cursive;
     }
@@ -322,7 +323,7 @@
         padding-top: 50px;
         padding-bottom: 40px;
         text-align: center;
-        font-size: 70px;
+        font-size: 50px;
         font-family: 'Bungee Inline', cursive;
     }
 

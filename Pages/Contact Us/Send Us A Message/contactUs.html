@@ -8,7 +8,7 @@
 <head>
 
     <title>
-        Our Team
+       Contact Us
 
     </title>
 
@@ -55,10 +55,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&family=Graduate&display=swap" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@800&display=swap" rel="stylesheet">
     <!-- ALL FONTS BEING USED -->
-
-    
 
     <script src="/script/jquery-3.6.0.min.js"></script>
 
@@ -90,8 +92,8 @@
                             <li class="aboutList" id="aboutList"> <a href="/Pages/About Us/About Us/aboutUs.html"
                                     id="about" class="about">About Us </a>
                                 <span id="minAndMaxAbout">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+</span></li>
-                            <li id="programsList" class="programsList"> <a href="" id="programs"
-                                    class="programs">Programs </a> <span
+                            <li id="programsList" class="programsList"> <a href="/Pages/Programs/programs.html"
+                                    id="programs" class="programs">Programs </a> <span
                                     id="minAndMaxPrograms">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+</span></li>
                             <li id="newsList" class="newsList"> <a href="" id="newsAndEvents" class="newsAndEvents">News
                                     and Events </a>
@@ -112,9 +114,9 @@
 
         <div class="dropDown">
             <div class="aboutContent" id="aboutContent">
-                <a href="/Pages/About Us/About Us/aboutUs.html"">About Us</a>
-                <a href="/Pages/About Us/Our Team/ourTeam.html">Our Team</a> <a
-                    href="/Pages/About Us/Sponsors And Partners/sponsors.html">Sponsor and Partners</a>
+                <a href="/Pages/About Us/About Us/aboutUs.html">About Us</a>
+                <a href="/Pages/About Us/Our Team/ourTeam.html">Our Team</a>
+                <a href="/Pages/About Us/Sponsors And Partners/sponsors.html">Sponsor and Partners</a>
             </div>
 
             <div class="programsDropDown" id="programsDropDown">
@@ -212,102 +214,88 @@
     <div class="container">
         <div class="bar">
             <h1>
-                OUR TEAM
+            Contact Us
             </h1>
 
 
-        </div>
-        <h1 class="directors">Program Directors</h1>
+</div>
 
-        <div class="row1">
-            <div class="column1">
-                <img src="/assets/office pictures/beulah.png" alt="">
-                <h1>Beulah </h1>
-
-            </div>
-
-            <div class="column2">
-                <img src="/assets/office pictures/A15B81A5-9C4C-480C-834E-E4B4D9121D4A.jpeg" alt="">
-                <h1>Peace Okpara</h1>
-
-            </div>
-
-            <div class="column3">
-                <img src="/assets/office pictures/A15B81A5-9C4C-480C-834E-E4B4D9121D4A.jpeg" alt="">
-                <h1>Bunmi Joseph</h1>
-
-            </div>
-
-        </div>
+<form>
 
 
 
 
-        <h1 class="theTeam">Team</h1>
-
-        <!-- <img src="/assets/theRealTeam.jpg" alt="" class="ourTeam">
-
-<h2 class="w3-center">Automatic Slideshow</h2> -->
-        <style>
-            .mySlides {
-                display: none;
-            }
-
-            .animate-pictures {
-                animation: fading 10s infinite
-            }
-
-            @keyframes fading {
-                0% {
-                    opacity: 0
-                }
-
-                50% {
-                    opacity: 1
-                }
-
-                100% {
-                    opacity: 0
-                }
-            }
-        </style>
-        <div class="ourTeam" style="max-width:500px">
-            <img class="mySlides animate-pictures"
-                src="/assets/office pictures/A8A9223B-7290-4771-8B68-561D1B337678.jpeg">
-            <img class="mySlides animate-pictures"
-                src="/assets/office pictures/B72CA77E-C59F-4361-8F42-5D9B56698B15.jpeg">
-            <img class="mySlides animate-pictures"
-                src="/assets/office pictures/D4A6AD93-D00D-458E-A03B-98E5A6B3C1DA.jpeg">
-            <img class="mySlides animate-pictures"
-                src="/assets/office pictures/DF5DEEEB-33FD-49B1-B6D2-488797EAEF01.jpeg">
-        </div>
-
-        <script>
-            var myIndex = 0;
-            carousel();
-
-            function carousel() {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                }
-                myIndex++;
-                if (myIndex > x.length) {
-                    myIndex = 1
-                }
-                x[myIndex - 1].style.display = "block";
-                setTimeout(carousel, 5000); // Change image every 2 seconds
-            }
-        </script>
-
-
-
-
-
+<div class="bodyContainer">
+    <div class="column1">
+        <img src="/assets/me" alt="">
     </div>
+    <div class="column2">
+    <form>
+        <label for="fname" class="fname">First Name</label>
+    
+        <input type="text" id="fname" placeholder="Your First Name">
+    
+        <label for="lname" class="lname">Last Name</label>
+    
+        <input type="text" id="lname" placeholder="Your Last Name">
+    
+        <label for="message" class="message">Your Message</label>
+    
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:220px"></textarea>
+    </form>
+</div>
 
 
+</div>
+
+
+
+<!-- <form>
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+    </form> -->
+ 
+  
+
+    
+    </div>
 
 
 
