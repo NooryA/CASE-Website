@@ -285,6 +285,7 @@ form{
 
 .column1{
     width:50%;
+    margin-top:100px;
 }
 
  input[type=text], select, textarea {
@@ -298,6 +299,12 @@ form{
 
   }
 
+  h1.sendMessage{
+      font-size:70px;
+  }
+  .column1 img {
+      padding-top:100px;
+  }
  
 
 
@@ -308,6 +315,50 @@ form{
    
    font-size:60px;
   }
+
+
+  input[type=submit]{
+      margin-top:50px;
+    margin-left: 0.5em;
+    height: 2.5em;
+    padding: 0.2em 1em 0.2em 2.25em;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    color: #696666;
+    background: url(https://i.imgur.com/Th606mh.png) no-repeat scroll 0.75em 0.07em transparent;
+    background-size: 54px 204px;
+    border-radius: 2em;
+    border: 0.15em solid #6e6a6a;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  input[type="submit"]:hover {
+      color: #fff;
+      background-color: #000000;
+      border-color: #070707;
+      background-position: 0.75em bottom;
+      -webkit-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+  }
+  input[type="submit"]:focus {
+      background-position: 2em -4em;
+      -webkit-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+  }
+  /* Webfonts */
+  
+  @font-face {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+  }
+
+  
   /*
   input[type=submit] {
     background-color: #4CAF50;
