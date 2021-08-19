@@ -1,0 +1,1624 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+
+    margin: 0px;
+    line-height: 1;
+    padding: 0px;
+
+
+}
+
+
+
+
+
+/* ######################################################## NAV BAR ############################################################### */
+
+nav {
+
+    width: 100%;
+    margin: 0;
+    position: relative;
+
+}
+
+.navBar {
+
+    position: absolute;
+    left: 30%;
+    top: 66px;
+
+}
+
+
+
+
+nav ul li {
+    list-style: none;
+    float: left;
+    padding-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    /* font-family: 'Mate SC', serif; */
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: 'Lato', sans-serif;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    border: solid 1px transparent;
+    padding: 5px;
+}
+
+nav img {
+    height: 25%;
+    width: 25%;
+    margin-top: 15px;
+}
+
+.top-section {
+
+    background-color: black;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    height: 100px;
+    margin-top: 0;
+    padding-top: 0;
+
+
+}
+
+.overlayLogo {
+    color: white;
+    position: absolute;
+    left: 4.5%;
+    top: 65%;
+    font-size: 15px;
+    font-family: 'Noto Sans HK', sans-serif;
+
+
+}
+
+.donation a {
+
+    border: solid white;
+}
+
+.navBar li a:hover {
+    border: solid 1px white;
+    transition: 0.5s;
+
+
+}
+
+.navBar li span {
+    display: none;
+}
+
+.dropDown {
+
+    position: absolute;
+    top: 13.5%;
+    height: 700px;
+    width: 100%;
+    z-index: 4;
+
+}
+
+.aboutContent a:hover,
+.programsDropDown a:hover,
+.newsAndEventsDropDown a:hover,
+.contactUsDropDown a:hover {
+    color: black;
+
+
+
+}
+
+.aboutContent,
+.programsDropDown,
+.newsAndEventsDropDown,
+.contactUsDropDown {
+    display: none;
+    position: absolute;
+    left: 37.5%;
+
+
+}
+
+.aboutContent a,
+.programsDropDown a,
+.newsAndEventsDropDown a,
+.contactUsDropDown a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border: solid black;
+    padding: 5px;
+    margin-top: 2px;
+    transition: 0.5s;
+
+}
+
+
+.displayAboutContent,
+.displayProgramsDropDown,
+.displaySeniorsConnectDropDown,
+.displayYouthProgramsDropDown,
+.displayWorkPlaceDropDown,
+.displaySingleParentsDropDown,
+.displayCommunityResourcesDropDown,
+.displayContactUsDropDown {
+    display: block;
+
+}
+
+
+
+
+.seniorsConnectDropDown,
+.youthProgramsDropDown,
+.workplaceExperienceDropDown,
+.singleParentsDropDown,
+.communityResourcesDropDown {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0.1%;
+    width: 100%;
+}
+
+
+.youthProgramsDropDown {
+    top: 20%;
+}
+
+
+.workplaceExperienceDropDown {
+    top: 84%;
+
+}
+
+
+.singleParentsDropDown {
+    top: 40%;
+
+}
+
+
+
+
+.communityResourcesDropDown {
+    top: 0.2%;
+
+}
+
+
+
+.displayAboutContent,
+.displayProgramsDropDown,
+.displaySeniorsConnectDropDown,
+.displayYouthProgramsDropDown,
+.displayWorkPlaceDropDown,
+.displaySingleParentsDropDown,
+.displayCommunityResourcesDropDown,
+.displayContactUsDropDown {
+    display: block;
+
+}
+
+.arrow {
+    float: right;
+}
+
+.minAndMaxSeniorsConnectMobile,
+.minAndMaxYouthProgramsMobile,
+.minAndMaxWorkplaceExperienceMobile,
+.minAndMaxSingleParentsMobile,
+.minAndMaxCommunityResourcesMobile,
+.minAndMaxWorkplaceExperienceMobile {
+    display: none;
+}
+
+li.youthList,
+li.singleParentsList,
+li.communityList,
+li.workplaceList {
+    list-style: none;
+}
+
+
+
+
+/* ######################################################################## FIRST BODY ############################################################# */
+
+
+
+
+.container {
+    width: 100%;
+    height: 2790px;
+    background: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.bar h1 {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.bar {
+    height: 100px;
+    width: 100%;
+    background: #1A2980;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26D0CE, #1A2980);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+.row1, .row2 {
+    display:flex;
+position:relative;
+left:15%;
+top:10%;
+}
+
+.column1 img, .column2 img, .column3 img, .column4 img {
+padding-right: 40px;
+
+}
+
+.column3.ontario img {
+  width:70%;
+padding-right: none;
+  
+}
+
+.column4.brampton img {
+    width:50%;
+}
+
+/* ####################################################### FOOTER ############################################################# */
+footer {
+    overflow: hidden;
+    height: 350px;
+    /* background: #F5F5F5; */
+    background: black;
+    position: relative;
+    display: flex;
+    width: 100%;
+    color: black;
+
+
+
+
+}
+
+.footerColumn1 {
+    margin-top: 10px;
+    width: 40%;
+    color: white;
+    /* border:solid 5px red; */
+
+}
+
+.footerColumn1 h1 {
+    color: white;
+
+
+}
+
+
+
+.footerColumn2 {
+    margin-top: 10px;
+    width: 35%;
+    color: white;
+
+    /* border:solid 5px red; */
+
+
+}
+
+.footerColumn2 button {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 15px;
+    background-color: orange;
+    color: white;
+    border: solid 1px white;
+    padding: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+
+
+}
+
+.footerColumn2 button:hover {
+    background-color: wheat;
+    color: darkred;
+
+
+}
+
+.heart {
+    font-size: 20px;
+    color: red;
+    margin-right: 0;
+}
+
+.footerColumn2 a.heartLink {
+    text-decoration: none;
+    color: white;
+
+}
+
+.footerColumn2 p:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+span.thumbs {
+    font-size: 15px;
+    margin-top: 10px;
+
+
+}
+
+.footerColumn2 a.thumbsLink {
+    text-decoration: none;
+    color: white;
+
+
+
+}
+
+.footerColumn2 p:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.footerColumn2 p {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.footerColumn3 {
+
+    margin-top: 10px;
+    /* border:solid 5px red; */
+    width: 25%;
+    color: white;
+
+
+
+}
+
+.footerColumn3 img {
+    display: inline;
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 10%;
+    height: 10%;
+    padding-right: 10px;
+}
+
+.footerColumn3 img.twitter {
+    width: 17%;
+    height: 9%;
+}
+
+
+.changeColor {
+    color: black;
+}
+
+
+
+
+
+
+
+
+/*################### ################################################### FOR SMALLEST A COMPUTER CAN GET################################################################### */
+
+@media only screen and (min-width: 1068px) {
+
+    .mobileDropDown {
+        display: none;
+    }
+
+    nav ul li {
+        list-style: none;
+        float: left;
+        padding-right: 30px;
+        font-size: 15px;
+        text-decoration: none;
+        /* font-family: 'Mate SC', serif; */
+        /* font-family: 'Barlow', sans-serif; */
+        font-family: 'Lato', sans-serif;
+    }
+
+
+
+    .aboutContent {
+        position: absolute;
+        left: 36%;
+        bottom: 88.2%;
+        /* font-size: 10px; */
+
+
+    }
+
+    .aboutContent a {
+        border: 1px solid black;
+        ;
+    }
+
+    .programsDropDown {
+        position: absolute;
+        left: 44.5%;
+        bottom: 79.5%;
+        /* font-size: 10px; */
+
+
+    }
+
+    .programsDropDown a {
+        border: 1px solid black;
+        ;
+    }
+
+
+    .newsAndEventsDropDown {
+        position: absolute;
+        left: 53.9%;
+        bottom: 75.2%;
+
+
+    }
+
+    .newsAndEventsDropDown a {
+
+
+
+        border: solid 1px black;
+
+
+    }
+
+    .contactUsDropDown {
+        position: absolute;
+        left: 71%;
+        bottom: 83.8%;
+
+
+
+
+    }
+
+    .contactUsDropDown a {
+
+
+
+        border: solid 1px black;
+        ;
+
+
+
+    }
+
+
+
+
+
+    .mainHeader h1 {
+        position: absolute;
+        left: 14%;
+        top: 55%;
+        font-size: 80px;
+        color: white;
+        font-family: 'Cinzel', serif;
+    }
+
+
+    .mainHeader p {
+        position: absolute;
+        left: 34%;
+        top: 67%;
+        font-size: 30px;
+        color: white;
+        font-family: 'Cinzel', serif;
+        font-family: 'Josefin Slab', serif;
+    }
+
+
+
+
+
+
+
+
+    /*################### ################################################### FIRST BODY ################################################################### */
+
+
+
+
+    p.communityParagraph,
+    p.empowermentParagraph,
+    p.collaborationParagraph,
+    p.humanityParagraph {
+        font-family: 'Special Elite', cursive;
+        text-align: center;
+        font-size: 25px;
+        margin-left: 650px;
+        margin-right: 100px;
+    }
+
+
+    h1.communityHeader,
+    h1.empowermentHeader,
+    h1.collaborationHeader,
+    h1.humanityHeader {
+        text-align: end;
+        font-family: 'Cinzel', serif;
+        margin-left: 700px;
+        font-size: 50px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        margin-right: 330px;
+
+    }
+
+
+
+
+}
+
+
+
+/*################### ################################################### FOR a Smaller Desktop Screens ################################################################### */
+
+@media only screen and (min-width: 1281px) {
+
+
+
+
+
+
+
+
+    /* ######################################################## NAV BAR ############################################################### */
+
+
+    .navBar {
+
+        position: absolute;
+        left: 30%;
+        top: 66px;
+
+    }
+
+    .mobileDropDown {
+        display: none;
+    }
+
+    nav ul li {
+        list-style: none;
+        float: left;
+        padding-right: 30px;
+        font-size: 20px;
+        text-decoration: none;
+        /* font-family: 'Mate SC', serif; */
+        /* font-family: 'Barlow', sans-serif; */
+        font-family: 'Lato', sans-serif;
+    }
+
+
+    nav ul li.donation {
+        padding-right: 0px;
+
+    }
+
+
+
+
+    .overlayLogo {
+        color: white;
+        position: absolute;
+        left: 5.5%;
+        top: 65%;
+        font-size: 15px;
+        font-family: 'Noto Sans HK', sans-serif;
+
+
+    }
+
+    .logo img {
+        margin-top: 7px;
+
+
+
+    }
+
+
+    .aboutContent {
+        position: absolute;
+        left: 36%;
+        bottom: 85.5%;
+        font-size: 20px;
+
+    }
+
+    .aboutContent a {
+
+
+
+        border: solid 1px black;
+        ;
+
+
+    }
+
+    .programsDropDown {
+        position: absolute;
+        left: 44%;
+        bottom: 76%;
+        font-size: 20px;
+
+    }
+
+    .programsDropDown a {
+
+
+
+        border: solid 1px black;
+        ;
+
+
+    }
+
+    .newsAndEventsDropDown {
+        position: absolute;
+        left: 52.1%;
+        bottom: 71%;
+        font-size: 20px;
+
+    }
+
+    .newsAndEventsDropDown a {
+
+
+
+        border: solid 1px black;
+        ;
+
+
+    }
+
+    .contactUsDropDown {
+        position: absolute;
+        left: 72.5%;
+        bottom: 80.7%;
+        font-size: 20px;
+
+
+
+    }
+
+    .contactUsDropDown a {
+
+
+
+        border: solid 1px black;
+
+
+
+    }
+
+
+
+    /*################### ################################################### FIRST BODY ################################################################### */
+
+
+
+
+    p.communityParagraph,
+    p.empowermentParagraph,
+    p.collaborationParagraph,
+    p.humanityParagraph {
+        font-family: 'Special Elite', cursive;
+        text-align: center;
+        font-size: 25px;
+        margin-left: 650px;
+        margin-right: 100px;
+    }
+
+
+    h1.communityHeader,
+    h1.empowermentHeader,
+    h1.collaborationHeader,
+    h1.humanityHeader {
+        text-align: end;
+        font-family: 'Cinzel', serif;
+        margin-left: 770px;
+        font-size: 65px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        margin-right: 330px;
+
+    }
+
+
+
+
+}
+
+
+/*################### ################################################### FOR a Small Desktop Screens ################################################################### */
+
+@media only screen and (min-width: 1587px) {
+
+
+
+
+
+
+
+    /* ######################################################## NAV BAR ############################################################### */
+
+
+    .navBar {
+
+        position: absolute;
+        left: 35%;
+        top: 66px;
+
+    }
+
+    .mobileDropDown {
+        display: none;
+    }
+
+
+    nav ul li {
+
+        list-style: none;
+        float: left;
+        padding-right: 50px;
+        font-size: 20px;
+        text-decoration: none;
+        /* font-family: 'Mate SC', serif; */
+        /* font-family: 'Barlow', sans-serif; */
+        font-family: 'Lato', sans-serif;
+
+    }
+
+    nav ul li.donation {
+        padding-right: 0px;
+
+    }
+
+
+
+
+
+    .overlayLogo {
+        color: white;
+        position: absolute;
+        left: 5.5%;
+        top: 62%;
+        font-size: 20px;
+        font-family: 'Noto Sans HK', sans-serif;
+
+
+    }
+
+    .logo img {
+        margin-top: 7px;
+
+
+
+    }
+
+
+    .aboutContent {
+        position: absolute;
+        left: 41.5%;
+        bottom: 90.5%;
+        font-size: 20px;
+
+
+    }
+
+    .aboutContent a {
+
+
+
+        border: solid 1px black;
+        ;
+
+
+    }
+
+    .programsDropDown {
+        position: absolute;
+        left: 49.2%;
+        bottom: 80.5%;
+        font-size: 20px;
+
+
+    }
+
+    .programsDropDown a {
+
+
+
+        border: solid 1px black;
+        ;
+
+
+    }
+
+    .newsAndEventsDropDown {
+        position: absolute;
+        left: 56.7%;
+        bottom: 75.7%;
+        font-size: 20px;
+
+
+    }
+
+    .newsAndEventsDropDown a {
+
+
+
+        border: solid 1px black;
+        ;
+
+
+    }
+
+    .contactUsDropDown {
+        position: absolute;
+        left: 75%;
+        bottom: 85.5%;
+        font-size: 20px;
+
+
+
+    }
+
+    .contactUsDropDown a {
+
+
+
+        border: solid 1px black;
+        ;
+
+
+
+    }
+
+
+
+    /*################### ################################################### FIRST BODY ################################################################### */
+
+
+
+
+    p.communityParagraph,
+    p.empowermentParagraph,
+    p.collaborationParagraph,
+    p.humanityParagraph {
+        font-family: 'Special Elite', cursive;
+        text-align: center;
+        font-size: 25px;
+        margin-left: 650px;
+        margin-right: 100px;
+    }
+
+
+    h1.communityHeader,
+    h1.empowermentHeader,
+    h1.collaborationHeader,
+    h1.humanityHeader {
+        text-align: end;
+        font-family: 'Cinzel', serif;
+        margin-left: 770px;
+        font-size: 65px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        margin-right: 330px;
+
+    }
+
+
+
+
+
+
+    h1.diversityHeader,
+    h1.self-determinationHeader,
+    h1.equityHeader {
+        text-align: left;
+        font-family: 'Cinzel', serif;
+        margin-left: 500px;
+        font-size: 65px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+
+
+
+    p.diversityParagraph,
+    p.self-determinationParagraph,
+    p.equityParagraph {
+        font-family: 'Special Elite', cursive;
+        text-align: center;
+        font-size: 25px;
+        margin-left: 15px;
+        margin-right: 600px;
+    }
+
+
+}
+
+
+
+/*################### ################################################### FOR BIG DESKTOP SCREENS ################################################################### */
+
+
+@media only screen and (min-width: 1900px) {
+
+
+
+
+
+
+    /* ######################################################## NAV BAR ############################################################### */
+
+
+    .navBar {
+
+        position: absolute;
+        left: 35%;
+        top: 60%;
+
+    }
+
+    .mobileDropDown {
+        display: none;
+    }
+
+
+    nav ul li {
+
+        list-style: none;
+        float: left;
+        padding-right: 50px;
+        font-size: 27px;
+        text-decoration: none;
+        /* font-family: 'Mate SC', serif; */
+        /* font-family: 'Barlow', sans-serif; */
+        font-family: 'Lato', sans-serif;
+
+    }
+
+    nav ul li.donation {
+        padding-right: 0px;
+
+    }
+
+
+
+
+
+    .overlayLogo {
+        color: white;
+        position: absolute;
+        left: 5.5%;
+        top: 62%;
+        font-size: 20px;
+        font-family: 'Noto Sans HK', sans-serif;
+
+
+    }
+
+    .logo img {
+        margin-top: 7px;
+
+
+
+    }
+
+
+    .aboutContent {
+        position: absolute;
+        left: 42%;
+        bottom: 90%;
+        font-size: 20px;
+
+
+    }
+
+    .aboutContent a {
+
+
+
+        border: solid 1px black;
+        ;
+
+
+
+    }
+
+    .programsDropDown {
+        position: absolute;
+        left: 50.8%;
+        bottom: 80.3%;
+        font-size: 20px;
+
+
+    }
+
+    .programsDropDown a {
+
+
+
+        border: solid 1px black;
+        ;
+
+
+    }
+
+    .newsAndEventsDropDown {
+        position: absolute;
+        left: 60%;
+        bottom: 75.5%;
+        font-size: 20px;
+
+
+
+    }
+
+    .newsAndEventsDropDown a {
+
+
+
+        border: solid 1px black;
+        ;
+
+
+
+    }
+
+    .contactUsDropDown {
+        position: absolute;
+        left: 81.2%;
+        bottom: 85.2%;
+        font-size: 20px;
+
+
+
+    }
+
+    .contactUsDropDown a {
+
+
+
+        border: solid 1px black;
+
+
+
+
+    }
+
+
+
+
+
+
+    /* ######################################################################## FIRST BODY ############################################################# */
+
+
+
+
+    h1.communityHeader,
+    h1.empowermentHeader,
+    h1.collaborationHeader,
+    h1.humanityHeader {
+        text-align: end;
+        font-family: 'Cinzel', serif;
+        margin-left: 770px;
+        font-size: 65px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        margin-right: 400px;
+
+    }
+
+    .communityBar img,
+    .empowermentBar img,
+    .collaborationBar img,
+    .humanityBar img {
+        position: absolute;
+        left: 5%;
+        top: 17%;
+        width: 25%;
+        height: 75%;
+    }
+
+    p.communityParagraph,
+    p.empowermentParagraph,
+    p.collaborationParagraph,
+    p.humanityParagraph {
+        font-family: 'Special Elite', cursive;
+        text-align: center;
+        font-size: 30px;
+        margin-left: 600px;
+        margin-right: 100px;
+    }
+
+    .diversityBar {
+        background: crimson;
+
+    }
+
+    h1.diversityHeader,
+    h1.self-determinationHeader,
+    h1.equityHeader {
+
+        text-align: end;
+        font-family: 'Cinzel', serif;
+        margin-left: 500px;
+        margin-right: 1080px;
+        font-size: 65px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .diversityBar img,
+    .equityBar img,
+    .self-determinationBar img {
+        position: absolute;
+        top: 10%;
+        width: 25%;
+        height: 75%;
+        left: 70%;
+    }
+
+
+    p.diversityParagraph,
+    p.self-determinationParagraph,
+    p.equityParagraph {
+        font-family: 'Special Elite', cursive;
+        text-align: center;
+        font-size: 25px;
+        margin-left: 15px;
+        margin-right: 600px;
+    }
+
+
+
+
+}
+
+
+/*################### ################################################### FOR TABLETS MY FRIEND ################################################################### */
+
+
+@media only screen and (max-width:1067px) {
+
+
+
+    /*################### ################################################### NAV BAR ################################################################### */
+
+
+    .navBar li:not(:nth-child(8)) {
+        display: none;
+    }
+
+    .mobileDropDown {
+        float: right;
+        padding-right: 10px;
+        /* position:absolute;
+        left:95%;
+        top:70%; */
+        margin-top: -23px;
+        position: absolute;
+        top: 9%;
+        right: 1%;
+    }
+
+    button.mobileDropDown {
+
+        font-size: 30px;
+        /* min-height: 100%; */
+        padding: 5px;
+        background-color: transparent;
+        cursor: pointer;
+        color: white;
+
+
+
+    }
+
+    .overlayLogo {
+        color: white;
+        position: absolute;
+        left: 5.5%;
+        top: 68%;
+        font-size: 1vw;
+        font-family: 'Noto Sans HK', sans-serif;
+
+
+    }
+
+    .top-section.navBarMobile li {
+        display: block;
+    }
+
+    .navBarMobile {
+        position: absolute;
+        top: 150%;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .navBarMobile li {
+        border: 10px solid linear-gradient(147deg, #000000 0%, #434343 74%);
+
+        text-align: center;
+        float: none;
+        background: linear-gradient(147deg, #000000 0%, #434343 74%);
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+    }
+
+    li.donation a {
+        border: none;
+    }
+
+    .navBarMobile li.Home {
+        margin-top: 50px;
+    }
+
+    .top-section-mobile {
+        height: 370px;
+    }
+
+    /* .navBarMobile li a.about {
+        color:blue;
+
+    } */
+
+    /* .navBarMobile li.aboutList:hover {
+        padding-bottom: 100px;
+    } */
+
+    .navBarMobile li span {
+        color: honeydew;
+        cursor: pointer;
+    }
+
+    li.toggleDropDown {
+        padding-bottom: 100px;
+
+    }
+
+    .aboutContent {
+
+        z-index: 3;
+    }
+
+    .displayAboutContentMobile {
+        display: block;
+    }
+
+    .programsDropDown {
+
+        z-index: 3;
+    }
+
+    .displayProgramsDropDownMobile {
+        display: block;
+    }
+
+    li.toggleDropDown.programsList {
+        padding-bottom: 165px;
+    }
+
+    li.toggleDropDown.newsList {
+        padding-bottom: 190px;
+    }
+
+    li.toggleDropDown.contactList {
+        padding-bottom: 140px;
+    }
+
+    .newsAndEventsDropDown {
+
+        z-index: 3;
+    }
+
+    .displayNewsAndEventsDropDownMobile {
+        display: block;
+    }
+
+    .contactUsDropDown {
+
+        z-index: 3;
+    }
+
+    .displayContactUsDropDownMobile {
+        display: block;
+    }
+
+    /* #minAndMaxHome {
+        color:yellow;
+    }
+  */
+    .aboutContent {
+        left: 40%;
+        top: 12%;
+    }
+
+    .aboutContent a {
+        border: none;
+    }
+
+
+
+    .aboutContent a:not(:nth-child(3)) {
+        text-align: center;
+    }
+
+
+
+    .programsDropDown {
+        top: 18%;
+
+    }
+
+    .programsDropDown a {
+        border: none;
+        text-align: center;
+    }
+
+    .newsAndEventsDropDown {
+        top: 23%;
+        left: 40%;
+    }
+
+
+    .newsAndEventsDropDown a {
+        border: none;
+        text-align: center;
+    }
+
+    .contactUsDropDown {
+        left: 40%;
+        top: 35%;
+    }
+
+    .contactUsDropDown a {
+        border: none;
+        text-align: center;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+
+
+
+    span.minAndMaxSeniorsConnectMobile {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding-left: 15px;
+        cursor: pointer;
+
+    }
+
+    .programsDropDown a.seniorsConnect {
+        display: inline-block;
+        margin-left: 35px;
+    }
+
+    span.minAndMaxYouthProgramsMobile {
+        display: inline-block;
+        color: white;
+        padding-left: 23px;
+        cursor: pointer;
+
+    }
+
+    .programsDropDown a.youthPrograms {
+        display: inline-block;
+    }
+
+    li.youthList {
+        list-style: none;
+        padding-left: 30px;
+    }
+
+    span.minAndMaxSingleParentsMobile {
+        display: inline-block;
+        color: white;
+        padding-left: 30px;
+        cursor: pointer;
+
+    }
+
+    .programsDropDown a.singleParents {
+        display: inline-block;
+        margin-left: 35px;
+
+    }
+
+    li.singleParentsList {
+        list-style: none;
+    }
+
+    span.minAndMaxCommunityResourcesMobile {
+        display: inline-block;
+        color: white;
+        cursor: pointer;
+
+    }
+
+    .newsAndEventsDropDown a.communityResources {
+        display: inline-block;
+
+
+    }
+
+    li.communityList {
+        list-style: none;
+
+    }
+
+    li.subToggleDropDown.programsList {
+        padding-bottom: 325px;
+        transition: none;
+    }
+
+    li.doubleSubToggleDropDown.programsList {
+        padding-bottom: 425px;
+        transition: none;
+    }
+
+    a.subToggleDropDownPadding.seniorsConnect {
+        padding-bottom: 175px;
+        transition: none;
+    }
+
+    .programsDropDown a {
+        transition: none;
+    }
+
+    .seniorsConnectDropDown {
+        left: 5%;
+        top: 8%;
+        font-size: 10px;
+    }
+
+    .seniorsConnectDropDown {
+        display: none;
+    }
+
+    .displaySeniorsConnectDropDownMobile {
+        display: block;
+    }
+
+    a.subToggleDropDownPadding.youthPrograms {
+        padding-bottom: 140px;
+        transition: none;
+    }
+
+    .youthProgramsDropDown {
+        left: 5%;
+        top: 20%;
+        font-size: 10px;
+    }
+
+    .youthProgramsDropDown {
+        display: none;
+    }
+
+    .displayYouthProgramsDropDownMobile {
+        display: block;
+    }
+
+    .singleParentsDropDown {
+        display: none;
+    }
+
+    .displaySingleParentsDropDownMobile {
+        display: block;
+    }
+
+    a.subToggleDropDownPadding.singleParents {
+        padding-bottom: 85px;
+        transition: none;
+    }
+
+    .singleParentsDropDown {
+        left: 2%;
+        top: 39%;
+        font-size: 12px;
+
+    }
+
+
+    .communityResourcesDropDown {
+        display: none;
+    }
+
+    .displayCommunityResourcesDropDownMobile {
+        display: block;
+    }
+
+    li.subToggleDropDown.newsList {
+        padding-bottom: 300px;
+        transition: none;
+    }
+
+    a.subToggleDropDownPadding.communityResources {
+        padding-bottom: 120px;
+        transition: none;
+    }
+
+    .newsAndEventsDropDown a {
+        transition: none;
+    }
+
+    .communityResourcesDropDown {
+        left: 1%;
+        top: 10%;
+        font-size: 11px;
+
+    }
+
+    li.workplaceList {
+        list-style: none;
+
+    }
+
+    span.minAndMaxWorkplaceExperienceMobile {
+        display: inline-block;
+        color: white;
+        padding-left: 20px;
+        cursor: pointer;
+
+    }
+
+    .programsDropDown a.workplace {
+        display: inline-block;
+        padding-left: 50px;
+
+
+    }
+
+
+}

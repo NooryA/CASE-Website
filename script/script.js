@@ -105,14 +105,6 @@ $("document").ready(function () {
     //////////////////////////////////////////////////////PROGRAMS DROP DOWNS //////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-    // $("#programs").hover(function () {
-
-    //     $("#programsDropDown").addClass("displayProgramsDropDown");
-    // }, function () {
-    //     $("#programsDropDown").removeClass("displayProgramsDropDown");
-
-
-    // });
 
     $("#programsDropDown").hover(function () {
 
@@ -453,12 +445,6 @@ $("document").ready(function () {
 
     $("#mobileDropDown").click(function () {
 
-        // $("#aboutList").removeClass("toggleDropDown");
-        // if($("#aboutContent").hasClass("displayAboutContentMobile")){
-        // $("#aboutContent").removeClass("displayAboutContentMobile");
-        // }
-
-
 
 
         if ($("#navBar").hasClass("navBar")) {
@@ -478,11 +464,13 @@ $("document").ready(function () {
         }
 
         $("#programsList").removeClass("toggleDropDown");
+        $("#programsList").removeClass("subToggleDropDown");
         if ($("#programsDropDown").hasClass("displayProgramsDropDownMobile")) {
             $("#programsDropDown").removeClass("displayProgramsDropDownMobile");
         }
 
         $("#newsList").removeClass("toggleDropDown");
+        $("#newsList").removeClass("subToggleDropDown");
         if ($("#newsAndEventsDropDown").hasClass("displayNewsAndEventsDropDownMobile")) {
             $("#newsAndEventsDropDown").removeClass("displayNewsAndEventsDropDownMobile");
         }
@@ -497,20 +485,18 @@ $("document").ready(function () {
         $("#minAndMaxNews").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
         $("#minAndMaxContact").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
 
+         $("#seniorsConnect").removeClass("subToggleDropDownPadding");
+         $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
+         $("#youthPrograms").removeClass("subToggleDropDownPadding");
+         $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDownMobile");
+         $("#singleParents").removeClass("subToggleDropDownPadding");
+         $("#singleParentsDropDown").removeClass("displaySingleParentsDropDownMobile");
+         $("#communityResources").removeClass("subToggleDropDownPadding");
+        $("#communityResourcesDropDown").removeClass("displayCommunityResourcesDropDownMobile");
+
     });
 
-    // var mobileWindow= window.matchMedia("(max-width: 1067px)");
-
-
-    //     $("#aboutContent").hover(function () {
-
-    //         $("#aboutContent").removeClass("displayAboutContent");
-    //     }, function () {
-    //         $("#aboutContent").removeClass("displayAboutContent");
-
-
-    //     });
-
+ 
 
 
     //##################################################################################### MAIN MINIMIZING AND MAXIMIZING FOR MOBILE ###########################################################################
@@ -525,35 +511,16 @@ $("document").ready(function () {
             $("#aboutList").toggleClass("toggleDropDown");
             $("#aboutContent").toggleClass("displayAboutContentMobile");
 
-            // $("#programsDropDown").css({
-            //     "top":"30%",
-
-
-            //  });
-
-            //  $("#newsAndEventsDropDown").css({
-            //     "top":"58%",
-
-
-            //  });
+       
             $("#minAndMaxAbout").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>--<b>");
             $("#minAndMaxPrograms").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
             $("#minAndMaxNews").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
             $("#minAndMaxContact").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
 
         } else {
-            // $("#programsDropDown").css({
-            //     "top":"17%",
-
-
-
-            //  });
-
-            //  $("#newsAndEventsDropDown").css({
-            //     "top":"45%",
+       
             $("#minAndMaxAbout").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
 
-            //  });
             $("#aboutList").removeClass("toggleDropDown");
             $("#aboutContent").removeClass("displayAboutContentMobile");
         }
@@ -571,6 +538,13 @@ $("document").ready(function () {
         $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
         $("#youthPrograms").removeClass("subToggleDropDownPadding");
         $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDownMobile");
+        $("#singleParents").removeClass("subToggleDropDownPadding");
+        $("#singleParentsDropDown").removeClass("displaySingleParentsDropDownMobile");
+        
+        $("#communityResources").removeClass("subToggleDropDownPadding");
+        $("#communityResourcesDropDown").removeClass("displayCommunityResourcesDropDownMobile");
+
+        $("#newsList").removeClass("subToggleDropDown");
 
     });
 
@@ -580,20 +554,18 @@ $("document").ready(function () {
             $("#programsList").toggleClass("toggleDropDown");
             $("#programsDropDown").toggleClass("displayProgramsDropDownMobile");
 
-            // $("#newsAndEventsDropDown").css({
-            //     "top":"45%",
+    
 
             $("#minAndMaxPrograms").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>--<b>");
             $("#minAndMaxAbout").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
             $("#minAndMaxNews").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
             $("#minAndMaxContact").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
-            //  });
+       
         } else {
-            // $("#newsAndEventsDropDown").css({
-            //     "top":"23%",
+         
 
             $("#minAndMaxPrograms").html("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +");
-            //  });
+   
             $("#programsList").removeClass("toggleDropDown");
             $("#programsDropDown").removeClass("displayProgramsDropDownMobile");
 
@@ -602,7 +574,8 @@ $("document").ready(function () {
             $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
             $("#youthPrograms").removeClass("subToggleDropDownPadding");
             $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDownMobile");
-
+            $("#singleParents").removeClass("subToggleDropDownPadding");
+            $("#singleParentsDropDown").removeClass("displaySingleParentsDropDownMobile");
 
         }
 
@@ -615,13 +588,11 @@ $("document").ready(function () {
         $("#contactList").removeClass("toggleDropDown");
         $("#contactUsDropDown").removeClass("displayContactUsDropDownMobile");
 
+        $("#newsList").removeClass("subToggleDropDown");
 
-        // $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
+        $("#communityResources").removeClass("subToggleDropDownPadding");
+        $("#communityResourcesDropDown").removeClass("displayCommunityResourcesDropDownMobile");
 
-        // if(("#seniorsConnectDropDown").hasClass("displaySeniorsConnectDropDownMobile")){
-        //     $("#programsList").toggleClass("subToggleDropDownRemove");
-
-        // }
 
     });
 
@@ -659,6 +630,9 @@ $("document").ready(function () {
         $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
         $("#youthPrograms").removeClass("subToggleDropDownPadding");
         $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDownMobile");
+        $("#singleParents").removeClass("subToggleDropDownPadding");
+        $("#singleParentsDropDown").removeClass("displaySingleParentsDropDownMobile");
+      
     });
 
 
@@ -692,6 +666,12 @@ $("document").ready(function () {
         $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
         $("#youthPrograms").removeClass("subToggleDropDownPadding");
         $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDownMobile");
+        $("#singleParents").removeClass("subToggleDropDownPadding");
+        $("#singleParentsDropDown").removeClass("displaySingleParentsDropDownMobile");
+        $("#communityResources").removeClass("subToggleDropDownPadding");
+        $("#communityResourcesDropDown").removeClass("displayCommunityResourcesDropDownMobile");
+
+        $("#newsList").removeClass("subToggleDropDown");
     });
 
 
@@ -703,7 +683,7 @@ $("document").ready(function () {
 
     $("#minAndMaxSeniorsConnectMobile").click(function () {
         console.log('clicked');
-        if ($("#youthPrograms").hasClass("subToggleDropDownPadding")) {
+        if ($("#youthPrograms").hasClass("subToggleDropDownPadding") ||  $("#singleParents").hasClass("subToggleDropDownPadding")) {
             $("#programsList").removeClass('subToggleDropDown');
         }
 
@@ -715,17 +695,21 @@ $("document").ready(function () {
 
         $("#youthPrograms").removeClass("subToggleDropDownPadding");
         $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDownMobile");
-        // $("#seniorsConnect").css({
-        //     "padding-bottom":"100px",
-        // });
 
+        
+        $("#singleParents").removeClass("subToggleDropDownPadding");
+        $("#singleParentsDropDown").removeClass("displaySingleParentsDropDownMobile");
+
+
+        $("#communityResources").removeClass("subToggleDropDownPadding");
+        $("#communityResourcesDropDown").removeClass("displayCommunityResourcesDropDownMobile");
 
 
     });
 
     $("#minAndMaxYouthProgramsMobile").click(function () {
         console.log('clicked');
-        if ($("#seniorsConnect").hasClass("subToggleDropDownPadding")) {
+        if ($("#seniorsConnect").hasClass("subToggleDropDownPadding") || $("#singleParents").hasClass("subToggleDropDownPadding") ) {
             $("#programsList").removeClass('subToggleDropDown');
         }
 
@@ -737,86 +721,77 @@ $("document").ready(function () {
 
         $("#seniorsConnect").removeClass("subToggleDropDownPadding");
         $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
-        // $("#seniorsConnect").css({
-        //     "padding-bottom":"100px",
-        // });
 
+        
+        $("#singleParents").removeClass("subToggleDropDownPadding");
+        $("#singleParentsDropDown").removeClass("displaySingleParentsDropDownMobile");
+  
+
+        $("#communityResources").removeClass("subToggleDropDownPadding");
+        $("#communityResourcesDropDown").removeClass("displayCommunityResourcesDropDownMobile");
 
 
     });
 
+    $("#minAndMaxSingleParentsMobile").click(function () {
+        console.log('clicked');
+        if ($("#seniorsConnect").hasClass("subToggleDropDownPadding") ||$("#youthPrograms").hasClass("subToggleDropDownPadding") ) {
+            $("#programsList").removeClass('subToggleDropDown');
+        }
+
+        $("#programsList").toggleClass("subToggleDropDown");
 
 
+        $("#singleParents").toggleClass("subToggleDropDownPadding");
+        $("#singleParentsDropDown").toggleClass("displaySingleParentsDropDownMobile");
+
+        $("#seniorsConnect").removeClass("subToggleDropDownPadding");
+        $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
+
+        $("#youthPrograms").removeClass("subToggleDropDownPadding");
+        $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDownMobile");
+   
+        $("#communityResources").removeClass("subToggleDropDownPadding");
+        $("#communityResourcesDropDown").removeClass("displayCommunityResourcesDropDownMobile");
 
 
+    });
+
+    $("#minAndMaxCommunityResourcesMobile").click(function () {
+        console.log('clicked');
+       
+   
+        $("#newsList").toggleClass("subToggleDropDown");
+       
+        $("#communityResources").toggleClass("subToggleDropDownPadding");
+        $("#communityResourcesDropDown").toggleClass("displayCommunityResourcesDropDownMobile");
+
+        
+        $("#seniorsConnect").removeClass("subToggleDropDownPadding");
+        $("#seniorsConnectDropDown").removeClass("displaySeniorsConnectDropDownMobile");
+
+        $("#youthPrograms").removeClass("subToggleDropDownPadding");
+        $("#youthProgramsDropDown").removeClass("displayYouthProgramsDropDownMobile");
+
+        $("#singleParents").removeClass("subToggleDropDownPadding");
+        $("#singleParentsDropDown").removeClass("displaySingleParentsDropDownMobile");
+
+    });
 
 
-    // $("#column1").hover(function(){
+    // $("#minAndMaxWorkplaceExperienceMobile").click(function () {
+    //     console.log('clicked workplace');
 
-    // $("#descriptionColumn1").stop().animate({
-    //     top:'65%',
+    //     $("#programsList").toggleClass("doubleSubToggleDropDown");
+
+    //     $("#youthPrograms").toggleClass("workplaceDropDownPadding");
+    //     $("#youthProgramsDropDown").toggleClass("reposition");
+    
 
     // });
 
-    // $("#descriptionColumn1 p").css({"color": "white"});
 
 
-    // // $("#descriptionColumn1 p").addClass(".showDescription")
-
-
-    // }, function(){
-    //     $("#descriptionColumn1").stop().animate({
-    //         top:'80%',
-
-    //     });
-    //     $("#descriptionColumn1 p").css({"color": "rgb(141, 7, 250)"});
-
-
-    // });
-
-
-
-
-
-    // $("#column2").hover(function(){
-
-    //     $("#descriptionColumn2").stop().animate({
-    //         top:'65%',
-
-    //     });
-
-    //     $("#descriptionColumn2 p").css({"color": "white"});
-
-
-    //     }, function(){
-    //         $("#descriptionColumn2").stop().animate({
-    //             top:'80%',
-
-    //         });
-    //         $("#descriptionColumn2 p").css({"color": "rgb(0, 151, 252)"});
-
-
-    //     });
-
-    //     $("#column3").hover(function(){
-
-    //         $("#descriptionColumn3").stop().animate({
-    //             top:'65%',
-
-    //         });
-
-    //         $("#descriptionColumn3 p").css({"color": "white"});
-
-
-    //         }, function(){
-    //             $("#descriptionColumn3").stop().animate({
-    //                 top:'80%',
-
-    //             });
-    //             $("#descriptionColumn3 p").css({"color": "rgb(255, 115, 0)"});
-
-
-    //         });
 
 
 });
