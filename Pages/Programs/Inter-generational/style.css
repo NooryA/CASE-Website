@@ -306,7 +306,7 @@ list-style: none;;
    background:skyblue;
 }
 
-.column1 ul li.recreationList{
+.column1 ul li.inter-genList{
    background:skyblue;
 }
 
@@ -343,7 +343,7 @@ list-style: none;;
     margin-top:60px;
     margin-left:50px;
     background:whitesmoke;
-    width:250%;
+    width:227%;
     border:1px solid;
     border-radius: 25px;
  
