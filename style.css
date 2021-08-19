@@ -23,7 +23,7 @@
         height: 700px;
         width: 100%;
         position: relative;
-        background-image: url("assets/happypeople.jpg");
+        background-image: url("assets/seniorsTable2_auto_x2.png");
         background-size: cover;
         background-size: 100% 99%;
         background-repeat: no-repeat;
@@ -34,17 +34,19 @@
     }
 
     @keyframes slide {
-        0% {
-            background-image: url("assets/happypeople.jpg");
-        }
-
         33% {
-            background-image: url("assets/shakenot.jpg");
+
+            background-image: url("assets/seniorsTogether_auto_x2.png");
+          
         }
 
-        67% {
-            background-image: url("assets/family2.jpg")
+         67% {
+            background-image: url("assets/seniorsTable_auto_x2.png");
         }
+
+        85% {
+            background-image: url("assets/galal\ night.jpg")
+        } 
 
 
 
@@ -1032,13 +1034,7 @@
             height: 700px;
             width: 100%;
             position: relative;
-            background-image: url("assets/happypeople.jpg");
-            background-size: cover;
-            background-size: 100% 99%;
-            background-repeat: no-repeat;
-            background-position: 10% 860%;
-
-
+         
 
         }
 
@@ -1593,12 +1589,7 @@ top:20%; */
             height: 950px;
             width: 100%;
             position: relative;
-            background-image: url("assets/happypeople.jpg");
-            background-size: cover;
-            background-size: 100% 99%;
-            background-repeat: no-repeat;
-            background-position: 10% 860%;
-
+        
 
 
         }
@@ -2165,12 +2156,7 @@ top:20%; */
             height: 950px;
             width: 100%;
             position: relative;
-            background-image: url("assets/happypeople.jpg");
-            background-size: cover;
-            background-size: 100% 99%;
-            background-repeat: no-repeat;
-            background-position: 10% 860%;
-
+          
 
 
         }
