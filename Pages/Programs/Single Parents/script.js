@@ -436,8 +436,104 @@ $("document").ready(function () {
 
     });
 
+    ////////////////////////////////////////////////////////////////////////////////// PROGRAMS //////////////////////////////////////////////////////////////////////////////////////////////////
 
 
+    $("#skillsWorkshop").click(function(){
+    $("#buttons").css({
+        "display":"none"
+    });
+    $("#youthHeadersBefore").css({
+"display":"none"
+    });
+    $("#column2Container").css({
+        "height": "600px"
+    });
+
+    $("#container").css({
+        "height": "1100px"
+    });
+    $("#skillsWorkshopContent").css({
+      "display":"block"
+    });
+
+    });
+
+
+
+    $("#finLiteracy").click(function(){
+        $("#buttons").css({
+            "display":"none"
+        });
+        $("#youthHeadersBefore").css({
+            "display":"none"
+                });
+        $("#column2Container").css({
+            "height": "1000px"
+        });
+    
+        $("#container").css({
+            "height": "1500px"
+        });
+
+        $("#finLiteracyContent").css({
+            "display":"block"
+          });
+    });
+
+
+
+    $("#foodVoucher").click(function(){
+        $("#buttons").css({
+            "display":"none"
+        });
+        $("#youthHeadersBefore").css({
+            "display":"none"
+                });
+        $("#column2Container").css({
+            "height": "1400px"
+        });
+    
+        $("#container").css({
+            "height": "1900px"
+        });
+
+        $("#foodVoucherContent").css({
+            "display":"block"
+          });
+
+
+
+
+          
+    });
+
+
+
+    $("#youthWork").click(function(){
+        $("#buttons").css({
+            "display":"none"
+        });
+        $("#youthHeadersBefore").css({
+            "display":"none"
+                });
+        $("#column2Container").css({
+            "height": "600px"
+        });
+    
+        $("#container").css({
+            "height": "1100px"
+        });
+
+        $("#youthWorkContent").css({
+            "display":"block"
+          });
+
+
+
+
+          
+    });
     ///################################################################################# MOBILE RESPONSIVE #############################################################################//
 
     ///////////////////////////////////////////////////////////// NAV BARRESPONSIVE //////////////////////////////////////////////////////////////////////////////////////////////////
