@@ -507,8 +507,7 @@ $("document").ready(function () {
           });
     });
 
-
-    $("#wellnessCheck").click(function(){
+    $("#youthWork").click(function(){
         $("#buttons").css({
             "display":"none"
         });
@@ -520,38 +519,9 @@ $("document").ready(function () {
             "height": "1100px"
         });
 
-        $("#wellnessCheckContent").css({
+        $("#youthWorkContent").css({
             "display":"block"
           });
-
-
-
-
-          
-    });
-
-
-
-    $("#recreation").click(function(){
-        $("#buttons").css({
-            "display":"none"
-        });
-        $("#column2Container").css({
-            "height": "800px"
-        });
-    
-        $("#container").css({
-            "height": "1300px"
-        });
-
-        $("#recreationContent").css({
-            "display":"block"
-          });
-
-
-
-
-          
     });
     ///################################################################################# MOBILE RESPONSIVE #############################################################################//
 

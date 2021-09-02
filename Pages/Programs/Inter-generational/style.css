@@ -306,7 +306,7 @@ list-style: none;;
    background:skyblue;
 }
 
-.column1 ul li.recreationList{
+.column1 ul li.inter-genList{
    background:skyblue;
 }
 
@@ -349,6 +349,12 @@ width:1300px;
  
 }
 
+.youthHeadersBefore{
+    margin-top:20px;
+font-size:20px;
+}
+
+
 
 .buttons{
     margin-top:80px;
@@ -389,7 +395,7 @@ width:1300px;
     text-align: center;
 }
 
-.groceryHeaders, .compLiteracyHeaders, .finLiteracyHeaders, .seasonalTaxHeaders, .recreationHeaders, .wellnessCheckHeaders{
+.groceryHeaders, .compLiteracyHeaders, .finLiteracyHeaders, .seasonalTaxHeaders, .recreationHeaders, .wellnessCheckHeaders,.youthHeadersBefore{
     text-align: center;
 }
 

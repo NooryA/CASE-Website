@@ -439,44 +439,35 @@ $("document").ready(function () {
     ////////////////////////////////////////////////////////////////////////////////// PROGRAMS //////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-    $("#foodVoucher").click(function(){
+    $("#skillsWorkshop").click(function(){
     $("#buttons").css({
         "display":"none"
     });
+    $("#youthHeadersBefore").css({
+"display":"none"
+    });
     $("#column2Container").css({
-        "height": "1400px"
+        "height": "600px"
     });
 
     $("#container").css({
-        "height": "1900px"
+        "height": "1100px"
     });
-    $("#foodVoucherContent").css({
+    $("#skillsWorkshopContent").css({
       "display":"block"
     });
 
     });
 
-    $("#compLiteracy").click(function(){
-        $("#buttons").css({
-            "display":"none"
-        });
-        $("#column2Container").css({
-            "height": "1000px"
-        });
-    
-        $("#container").css({
-            "height": "1500px"
-        });
 
-        $("#compLiteracyContent").css({
-            "display":"block"
-          });
-    });
 
     $("#finLiteracy").click(function(){
         $("#buttons").css({
             "display":"none"
         });
+        $("#youthHeadersBefore").css({
+            "display":"none"
+                });
         $("#column2Container").css({
             "height": "1000px"
         });
@@ -490,10 +481,15 @@ $("document").ready(function () {
           });
     });
 
-    $("#seasonalTax").click(function(){
+
+
+    $("#youthSocialCircle").click(function(){
         $("#buttons").css({
             "display":"none"
         });
+        $("#youthHeadersBefore").css({
+            "display":"none"
+                });
         $("#column2Container").css({
             "height": "600px"
         });
@@ -502,25 +498,7 @@ $("document").ready(function () {
             "height": "1100px"
         });
 
-        $("#seasonalTaxContent").css({
-            "display":"block"
-          });
-    });
-
-
-    $("#wellnessCheck").click(function(){
-        $("#buttons").css({
-            "display":"none"
-        });
-        $("#column2Container").css({
-            "height": "600px"
-        });
-    
-        $("#container").css({
-            "height": "1100px"
-        });
-
-        $("#wellnessCheckContent").css({
+        $("#youthSocialCircleContent").css({
             "display":"block"
           });
 
@@ -532,19 +510,22 @@ $("document").ready(function () {
 
 
 
-    $("#recreation").click(function(){
+    $("#youthWork").click(function(){
         $("#buttons").css({
             "display":"none"
         });
+        $("#youthHeadersBefore").css({
+            "display":"none"
+                });
         $("#column2Container").css({
-            "height": "800px"
+            "height": "600px"
         });
     
         $("#container").css({
-            "height": "1300px"
+            "height": "1100px"
         });
 
-        $("#recreationContent").css({
+        $("#youthWorkContent").css({
             "display":"block"
           });
 

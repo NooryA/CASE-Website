@@ -439,101 +439,14 @@ $("document").ready(function () {
     ////////////////////////////////////////////////////////////////////////////////// PROGRAMS //////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-    $("#foodVoucher").click(function(){
-    $("#buttons").css({
-        "display":"none"
-    });
-    $("#column2Container").css({
-        "height": "1400px"
-    });
-
-    $("#container").css({
-        "height": "1900px"
-    });
-    $("#foodVoucherContent").css({
-      "display":"block"
-    });
-
-    });
-
-    $("#compLiteracy").click(function(){
-        $("#buttons").css({
-            "display":"none"
-        });
-        $("#column2Container").css({
-            "height": "1000px"
-        });
-    
-        $("#container").css({
-            "height": "1500px"
-        });
-
-        $("#compLiteracyContent").css({
-            "display":"block"
-          });
-    });
-
-    $("#finLiteracy").click(function(){
-        $("#buttons").css({
-            "display":"none"
-        });
-        $("#column2Container").css({
-            "height": "1000px"
-        });
-    
-        $("#container").css({
-            "height": "1500px"
-        });
-
-        $("#finLiteracyContent").css({
-            "display":"block"
-          });
-    });
-
-    $("#seasonalTax").click(function(){
-        $("#buttons").css({
-            "display":"none"
-        });
-        $("#column2Container").css({
-            "height": "600px"
-        });
-    
-        $("#container").css({
-            "height": "1100px"
-        });
-
-        $("#seasonalTaxContent").css({
-            "display":"block"
-          });
-    });
-
-
-    $("#wellnessCheck").click(function(){
-        $("#buttons").css({
-            "display":"none"
-        });
-        $("#column2Container").css({
-            "height": "600px"
-        });
-    
-        $("#container").css({
-            "height": "1100px"
-        });
-
-        $("#wellnessCheckContent").css({
-            "display":"block"
-          });
-
-
-
-
-          
-    });
 
 
 
     $("#recreation").click(function(){
         $("#buttons").css({
+            "display":"none"
+        });
+        $("#youthHeadersBefore").css({
             "display":"none"
         });
         $("#column2Container").css({
