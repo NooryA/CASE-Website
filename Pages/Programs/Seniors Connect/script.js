@@ -446,6 +446,9 @@ $("document").ready(function () {
     $("#column2Container").css({
         "height": "1400px"
     });
+    $("#youthHeadersBefore").css({
+        "display":"none"
+            });
 
     $("#container").css({
         "height": "1900px"
@@ -463,6 +466,9 @@ $("document").ready(function () {
         $("#column2Container").css({
             "height": "1000px"
         });
+        $("#youthHeadersBefore").css({
+            "display":"none"
+                });
     
         $("#container").css({
             "height": "1500px"
@@ -480,6 +486,9 @@ $("document").ready(function () {
         $("#column2Container").css({
             "height": "1000px"
         });
+        $("#youthHeadersBefore").css({
+            "display":"none"
+                });
     
         $("#container").css({
             "height": "1500px"
@@ -497,6 +506,9 @@ $("document").ready(function () {
         $("#column2Container").css({
             "height": "600px"
         });
+        $("#youthHeadersBefore").css({
+            "display":"none"
+                });
     
         $("#container").css({
             "height": "1100px"
@@ -515,6 +527,9 @@ $("document").ready(function () {
         $("#column2Container").css({
             "height": "600px"
         });
+        $("#youthHeadersBefore").css({
+            "display":"none"
+                });
     
         $("#container").css({
             "height": "1100px"
@@ -539,6 +554,9 @@ $("document").ready(function () {
         $("#column2Container").css({
             "height": "800px"
         });
+        $("#youthHeadersBefore").css({
+            "display":"none"
+                });
     
         $("#container").css({
             "height": "1300px"
